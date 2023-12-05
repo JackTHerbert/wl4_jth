@@ -727,6 +727,13 @@
                     },
 		    {
                         "name": "CD Box",
+						"access_rules": [ "grab","groundpound" ],
+						"visibility_rules": [ "normal" ],
+                        "item_count": 1
+                    },
+		    {
+                        "name": "CD Box",
+						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     }
                 ],
