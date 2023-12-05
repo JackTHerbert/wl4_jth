@@ -406,6 +406,7 @@
                     },
                     {
                         "name": "Current Circle Box",
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
@@ -417,6 +418,7 @@
                     {
                         "name": "Transformation Puzzle Box",
 						"visibility_rules": [ "hard","shard" ],
+						"access_rules": [ "heavygrab" ],
                         "item_count": 1
                     },
                     {
@@ -457,8 +459,9 @@
                         "name": "Snowman Puzzle Lower Box",
                         "item_count": 1
                     },
-					{
+		    {
                         "name": "CD Box",
+						"access_rules": [ "headsmash" ],
                         "item_count": 1
                     },
                 ],
@@ -496,7 +499,7 @@
                         "name": "Snow Room Box",
                         "item_count": 1
                     },
-					{
+		    {
                         "name": "CD Box",
                         "item_count": 1
                     },
@@ -508,6 +511,7 @@
                     },
                     {
                         "name": "Pink Room Full Health Item Box",
+						"access_rules": [ "supergroundpound" ],
 			    			"visibility_rules": [ "shard" ],
                         "item_count": 1
                     },
