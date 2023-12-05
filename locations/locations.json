@@ -129,6 +129,7 @@
                     },
                     {
                         "name": "Slope Room Box",
+						"visibility_rules": [ "normal" ],
                         "item_count": 1
                     },
                     {
@@ -169,11 +170,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Large Cave Box",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Hill Room Box",
 						"visibility_rules": [ "normal" ],
                         "item_count": 1
@@ -204,11 +200,17 @@
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
-					{
+                    {
+                        "name": "Small Cave Box",
+						"visibility_rules": [ "hard","shard" ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "CD Box",
 						"access_rules": [ "dashattack" ],
                         "item_count": 1
                     },
+
                     {
                         "name": "Full Health Item Box",
 						"access_rules": [ "grab" ],
@@ -359,6 +361,12 @@
                 "sections": [
                     {
                         "name": "Portal Room Box",
+			    			"visibility_rules": [ "normal" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Box Above Portal",
+						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
                     {
@@ -367,13 +375,24 @@
                     },
                     {
                         "name": "Spring Room Box",
+						"visibility_rules": [ "normal" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Current Circle Box",
+						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
                     {
                         "name": "Ledge Box",
                         "item_count": 1
                     },
-					{
+                    {
+                        "name": "Transformation Puzzle Box",
+						"visibility_rules": [ "hard","shard" ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "CD Box",
                         "item_count": 1
                     },
@@ -812,6 +831,7 @@
                     },
 					{
                         "name": "Sewer Box",
+						"access_rules": [ "supergroundpound" ],
                         "item_count": 1
                     },
 					{
