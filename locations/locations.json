@@ -1,1074 +1,1074 @@
 
 [
-    {
-        "name": "World",
-        "chest_unopened_img": "images/chest.png",
-        "chest_opened_img": "images/chest_grey.png",
-        "children": [
-            {
-                "name": "Hall of Hieroglyphs",
+	{
+		"name": "World",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Hall of Hieroglyphs",
 				"access_rules": [ "dashattack,grab,supergroundpound" ],
-                "sections": [
-                    {
-                        "name": "First Jewel Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Second Jewel Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Third Jewel Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fourth Jewel Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 202,
-                        "y": 282
-                    }
-                ],
+				"sections": [
+					{
+						"name": "First Jewel Box",
+						"item_count": 1
+					},
+					{
+						"name": "Second Jewel Box",
+						"item_count": 1
+					},
+					{
+						"name": "Third Jewel Box",
+						"item_count": 1
+					},
+					{
+						"name": "Fourth Jewel Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 202,
+						"y": 282
+					}
+				],
 	    },
 	    {
-                "name": "Spoiled Rotten",
+				"name": "Spoiled Rotten",
 				"access_rules": [ "$spoiled" ],
-                "sections": [
-                    {
-                        "name": "Defeat Spoiled Rotten",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 667,
-                        "y": 282
-                    }
-                ],
-            },
-	    {
-                "name": "Palm Tree Paradise",
-                "sections": [
-                    {
-                        "name": "First Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ledge Box",
-						"visibility_rules": [ "hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dead End Box",
-						"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },										
-                    {
-                        "name": "Box Before Cave",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hidden Box",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Platform Cave Jewel Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ladder Cave Box",
-                        "item_count": 1
-                    },
+				"sections": [
 					{
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 389,
-                        "y": 754
-                    }
-                ],
-				
-            },
+						"name": "Defeat Spoiled Rotten",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 667,
+						"y": 282
+					}
+				],
+			},
 	    {
-                "name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound" ],
-                "sections": [
-                    {
-                        "name": "Current Cave Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sunflower Jewel Box",
+				"name": "Palm Tree Paradise",
+				"sections": [
+					{
+						"name": "First Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sunflower Box",
+						"item_count": 1
+					},
+					{
+						"name": "Ledge Box",
+						"visibility_rules": [ "hard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Dead End Box",
+						"visibility_rules": [ "shard" ],
+						"item_count": 1
+					},										
+					{
+						"name": "Box Before Cave",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Slope Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Platform Cave Jewel Box",
+						"item_count": 1
+					},
+					{
+						"name": "Ladder Cave Box",
+						"item_count": 1
+					},
+					{
+						"name": "CD Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 389,
+						"y": 754
+					}
+				],
+				
+			},
+	    {
+				"name": "Wildflower Fields",
+				"access_rules": [ "swim,supergroundpound" ],
+				"sections": [
+					{
+						"name": "Current Cave Box",
+						"item_count": 1
+					},
+					{
+						"name": "Sunflower Jewel Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "8-Shaped Cave Box",
+						"item_count": 1
+					},
+					{
+						"name": "Sunflower Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Slope Room Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "8-Shaped Cave Box",
 						"access_rules": [ "grab" ],
 						"visibility_rules": [ "hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "8-Shaped Cave Box",
+						"item_count": 1
+					},
+					{
+						"name": "8-Shaped Cave Box",
 						"access_rules": [ "heavygrab" ],
 						"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Beezly Box",
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
+					{
+						"name": "Beezly Box",
+						"item_count": 1
+					},
 		    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
+						"name": "CD Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 628,
-                        "y": 754
-                    }
-                ],
-            },
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 628,
+						"y": 754
+					}
+				],
+			},
 	    {
-                "name": "Mystic Lake",
+				"name": "Mystic Lake",
 				"access_rules": [ "swim,headsmash" ],
-                "sections": [
-                    {
-                        "name": "Air Pocket Box",
+				"sections": [
+					{
+						"name": "Air Pocket Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Large Cave Box",
+						"item_count": 1
+					},
+					{
+						"name": "Large Cave Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hill Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Hill Room Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Small Cave Box",
+						"item_count": 1
+					},
+					{
+						"name": "Small Cave Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 					{
 						"name": "Rock Cave Box",
 						"access_rules": [ "grab" ],
 			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
-                    {
-                        "name": "Cavern Box",
+					{
+						"name": "Cavern Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spring Cave Box",
+						"item_count": 1
+					},
+					{
+						"name": "Spring Cave Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Box Before Bridge",
+						"item_count": 1
+					},
+					{
+						"name": "Box Before Bridge",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lake Exit Bubble Box",
+						"item_count": 1
+					},
+					{
+						"name": "Lake Exit Bubble Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "CD Box",
-						"access_rules": [ "dashattack" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
-						"access_rules": [ "grab" ],
-						"visibility_rules": [ "normal","hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
-						"access_rules": [ "dashattack" ],
-						"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 868,
-                        "y": 754
-                    }
-                ],
-            },
-	    {
-                "name": "Monsoon Jungle",
-				"access_rules": [ "swim,supergroundpound" ],
-                "sections": [
-                    {
-                        "name": "Spiky Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Escape Climb Box",
-						"visibility_rules": [ "hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brown Pipe Cave Box",
-						"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fat Plummet Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Descent Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Puffy Hallway Box",
-						"access_rules": [ "dashattack" ],
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Buried Cave Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Buried Cave Box",
-						"access_rules": [ "grab" ],
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 					{
 						"name": "CD Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
-						"access_rules": [ "swim" ], 
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1110,
-                        "y": 754
-                    }
-                ],
-            },
-	    {
-                "name": "Cractus",
-				"access_rules": [ "$cractus,groundpound" ],
-                "sections": [
-                    {
-                        "name": "Defeat Cractus",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1576,
-                        "y": 754
-                    }
-                ],
-            },
-	    {
-                "name": "The Curious Factory",
-                "sections": [
-                    {
-                        "name": "First Drop Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-					{
-                        "name": "Thin Gap Box",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Early Escape Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-					{
-                        "name": "Conveyor Room Box",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Late Escape Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-					{
-                        "name": "Underground Chamber Box",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Frog Switch Room Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-					{
-                        "name": "Gear Elevator Box",
 						"access_rules": [ "dashattack" ],
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 					{
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 389,
-                        "y": 1224
-                    }
-                ],
-            },
-	    {
-                "name": "The Toxic Landfill",
-				"access_rules": [ "dashattack,supergroundpound,headsmash" ],
-                "sections": [
-                    {
-                        "name": "Portal Room Box",
-			    			"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Box Above Portal",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fat Room Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spring Room Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Current Circle Box",
-						"access_rules": [ "swim" ],
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ledge Box",
-			    			"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Transformation Puzzle Box",
-						"visibility_rules": [ "hard","shard" ],
-						"access_rules": [ "heavygrab","enemyjump" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
-			    			"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 628,
-                        "y": 1224
-                    }
-                ],
-            },
-	    {
-                "name": "40 Below Fridge",
-				"access_rules": [ "supergroundpound" ],
-                "sections": [
-                    {
-                        "name": "Looping Room Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Maze Room Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowman Puzzle Upper Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowman Puzzle Lower Box",
-                        "item_count": 1
-                    },
-		    {
-                        "name": "CD Box",
-						"access_rules": [ "headsmash" ],
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 868,
-                        "y": 1224
-                    }
-                ],
-            },
-	    {
-                "name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash" ],
-                "sections": [
-                    {
-                        "name": "Rolling Room Box",
-			    			"visibility_rules": [ "normal","hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Switch Room Box",
-			    			"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fruit Room Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Jungle Room Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snow Room Box",
-                        "item_count": 1
-                    },
-		    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
-						"access_rules": [ "supergroundpound" ],
-			    			"visibility_rules": [ "normal","hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pink Room Full Health Item Box",
-						"access_rules": [ "supergroundpound" ],
-			    			"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rolling Room Full Health Item Box",
-			    			"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1110,
-                        "y": 1224
-                    }
-                ],
-            },
-	    {
-                "name": "Cuckoo Condor",
-				"access_rules": [ "$cuckoo,grab" ],
-                "sections": [
-                    {
-                        "name": "Defeat Cuckoo Condor",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1576,
-                        "y": 1224
-                    }
-                ],
-            },
-	    {
-                "name": "Toy Block Tower",
-				"access_rules": [ "heavygrab" ],
-                "sections": [
-                    {
-                        "name": "Toy Car Overhang Box",
+						"name": "Full Health Item Box",
+						"access_rules": [ "grab" ],
 						"visibility_rules": [ "normal","hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tower Exterior Top Box",
-						"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hidden Tower Room Box",
-						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Digging Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
 						"access_rules": [ "dashattack" ],
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Fire Box",
+						"visibility_rules": [ "shard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 868,
+						"y": 754
+					}
+				],
+			},
+	    {
+				"name": "Monsoon Jungle",
+				"access_rules": [ "swim,supergroundpound" ],
+				"sections": [
+					{
+						"name": "Spiky Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Hidden Falling Block Door Box",
+						"item_count": 1
+					},
+					{
+						"name": "Escape Climb Box",
 						"visibility_rules": [ "hard" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Bonfire Block Box",
+						"item_count": 1
+					},
+					{
+						"name": "Brown Pipe Cave Box",
 						"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },
-	            {
-                        "name": "Red Pipe Box",
+						"item_count": 1
+					},
+					{
+						"name": "Fat Plummet Box",
+						"item_count": 1
+					},
+					{
+						"name": "Descent Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Escape Ledge Box",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
+						"item_count": 1
+					},
+					{
+						"name": "Puffy Hallway Box",
 						"access_rules": [ "dashattack" ],
-						"visibility_rules": [ "normal","hard" ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 389,
-                        "y": 1683
-                    }
-                ],
-            },
-	    {
-                "name": "The Big Board",
-				"access_rules": [ "groundpound" ],
-                "sections": [
-                    {
-                        "name": "First Box",
-						"visibility_rules": [ "normal"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hard Fire Room Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Normal Fire Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Buried Cave Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hard Enemy Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Buried Cave Box",
 						"access_rules": [ "grab" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Normal Enemy Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "CD Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
+						"access_rules": [ "swim" ], 
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1110,
+						"y": 754
+					}
+				],
+			},
+	    {
+				"name": "Cractus",
+				"access_rules": [ "$cractus,groundpound" ],
+				"sections": [
+					{
+						"name": "Defeat Cractus",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1576,
+						"y": 754
+					}
+				],
+			},
+	    {
+				"name": "The Curious Factory",
+				"sections": [
+					{
+						"name": "First Drop Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Fat Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Thin Gap Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Toy Car Box",
+						"item_count": 1
+					},
+					{
+						"name": "Early Escape Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-		    {
-                        "name": "Flat Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Conveyor Room Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
+					{
+						"name": "Late Escape Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Underground Chamber Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Frog Switch Room Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Gear Elevator Box",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "CD Box",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 389,
+						"y": 1224
+					}
+				],
+			},
+	    {
+				"name": "The Toxic Landfill",
+				"access_rules": [ "dashattack,supergroundpound,headsmash" ],
+				"sections": [
+					{
+						"name": "Portal Room Box",
+			    			"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Box Above Portal",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Fat Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Spring Room Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Current Circle Box",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Ledge Box",
+			    			"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Transformation Puzzle Box",
+						"visibility_rules": [ "hard","shard" ],
+						"access_rules": [ "heavygrab","enemyjump" ],
+						"item_count": 1
+					},
+					{
+						"name": "CD Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
+			    			"visibility_rules": [ "normal" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 628,
+						"y": 1224
+					}
+				],
+			},
+	    {
+				"name": "40 Below Fridge",
+				"access_rules": [ "supergroundpound" ],
+				"sections": [
+					{
+						"name": "Looping Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Maze Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Snowman Puzzle Upper Box",
+						"item_count": 1
+					},
+					{
+						"name": "Snowman Puzzle Lower Box",
+						"item_count": 1
+					},
 		    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Full Health Item Box",
+						"name": "CD Box",
+						"access_rules": [ "headsmash" ],
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 868,
+						"y": 1224
+					}
+				],
+			},
+	    {
+				"name": "Pinball Zone",
+				"access_rules": [ "grab,groundpound,headsmash" ],
+				"sections": [
+					{
+						"name": "Rolling Room Box",
+			    			"visibility_rules": [ "normal","hard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Switch Room Box",
+			    			"visibility_rules": [ "shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Fruit Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Jungle Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Snow Room Box",
+						"item_count": 1
+					},
+		    {
+						"name": "CD Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
+						"access_rules": [ "supergroundpound" ],
+			    			"visibility_rules": [ "normal","hard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Pink Room Full Health Item Box",
+						"access_rules": [ "supergroundpound" ],
+			    			"visibility_rules": [ "shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Rolling Room Full Health Item Box",
+			    			"visibility_rules": [ "shard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1110,
+						"y": 1224
+					}
+				],
+			},
+	    {
+				"name": "Cuckoo Condor",
+				"access_rules": [ "$cuckoo,grab" ],
+				"sections": [
+					{
+						"name": "Defeat Cuckoo Condor",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1576,
+						"y": 1224
+					}
+				],
+			},
+	    {
+				"name": "Toy Block Tower",
+				"access_rules": [ "heavygrab" ],
+				"sections": [
+					{
+						"name": "Toy Car Overhang Box",
+						"visibility_rules": [ "normal","hard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Tower Exterior Top Box",
+						"visibility_rules": [ "shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Tower Room Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Digging Room Box",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Fire Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Hidden Falling Block Door Box",
+						"visibility_rules": [ "hard" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Bonfire Block Box",
+						"visibility_rules": [ "shard" ],
+						"item_count": 1
+					},
+	            {
+						"name": "Red Pipe Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Escape Ledge Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+		    {
+						"name": "CD Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "normal","hard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 389,
+						"y": 1683
+					}
+				],
+			},
+	    {
+				"name": "The Big Board",
+				"access_rules": [ "groundpound" ],
+				"sections": [
+					{
+						"name": "First Box",
+						"visibility_rules": [ "normal"],
+						"item_count": 1
+					},
+					{
+						"name": "Hard Fire Room Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Normal Fire Room Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Hard Enemy Room Box",
+						"access_rules": [ "grab" ],
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Normal Enemy Room Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Fat Room Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Toy Car Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+		    {
+						"name": "Flat Room Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+		    {
+						"name": "CD Box",
+						"item_count": 1
+					},
+					{
+						"name": "Full Health Item Box",
 						"access_rules": [ "grab,enemyjump" ],
 						"visibility_rules": [ "normal","hard" ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 628,
-                        "y": 1683
-                    }
-                ],
-            },
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 628,
+						"y": 1683
+					}
+				],
+			},
 	    {
-                "name": "Doodle Woods",
-                "sections": [
-                    {
-                        "name": "Box Behind Wall",
+				"name": "Doodle Woods",
+				"sections": [
+					{
+						"name": "Box Behind Wall",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grey Square Box",
+						"item_count": 1
+					},
+					{
+						"name": "Grey Square Box",
 						"access_rules": [ "groundpound","grab" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Orange Escape Box",
+						"item_count": 1
+					},
+					{
+						"name": "Orange Escape Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pink Circle Box",
+						"item_count": 1
+					},
+					{
+						"name": "Pink Circle Box",
 						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Buried Door Box",
+						"name": "Buried Door Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Purple Square Box",
+						"name": "Purple Square Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Blue Escape Box",
+						"name": "Blue Escape Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Blue Circle Box",
+						"name": "Blue Circle Box",
 						"access_rules": [ "enemyjump" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "CD Box",
+						"name": "CD Box",
 						"access_rules": [ "normal,grab","normal,groundpound","hard","shard" ],
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 868,
-                        "y": 1683
-                    }
-                ],
-            },
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 868,
+						"y": 1683
+					}
+				],
+			},
 	    {
-                "name": "Domino Row",
+				"name": "Domino Row",
 				"access_rules": [ "swim" ],
-                "sections": [
-                    {
-                        "name": "Racing Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rolling Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Swimming Detour Box",
+				"sections": [
+					{
+						"name": "Racing Box",
+						"item_count": 1
+					},
+					{
+						"name": "Rolling Box",
+						"item_count": 1
+					},
+					{
+						"name": "Swimming Detour Box",
 						"visibility_rules": [ "normal","hard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Swimming Room Escape Box",
+						"item_count": 1
+					},
+					{
+						"name": "Swimming Room Escape Box",
 						"visibility_rules": [ "shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 					{
-                        "name": "Keyzer Room Box",
+						"name": "Keyzer Room Box",
 						"access_rules": [ "groundpound" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 					{
-                        "name": "CD Box",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1110,
-                        "y": 1683
-                    }
-                ],
-            },
+						"name": "CD Box",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1110,
+						"y": 1683
+					}
+				],
+			},
 	    {
-                "name": "Aerodent",
+				"name": "Aerodent",
 				"access_rules": [ "$aerodent,grab" ],
-                "sections": [
-                    {
-                        "name": "Defeat Aerodent",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1576,
-                        "y": 1683
-                    }
-                ],
-            },
+				"sections": [
+					{
+						"name": "Defeat Aerodent",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1576,
+						"y": 1683
+					}
+				],
+			},
 	    {
-                "name": "Crescent Moon Village",
+				"name": "Crescent Moon Village",
 				"access_rules": [ "headsmash,dashattack" ],
-                "sections": [
-                    {
-                        "name": "Agile Bat Box",
+				"sections": [
+					{
+						"name": "Agile Bat Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Agile Bat Hidden Box",
+						"item_count": 1
+					},
+					{
+						"name": "Agile Bat Hidden Box",
 						"access_rules": [ "groundpound,grab" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Metal Platform Box",
+						"item_count": 1
+					},
+					{
+						"name": "Metal Platform Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Metal Platform Rolling Box",
+						"item_count": 1
+					},
+					{
+						"name": "Metal Platform Rolling Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Rolling Box",
+						"name": "Rolling Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "!-Switch Rolling Box",
+						"name": "!-Switch Rolling Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Sewer Box",
+						"name": "Sewer Box",
 						"access_rules": [ "swim" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 389,
-                        "y": 2153
-                    }
-                ],
-            },
+						"name": "CD Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 389,
+						"y": 2153
+					}
+				],
+			},
 	    {
-                "name": "Arabian Night",
+				"name": "Arabian Night",
 				"access_rules": [ "swim" ],
-                "sections": [
-                    {
-                        "name": "Onomi Box",
+				"sections": [
+					{
+						"name": "Onomi Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Onomi Box",
+						"item_count": 1
+					},
+					{
+						"name": "Onomi Box",
 						"access_rules": [ "headsmash","groundpound" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Flying Carpet Overhang Box",
+						"item_count": 1
+					},
+					{
+						"name": "Flying Carpet Overhang Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Flying Carpet Dash Attack Box",
+						"item_count": 1
+					},
+					{
+						"name": "Flying Carpet Dash Attack Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Zombie Plummet Box",
+						"item_count": 1
+					},
+					{
+						"name": "Zombie Plummet Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Kool-Aid Box",
+						"name": "Kool-Aid Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Sewer Box",
+						"name": "Sewer Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Sewer Box",
+						"name": "Sewer Box",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 628,
-                        "y": 2153
-                    }
-                ],
-            },
+						"name": "CD Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 628,
+						"y": 2153
+					}
+				],
+			},
 	    {
-                "name": "Fiery Cavern",
+				"name": "Fiery Cavern",
 				"access_rules": [ "groundpound,dashattack" ],
-                "sections": [
-                    {
-                        "name": "Lava Dodging Box",
+				"sections": [
+					{
+						"name": "Lava Dodging Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ice Beyond Door Box",
+						"item_count": 1
+					},
+					{
+						"name": "Ice Beyond Door Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Long Lava Geyser Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ice Detour Box",
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 					{
-                        "name": "Snowman Box",
-                        "item_count": 1
-                    },
+						"name": "Long Lava Geyser Box",
+						"item_count": 1
+					},
 					{
-                        "name": "CD Box",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 868,
-                        "y": 2153
-                    }
-                ],
-            },
+						"name": "Ice Detour Box",
+						"item_count": 1
+					},
+					{
+						"name": "Snowman Box",
+						"item_count": 1
+					},
+					{
+						"name": "CD Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 868,
+						"y": 2153
+					}
+				],
+			},
 	    {
-                "name": "Hotel Horror",
+				"name": "Hotel Horror",
 				"access_rules": [ "heavygrab" ],
-                "sections": [
-                    {
-                        "name": "1F Hallway Box",
+				"sections": [
+					{
+						"name": "1F Hallway Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Room 102 Box",
+						"item_count": 1
+					},
+					{
+						"name": "Room 102 Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "2F Hallway Box",
+						"item_count": 1
+					},
+					{
+						"name": "2F Hallway Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Room 303 Box",
+						"item_count": 1
+					},
+					{
+						"name": "Room 303 Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "3F Hallway Box",
+						"name": "3F Hallway Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Room 402 Box",
+						"name": "Room 402 Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "4F Hallway Box",
+						"name": "4F Hallway Box",
 						"visibility_rules": [ "normal" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "Exterior Box",
+						"name": "Exterior Box",
 						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    },
+						"item_count": 1
+					},
 		    {
-                        "name": "CD Box",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1110,
-                        "y": 2153
-                    }
-                ],
-            },
+						"name": "CD Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1110,
+						"y": 2153
+					}
+				],
+			},
 	    {
-                "name": "Catbat",
+				"name": "Catbat",
 				"access_rules": [ "$catbat,groundpound" ],
-                "sections": [
-                    {
-                        "name": "Defeat Catbat",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1576,
-                        "y": 2153
-                    }
-                ],
-            },
+				"sections": [
+					{
+						"name": "Defeat Catbat",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1576,
+						"y": 2153
+					}
+				],
+			},
 			{
-                "name": "Golden Passage",
+				"name": "Golden Passage",
 				"access_rules": [ "swim,groundpound,grab" ],
-                "sections": [
-                    {
-                        "name": "Current Puzzle Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "River Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bat Room Box",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mad Scienstein Box",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1110,
-                        "y": 282
-                    }
-                ],
-            },
+				"sections": [
+					{
+						"name": "Current Puzzle Box",
+						"item_count": 1
+					},
+					{
+						"name": "River Box",
+						"item_count": 1
+					},
+					{
+						"name": "Bat Room Box",
+						"item_count": 1
+					},
+					{
+						"name": "Mad Scienstein Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1110,
+						"y": 282
+					}
+				],
+			},
 	    {
-                "name": "Golden Diva",
+				"name": "Golden Diva",
 				"access_rules": [ "$diva,grab" ],
-                "sections": [
-                    {
-                        "name": "Defeat Golden Diva",
-                        "item_count": 1
-                    },
-                ],
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 1576,
-                        "y": 282
-                    }
-                ],
-            },
+				"sections": [
+					{
+						"name": "Defeat Golden Diva",
+						"item_count": 1
+					},
+				],
+				"map_locations": [
+					{
+						"map": "map",
+						"x": 1576,
+						"y": 282
+					}
+				],
+			},
 			
 	]	
-    }
+	}
 ]
