@@ -861,6 +861,13 @@
                 "sections": [
                     {
                         "name": "Onomi Box",
+						"visibility_rules": [ "normal" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Onomi Box",
+						"access_rules": [ "groundpound,headsmash" ],
+						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
                     {
@@ -879,18 +886,24 @@
 						"visibility_rules": [ "normal" ],
                         "item_count": 1
                     },
-					{
+		    {
                         "name": "Kool-Aid Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
-					{
+		    {
                         "name": "Sewer Box",
-						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "normal" ],
                         "item_count": 1
                     },
-					{
+		    {
+                        "name": "Sewer Box",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "hard","shard" ],
+                        "item_count": 1
+                    },
+		    {
                         "name": "CD Box",
                         "item_count": 1
                     }
