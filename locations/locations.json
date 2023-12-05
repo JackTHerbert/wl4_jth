@@ -135,7 +135,13 @@
                     {
                         "name": "8-Shaped Cave Box",
 						"access_rules": [ "grab" ],
-						"visibility_rules": [ "hard","shard" ],
+						"visibility_rules": [ "hard" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "8-Shaped Cave Box",
+						"access_rules": [ "heavygrab" ],
+						"visibility_rules": [ "shard" ],
                         "item_count": 1
                     },
                     {
@@ -171,7 +177,6 @@
                     },
                     {
                         "name": "Large Cave Box",
-						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
@@ -182,11 +187,13 @@
                     },
                     {
                         "name": "Small Cave Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard" ],
                         "item_count": 1
                     },
 		    {
 			"name": "Rock Cave Box",
+						"access_rules": [ "grab" ],
 			    			"visibility_rules": [ "shard" ],
 			"item_count": 1
 		    },
@@ -219,6 +226,13 @@
                     {
                         "name": "Full Health Item Box",
 						"access_rules": [ "grab" ],
+						"visibility_rules": [ "normal","hard" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Full Health Item Box",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "shard" ],
                         "item_count": 1
                     }
                 ],
@@ -266,6 +280,13 @@
                     },
                     {
                         "name": "Buried Cave Box",
+						"visibility_rules": [ "normal" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Buried Cave Box",
+						"access_rules": [ "grab" ],
+						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
 		    {
