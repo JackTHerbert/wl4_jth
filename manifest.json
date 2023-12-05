@@ -1,0 +1,13 @@
+﻿{
+  "name": "Wario Land 4 Randomizer AP",
+  "game_name": "Wario Land 4",
+  "package_version": "0.1",
+  "package_uid": "wl4_jth",
+  "author": "JackTHerbert",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": ["ap"]
+    },
+  }
+}
