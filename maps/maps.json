@@ -1,8 +1,8 @@
 [
-    {
-      "name": "map",
-      "location_size": 85,
-      "location_border_thickness": 10,
-      "img": "images/map.png"
-    }
+	{
+	  "name": "map",
+	  "location_size": 85,
+	  "location_border_thickness": 10,
+	  "img": "images/map.png"
+	}
   ]

@@ -1,36 +1,36 @@
 {
-    "item_grid": {
-        "type": "array",
-        "orientation": "vertical",
-        "content": [
-            {
-                "type": "itemgrid",
-                "h_alignment": "left",
-                "item_margin": "1,2",
+	"item_grid": {
+		"type": "array",
+		"orientation": "vertical",
+		"content": [
+			{
+				"type": "itemgrid",
+				"h_alignment": "left",
+				"item_margin": "1,2",
 				"item_size": "4,4",
-                "rows": [
-                    ["progressivegroundpound","entry"],
-                    ["swim","emerald"],
-                    ["headsmash","ruby"],
-                    ["progressivegrab","topaz"],
-                    ["dashattack","sapphire"],
-                    ["enemyjump","golden"]
-                ]
-            }
-        ]
-    },
+				"rows": [
+					["progressivegroundpound","entry"],
+					["swim","emerald"],
+					["headsmash","ruby"],
+					["progressivegrab","topaz"],
+					["dashattack","sapphire"],
+					["enemyjump","golden"]
+				]
+			}
+		]
+	},
 	    "settings": {
-        "type": "array",
-        "orientation": "vertical",
-        "content": [
-            {
-                "type": "itemgrid",
-                "item_size": 96,
-                "h_alignment": "center",
-                "rows": [
-                    ["difficulty"]
-                ]
-            },    
-        ]
-    }
+		"type": "array",
+		"orientation": "vertical",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_size": 96,
+				"h_alignment": "center",
+				"rows": [
+					["difficulty"]
+				]
+			},    
+		]
+	}
 }

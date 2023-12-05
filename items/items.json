@@ -1,144 +1,144 @@
 [
-    {
-        "name": "Swim",
-        "type": "toggle",
-        "img": "images/swim1.png",
-        "codes": "swim"
-    },
-    {
-        "name": "Head Smash",
-        "type": "toggle",
-        "img": "images/headsmash1.png",
-        "codes": "headsmash"
-    },
-    {
-        "name": "Dash Attack",
-        "type": "toggle",
-        "img": "images/dashattack1.png",
-        "codes": "dashattack"
-    },
-    {
-        "name": "Enemy Jump",
-        "type": "toggle",
-        "img": "images/enemyjump1.png",
-        "codes": "enemyjump"
-    },
-    {
-        "name": "Progressive Ground Pound",
-        "type": "progressive",
-		"codes": "progressivegroundpound",
-        "allow_disabled": true,
-        "loop": false,
-        "stages": [
-            {
-                "img": "images/groundpound1.png",
-                "codes": "groundpound",
-				"inherit_codes": false
-            },
-            {
-                "img": "images/groundpound2.png",
-                "codes": "supergroundpound",
-                "inherit_codes": true
-            }
-        ]
-    },	
-    {
-        "name": "Progressive Grab",
-        "type": "progressive",
-		"codes": "progressivegrab",
-        "allow_disabled": true,
-        "loop": false,
-        "stages": [
-            {
-                "img": "images/grab1.png",
-                "codes": "grab",
-				"inherit_codes": false
-            },
-            {
-                "img": "images/grab2.png",
-                "codes": "heavygrab",
-                "inherit_codes": true
-            }
-        ]
-    },	
-    {
-        "name": "Entry Jewel Piece",
-        "type": "consumable",
-        "max_quantity": 4,
-        "initial_quantity": 0,
-        "img": "images/jewelentry.png",
-        "codes": "entry"
-    },
-    {
-        "name": "Emerald Jewel Piece",
-        "type": "consumable",
-        "max_quantity": 16,
-        "initial_quantity": 0,
-        "img": "images/jewelemerald.png",
-        "codes": "emerald"
-    },
-    {
-        "name": "Ruby Jewel Piece",
-        "type": "consumable",
-        "max_quantity": 16,
-        "initial_quantity": 0,
-        "img": "images/jewelruby.png",
-        "codes": "ruby"
-    },
-    {
-        "name": "Topaz Jewel Piece",
-        "type": "consumable",
-        "max_quantity": 16,
-        "initial_quantity": 0,
-        "img": "images/jeweltopaz.png",
-        "codes": "topaz"
-    },
-    {
-        "name": "Sapphire Jewel Piece",
-        "type": "consumable",
-        "max_quantity": 16,
-        "initial_quantity": 0,
-        "img": "images/jewelsapphire.png",
-        "codes": "sapphire"
-    },
-    {
-        "name": "Golden Jewel Piece",
-        "type": "consumable",
-        "max_quantity": 4,
-        "initial_quantity": 0,
-        "img": "images/jewelgolden.png",
-        "codes": "golden"
-    },
 	{
-        "name": "CD",
-        "type": "consumable",
-        "max_quantity": 16,
-        "initial_quantity": 0,
-        "img": "images/cd.png",
-        "codes": "cd"
-    },
-	    {
-        "name": "Difficulty",
-        "type": "progressive",
-		"codes": "difficulty",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/normal.png",
-                "codes": "normal",
+		"name": "Swim",
+		"type": "toggle",
+		"img": "images/swim1.png",
+		"codes": "swim"
+	},
+	{
+		"name": "Head Smash",
+		"type": "toggle",
+		"img": "images/headsmash1.png",
+		"codes": "headsmash"
+	},
+	{
+		"name": "Dash Attack",
+		"type": "toggle",
+		"img": "images/dashattack1.png",
+		"codes": "dashattack"
+	},
+	{
+		"name": "Enemy Jump",
+		"type": "toggle",
+		"img": "images/enemyjump1.png",
+		"codes": "enemyjump"
+	},
+	{
+		"name": "Progressive Ground Pound",
+		"type": "progressive",
+		"codes": "progressivegroundpound",
+		"allow_disabled": true,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/groundpound1.png",
+				"codes": "groundpound",
 				"inherit_codes": false
-            },
-            {
-                "img": "images/hard.png",
-                "codes": "hard",
-                "inherit_codes": false
-            },
+			},
+			{
+				"img": "images/groundpound2.png",
+				"codes": "supergroundpound",
+				"inherit_codes": true
+			}
+		]
+	},	
+	{
+		"name": "Progressive Grab",
+		"type": "progressive",
+		"codes": "progressivegrab",
+		"allow_disabled": true,
+		"loop": false,
+		"stages": [
+			{
+				"img": "images/grab1.png",
+				"codes": "grab",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/grab2.png",
+				"codes": "heavygrab",
+				"inherit_codes": true
+			}
+		]
+	},	
+	{
+		"name": "Entry Jewel Piece",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelentry.png",
+		"codes": "entry"
+	},
+	{
+		"name": "Emerald Jewel Piece",
+		"type": "consumable",
+		"max_quantity": 16,
+		"initial_quantity": 0,
+		"img": "images/jewelemerald.png",
+		"codes": "emerald"
+	},
+	{
+		"name": "Ruby Jewel Piece",
+		"type": "consumable",
+		"max_quantity": 16,
+		"initial_quantity": 0,
+		"img": "images/jewelruby.png",
+		"codes": "ruby"
+	},
+	{
+		"name": "Topaz Jewel Piece",
+		"type": "consumable",
+		"max_quantity": 16,
+		"initial_quantity": 0,
+		"img": "images/jeweltopaz.png",
+		"codes": "topaz"
+	},
+	{
+		"name": "Sapphire Jewel Piece",
+		"type": "consumable",
+		"max_quantity": 16,
+		"initial_quantity": 0,
+		"img": "images/jewelsapphire.png",
+		"codes": "sapphire"
+	},
+	{
+		"name": "Golden Jewel Piece",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelgolden.png",
+		"codes": "golden"
+	},
+	{
+		"name": "CD",
+		"type": "consumable",
+		"max_quantity": 16,
+		"initial_quantity": 0,
+		"img": "images/cd.png",
+		"codes": "cd"
+	},
+	    {
+		"name": "Difficulty",
+		"type": "progressive",
+		"codes": "difficulty",
+		"allow_disabled": false,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/normal.png",
+				"codes": "normal",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/hard.png",
+				"codes": "hard",
+				"inherit_codes": false
+			},
 			{
 				"img": "images/shard.png",
 				"codes": "shard",
 				"inherit_codes": false
 			}
-        ]
-    }	
+		]
+	}	
 ]
