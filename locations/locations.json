@@ -91,7 +91,7 @@
                         "name": "Ladder Cave Box",
                         "item_count": 1
                     },
-		    {
+					{
                         "name": "CD Box",
                         "item_count": 1
                     },
@@ -191,12 +191,12 @@
 						"visibility_rules": [ "hard" ],
                         "item_count": 1
                     },
-		    {
-			"name": "Rock Cave Box",
+					{
+						"name": "Rock Cave Box",
 						"access_rules": [ "grab" ],
-			    			"visibility_rules": [ "shard" ],
-			"item_count": 1
-		    },
+			    		"visibility_rules": [ "shard" ],
+						"item_count": 1
+					},
                     {
                         "name": "Cavern Box",
 						"visibility_rules": [ "normal" ],
@@ -222,7 +222,6 @@
 						"access_rules": [ "dashattack" ],
                         "item_count": 1
                     },
-
                     {
                         "name": "Full Health Item Box",
 						"access_rules": [ "grab" ],
@@ -289,8 +288,8 @@
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
-		    {
-			"name": "CD Box",
+					{
+						"name": "CD Box",
                         "item_count": 1
                     },
                     {
@@ -362,13 +361,13 @@
 						"visibility_rules": [ "normal" ],
                         "item_count": 1
                     },
-		    {
+					{
                         "name": "Gear Elevator Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
-		    {
+					{
                         "name": "CD Box",
                         "item_count": 1
                     },
@@ -418,7 +417,7 @@
                     {
                         "name": "Transformation Puzzle Box",
 						"visibility_rules": [ "hard","shard" ],
-						"access_rules": [ "heavygrab" ],
+						"access_rules": [ "heavygrab","enemyjump" ],
                         "item_count": 1
                     },
                     {
@@ -689,7 +688,7 @@
                     },
                     {
                         "name": "Grey Square Box",
-						"access_rules": [ "groundpound,grab" ],
+						"access_rules": [ "groundpound","grab" ],
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
@@ -727,15 +726,9 @@
                     },
 		    {
                         "name": "CD Box",
-						"access_rules": [ "grab","groundpound" ],
-						"visibility_rules": [ "normal" ],
+						"access_rules": [ "normal,grab","normal,groundpound","hard","shard" ],
                         "item_count": 1
                     },
-		    {
-                        "name": "CD Box",
-						"visibility_rules": [ "hard","shard" ],
-                        "item_count": 1
-                    }
                 ],
                 "map_locations": [
                     {
