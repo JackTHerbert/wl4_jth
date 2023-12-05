@@ -866,7 +866,7 @@
                     },
                     {
                         "name": "Onomi Box",
-						"access_rules": [ "groundpound,headsmash" ],
+						"access_rules": [ "headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
                         "item_count": 1
                     },
