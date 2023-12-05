@@ -986,7 +986,7 @@
             },
 			{
                 "name": "Golden Passage",
-				"access_rules": [ "swim" ],
+				"access_rules": [ "swim,groundpound,grab" ],
                 "sections": [
                     {
                         "name": "Current Puzzle Box",
