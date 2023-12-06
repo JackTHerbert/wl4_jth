@@ -874,14 +874,9 @@
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Sewer Box",
-						"visibility_rules": [ "normal" ],
-						"item_count": 1
-					},
-		    {
-						"name": "Sewer Box",
-						"access_rules": [ "supergroundpound" ],
+						"access_rules": [ "normal","supergroundpound,hard","supergroundpound,shard" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
