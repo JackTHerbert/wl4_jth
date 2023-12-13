@@ -245,7 +245,7 @@
 			},
 	    {
 				"name": "Monsoon Jungle",
-				"access_rules": [ "swim,groundpound" ],
+				"access_rules": [ "groundpound" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
@@ -991,7 +991,7 @@
 			},
 	    {
 				"name": "Catbat",
-				"access_rules": [ "$catbat,groundpound" ],
+				"access_rules": [ "$catbat,enemyjump,groundpound" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
