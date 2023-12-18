@@ -895,7 +895,7 @@
 			},
 	    {
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack" ],
+				"access_rules": [ "groundpound,dashattack,headsmash" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
