@@ -118,6 +118,14 @@
 		"codes": "emeraldsw"
 	},
 	{
+		"name": "Null Filler",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelemerald.png",
+		"codes": "nullitem"
+	},
+	{
 		"name": "Emerald Jewel Top Left",
 		"type": "consumable",
 		"max_quantity": 4,
