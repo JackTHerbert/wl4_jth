@@ -76,14 +76,11 @@ end
 
 function diva()
   local jewelneCount = Tracker:ProviderCountForCode("goldenne")
-  local jewelneReq = 1
   local jewelseCount = Tracker:ProviderCountForCode("goldense")
-  local jewelseReq = 1
   local jewelswCount = Tracker:ProviderCountForCode("goldensw")
-  local jewelswReq = 1
   local jewelnwCount = Tracker:ProviderCountForCode("goldennw")
-  local jewelnwReq = 1
   local jewelReq = 4
-  return jewelneCount + jewelseCount + jewelswCount + jewelnwcount - jewelReq
+  local jewelCount = jewelneCount + jewelseCount + jewelswCount + jewelnwCount
+  return jewelCount - jewelReq
 end
 
