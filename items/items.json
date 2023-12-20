@@ -292,5 +292,39 @@
 				"inherit_codes": false
 			}
 		]
-	}	
+	},
+	            {
+                "name": "Required Jewels",
+                "type": "progressive",
+                "codes": "reqjewel",
+                "allow_disabled": false,
+                "loop": true,
+                "stages": [
+                        {
+                                "img": "images/jewelemerald.png",
+                                "codes": "req2",
+                                "inherit_codes": false
+                        },
+                        {
+                                "img": "images/jewelruby.png",
+                                "codes": "req3",
+                                "inherit_codes": false
+                        },
+                        {
+                                "img": "images/jewelsapphire.png",
+                                "codes": "req4",
+                                "inherit_codes": false
+                        },
+                        {
+                                "img": "images/jewelgolden.png",
+                                "codes": "req0",
+                                "inherit_codes": false
+                        },
+                        {
+                                "img": "images/jewelentry.png",
+                                "codes": "req1",
+                                "inherit_codes": false
+                        }
+                ]
+        }        
 ]
