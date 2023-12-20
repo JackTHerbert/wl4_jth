@@ -76,7 +76,7 @@ end
 
 function diva()
   local jewelCount = Tracker:ProviderCountForCode("goldenne","goldense","goldensw","goldennw")
-  local jewelReq = 3
+  local jewelReq = 1
   return jewelCount - jewelReq
 end
 
