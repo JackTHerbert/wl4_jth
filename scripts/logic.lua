@@ -45,37 +45,37 @@ end
 
 
 function spoiled()
-  local jewelCount = Tracker:ProviderCountForCode("entry")
+  local jewelCount = Tracker:ProviderCountForCode("entryne","entrynw","entryse","entrysw")
   local jewelReq = 3
   return jewelCount - jewelReq
 end
 
 function cractus()
-  local jewelCount = Tracker:ProviderCountForCode("emerald")
+  local jewelCount = Tracker:ProviderCountForCode("emeraldne","emeraldse","emeraldsw","emeraldnw")
   local jewelReq = 15
   return jewelCount - jewelReq
 end
 
 function cuckoo()
-  local jewelCount = Tracker:ProviderCountForCode("ruby")
+  local jewelCount = Tracker:ProviderCountForCode("rubyne","rubyse","rubysw","rubynw")
   local jewelReq = 15
   return jewelCount - jewelReq
 end
 
 function aerodent()
-  local jewelCount = Tracker:ProviderCountForCode("topaz")
+  local jewelCount = Tracker:ProviderCountForCode("topazne","topazse","topazsw","topaznw")
   local jewelReq = 15
   return jewelCount - jewelReq
 end
 
 function catbat()
-  local jewelCount = Tracker:ProviderCountForCode("sapphire")
+  local jewelCount = Tracker:ProviderCountForCode("sapphirene","sapphirese","sapphiresw","sapphirenw")
   local jewelReq = 15
   return jewelCount - jewelReq
 end
 
 function diva()
-  local jewelCount = Tracker:ProviderCountForCode("golden")
+  local jewelCount = Tracker:ProviderCountForCode("goldenne","goldense","goldensw","goldennw")
   local jewelReq = 3
   return jewelCount - jewelReq
 end
