@@ -45,7 +45,7 @@ end
 
 
 function spoiled()
-  local jewelCount = Tracker:ProviderCountForCode("entryne","entrynw","entryse","entrysw")
+  local jewelCount = Tracker:ProviderCountForCode("entryne" + "entrynw" + "entryse" + "entrysw")
   local jewelReq = 3
   return jewelCount - jewelReq
 end
