@@ -1,26 +1,40 @@
 {
 	"item_grid": {
 		"type": "array",
-		"orientation": "vertical",
+		"orientation": "horizontal",
 		"content": [
 			{
 				"type": "itemgrid",
-				"h_alignment": "right",
-				"item_margin": "1,2",
+				"h_alignment": "left",
+				"item_margin": "1,1",
 				"item_size": "4,4",
 				"rows": [
-					["progressivegroundpound","entrynw","entryne"],
+					["progressivegroundpound"],
+					["swim"],
+					["headsmash"],
+					["progressivegrab"],
+					["dashattack"],
+					["enemyjump"],
+				]
+			},
+			{
+				"type": "itemgrid",
+				"h_alignment": "left",
+				"item_margin": "1,2",
+				"item_size": "2,2",
+				"rows": [
+					["entrynw","entryne"],
 					["entrysw","entryse"],
-					["swim","emeraldnw","emeraldne"],
+					["emeraldnw","emeraldne"],
 					["emeraldsw","emeraldse"],
-					["headsmash","rubynw","rubyne"],
+					["rubynw","rubyne"],
 					["rubysw","rubyse"],
-					["progressivegrab","topaznw","topazne"],
+					["topaznw","topazne"],
 					["topazsw","topazse"],
-					["dashattack","sapphirenw","sapphirene"],
+					["sapphirenw","sapphirene"],
 					["sapphiresw","sapphirese"],
-					["enemyjump","goldennw","goldenne"],
-					["goldensw","goldense"]
+					["goldennw","goldenne"],
+					["goldensw","goldense"],
 				]
 			}
 		]
