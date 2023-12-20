@@ -1,9 +1,9 @@
 ﻿{
   "name": "Wario Land 4 Randomizer AP",
   "game_name": "Wario Land 4",
-  "package_version": "0.2",
+  "package_version": "0.3",
   "package_uid": "wl4_jth",
-  "author": "JackTHerbert",
+  "author": "JackTHerbert, Fairweather",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
