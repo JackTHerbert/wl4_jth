@@ -75,8 +75,15 @@ function catbat()
 end
 
 function diva()
-  local jewelCount = Tracker:ProviderCountForCode("goldenne","goldense","goldensw","goldennw")
-  local jewelReq = 1
-  return jewelCount - jewelReq
+  local jewelneCount = Tracker:ProviderCountForCode("goldenne")
+  local jewelneReq = 1
+  local jewelseCount = Tracker:ProviderCountForCode("goldense")
+  local jewelseReq = 1
+  local jewelswCount = Tracker:ProviderCountForCode("goldensw")
+  local jewelswReq = 1
+  local jewelnwCount = Tracker:ProviderCountForCode("goldennw")
+  local jewelnwReq = 1
+  local jewelReq = 4
+  return jewelneCount + jewelseCount + jewelswCount + jewelnwcount - jewelReq
 end
 
