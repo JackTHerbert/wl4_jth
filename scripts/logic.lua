@@ -45,32 +45,52 @@ end
 
 
 function spoiled()
-  local jewelCount = Tracker:ProviderCountForCode("entryne" + "entrynw" + "entryse" + "entrysw")
+  local jewelneCount = Tracker:ProviderCountForCode("entryne")
+  local jewelseCount = Tracker:ProviderCountForCode("entryse")
+  local jewelswCount = Tracker:ProviderCountForCode("entrysw")
+  local jewelnwCount = Tracker:ProviderCountForCode("entrynw")
   local jewelReq = 3
+  local jewelCount = jewelneCount + jewelseCount + jewelswCount + jewelnwCount
   return jewelCount - jewelReq
 end
 
 function cractus()
-  local jewelCount = Tracker:ProviderCountForCode("emeraldne","emeraldse","emeraldsw","emeraldnw")
+  local jewelneCount = Tracker:ProviderCountForCode("emeraldne")
+  local jewelseCount = Tracker:ProviderCountForCode("emeraldse")
+  local jewelswCount = Tracker:ProviderCountForCode("emeraldsw")
+  local jewelnwCount = Tracker:ProviderCountForCode("emeraldnw")
   local jewelReq = 15
+  local jewelCount = jewelneCount + jewelseCount + jewelswCount + jewelnwCount
   return jewelCount - jewelReq
 end
 
 function cuckoo()
-  local jewelCount = Tracker:ProviderCountForCode("rubyne","rubyse","rubysw","rubynw")
+  local jewelneCount = Tracker:ProviderCountForCode("rubyne")
+  local jewelseCount = Tracker:ProviderCountForCode("rubyse")
+  local jewelswCount = Tracker:ProviderCountForCode("rubysw")
+  local jewelnwCount = Tracker:ProviderCountForCode("rubynw")
   local jewelReq = 15
+  local jewelCount = jewelneCount + jewelseCount + jewelswCount + jewelnwCount
   return jewelCount - jewelReq
 end
 
 function aerodent()
-  local jewelCount = Tracker:ProviderCountForCode("topazne","topazse","topazsw","topaznw")
+  local jewelneCount = Tracker:ProviderCountForCode("topazne")
+  local jewelseCount = Tracker:ProviderCountForCode("topazse")
+  local jewelswCount = Tracker:ProviderCountForCode("topazsw")
+  local jewelnwCount = Tracker:ProviderCountForCode("topaznw")
   local jewelReq = 15
+  local jewelCount = jewelneCount + jewelseCount + jewelswCount + jewelnwCount
   return jewelCount - jewelReq
 end
 
 function catbat()
-  local jewelCount = Tracker:ProviderCountForCode("sapphirene","sapphirese","sapphiresw","sapphirenw")
+  local jewelneCount = Tracker:ProviderCountForCode("sapphirene")
+  local jewelseCount = Tracker:ProviderCountForCode("sapphirese")
+  local jewelswCount = Tracker:ProviderCountForCode("sapphiresw")
+  local jewelnwCount = Tracker:ProviderCountForCode("sapphirenw")
   local jewelReq = 15
+  local jewelCount = jewelneCount + jewelseCount + jewelswCount + jewelnwCount
   return jewelCount - jewelReq
 end
 
