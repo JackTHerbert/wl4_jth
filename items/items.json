@@ -301,27 +301,27 @@
                 "loop": true,
                 "stages": [
                         {
-                                "img": "images/jewelemerald.png",
+                                "img": "images/requiredjewel2.png",
                                 "codes": "req2",
                                 "inherit_codes": false
                         },
                         {
-                                "img": "images/jewelruby.png",
+                                "img": "images/requiredjewel3.png",
                                 "codes": "req3",
                                 "inherit_codes": false
                         },
                         {
-                                "img": "images/jewelsapphire.png",
+                                "img": "images/requiredjewel4.png",
                                 "codes": "req4",
                                 "inherit_codes": false
                         },
                         {
-                                "img": "images/jewelgolden.png",
+                                "img": "images/requiredjewel0.png",
                                 "codes": "req0",
                                 "inherit_codes": false
                         },
                         {
-                                "img": "images/jewelentry.png",
+                                "img": "images/requiredjewel1.png",
                                 "codes": "req1",
                                 "inherit_codes": false
                         }
@@ -335,12 +335,12 @@
                 "loop": true,
                 "stages": [
                         {
-                                "img": "images/jewelemerald.png",
+                                "img": "images/requiredgoldenjewel1.png",
                                 "codes": "reqg1",
                                 "inherit_codes": false
                         },
                         {
-                                "img": "images/jewelruby.png",
+                                "img": "images/requiredgoldenjewel0.png",
                                 "codes": "reqg0",
                                 "inherit_codes": false
                         }
