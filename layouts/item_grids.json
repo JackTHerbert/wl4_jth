@@ -52,5 +52,19 @@
 				]
 			},    
 		]
+	},
+    "settings": {
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
+			{
+				"type": "itemgrid",
+				"item_size": 4,4
+				"h_alignment": "center",
+				"rows": [
+					["reqjewel","reqgjewel"]
+				]
+			},    
+		]
 	}
 }
