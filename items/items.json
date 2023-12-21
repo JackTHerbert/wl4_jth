@@ -326,5 +326,24 @@
                                 "inherit_codes": false
                         }
                 ]
-        }        
+        },
+	       {
+                "name": "Required Golden Jewels",
+                "type": "progressive",
+                "codes": "reqgjewel",
+                "allow_disabled": false,
+                "loop": true,
+                "stages": [
+                        {
+                                "img": "images/jewelemerald.png",
+                                "codes": "reqg1",
+                                "inherit_codes": false
+                        },
+                        {
+                                "img": "images/jewelruby.png",
+                                "codes": "reqg0",
+                                "inherit_codes": false
+                        }
+                ]
+        }                
 ]
