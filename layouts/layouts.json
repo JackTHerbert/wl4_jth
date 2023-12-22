@@ -32,7 +32,7 @@
 						},
 						{
 							"type": "group",
-							"header": "Initial Jewel Count",
+							"header": "Required Jewels",
 							"dock": "bottom",
 							"content": {
 								"type": "layout",

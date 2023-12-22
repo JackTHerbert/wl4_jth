@@ -293,57 +293,22 @@
 			}
 		]
 	},
-	            {
-                "name": "Required Jewels",
-                "type": "progressive",
-                "codes": "reqjewel",
-                "allow_disabled": false,
-                "loop": true,
-                "stages": [
-                        {
-                                "img": "images/requiredjewel2.png",
-                                "codes": "req2",
-                                "inherit_codes": false
-                        },
-                        {
-                                "img": "images/requiredjewel3.png",
-                                "codes": "req3",
-                                "inherit_codes": false
-                        },
-                        {
-                                "img": "images/requiredjewel4.png",
-                                "codes": "req4",
-                                "inherit_codes": false
-                        },
-                        {
-                                "img": "images/requiredjewel0.png",
-                                "codes": "req0",
-                                "inherit_codes": false
-                        },
-                        {
-                                "img": "images/requiredjewel1.png",
-                                "codes": "req1",
-                                "inherit_codes": false
-                        }
-                ]
-        },
-	       {
-                "name": "Required Golden Jewels",
-                "type": "progressive",
-                "codes": "reqgjewel",
-                "allow_disabled": false,
-                "loop": true,
-                "stages": [
-                        {
-                                "img": "images/requiredgoldenjewel1.png",
-                                "codes": "reqg1",
-                                "inherit_codes": false
-                        },
-                        {
-                                "img": "images/requiredgoldenjewel0.png",
-                                "codes": "reqg0",
-                                "inherit_codes": false
-                        }
-                ]
-        }                
+	{
+		"name": "Required Jewels",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 2,
+		"codes": "reqjewel",
+		"allow_disabled": false,
+		"img": "images/requiredjewel.png"
+	},
+	{
+		"name": "Required Golden Jewels",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 1,
+		"codes": "reqgjewel",
+		"allow_disabled": false,
+		"img": "images/requiredgoldenjewel.png"
+	}                
 ]
