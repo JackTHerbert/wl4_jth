@@ -40,7 +40,7 @@
 	    },
 	    {
 				"name": "Spoiled Rotten",
-				"access_rules": [ "$spoiled" ],
+				"access_rules": [ "$spoiledne,$spoiledse,$spoiledsw,$spoilednw" ],
 				"sections": [
 					{
 						"name": "Defeat Spoiled Rotten",
@@ -302,7 +302,7 @@
 			},
 	    {
 				"name": "Cractus",
-				"access_rules": [ "$cractus,groundpound" ],
+				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound" ],
 				"sections": [
 					{
 						"name": "Defeat Cractus",
@@ -524,7 +524,7 @@
 			},
 	    {
 				"name": "Cuckoo Condor",
-				"access_rules": [ "$cuckoo,grab" ],
+				"access_rules": [ "$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,grab" ],
 				"sections": [
 					{
 						"name": "Defeat Cuckoo Condor",
@@ -775,7 +775,7 @@
 			},
 	    {
 				"name": "Aerodent",
-				"access_rules": [ "$aerodent,grab" ],
+				"access_rules": [ "$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,grab" ],
 				"sections": [
 					{
 						"name": "Defeat Aerodent",
@@ -990,7 +990,7 @@
 			},
 	    {
 				"name": "Catbat",
-				"access_rules": [ "$catbat,enemyjump,groundpound" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
@@ -1036,7 +1036,7 @@
 			},
 	    {
 				"name": "Golden Diva",
-				"access_rules": [ "$diva,grab" ],
+				"access_rules": [ "$divane,$divase,$divasw,$divanw,grab" ],
 				"sections": [
 					{
 						"name": "Defeat Golden Diva",
@@ -1050,7 +1050,7 @@
 						"y": 282
 					}
 				],
-			},
+		},
 			
 	]	
 	}
