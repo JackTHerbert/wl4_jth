@@ -62,52 +62,204 @@
 		]
 	},	
 	{
-		"name": "Entry Jewel Piece",
+		"name": "Entry Jewel Top Right",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelentryne.png",
+		"codes": "entryne"
+	},
+	{
+		"name": "Entry Jewel Bottom Right",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelentryse.png",
+		"codes": "entryse"
+	},
+	{
+		"name": "Entry Jewel Bottom Left",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelentrysw.png",
+		"codes": "entrysw"
+	},
+	{
+		"name": "Entry Jewel Top Left",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelentrynw.png",
+		"codes": "entrynw"
+	},
+	{
+		"name": "Emerald Jewel Top Right",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
-		"img": "images/jewelentry.png",
-		"codes": "entry"
+		"img": "images/jewelemeraldne.png",
+		"codes": "emeraldne"
 	},
 	{
-		"name": "Emerald Jewel Piece",
+		"name": "Emerald Jewel Bottom Right",
 		"type": "consumable",
-		"max_quantity": 16,
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelemeraldse.png",
+		"codes": "emeraldse"
+	},
+	{
+		"name": "Emerald Jewel Bottom Left",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelemeraldsw.png",
+		"codes": "emeraldsw"
+	},
+	{
+		"name": "Null Filler",
+		"type": "consumable",
+		"max_quantity": 1,
 		"initial_quantity": 0,
 		"img": "images/jewelemerald.png",
-		"codes": "emerald"
+		"codes": "nullitem"
 	},
 	{
-		"name": "Ruby Jewel Piece",
-		"type": "consumable",
-		"max_quantity": 16,
-		"initial_quantity": 0,
-		"img": "images/jewelruby.png",
-		"codes": "ruby"
-	},
-	{
-		"name": "Topaz Jewel Piece",
-		"type": "consumable",
-		"max_quantity": 16,
-		"initial_quantity": 0,
-		"img": "images/jeweltopaz.png",
-		"codes": "topaz"
-	},
-	{
-		"name": "Sapphire Jewel Piece",
-		"type": "consumable",
-		"max_quantity": 16,
-		"initial_quantity": 0,
-		"img": "images/jewelsapphire.png",
-		"codes": "sapphire"
-	},
-	{
-		"name": "Golden Jewel Piece",
+		"name": "Emerald Jewel Top Left",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
-		"img": "images/jewelgolden.png",
-		"codes": "golden"
+		"img": "images/jewelemeraldnw.png",
+		"codes": "emeraldnw"
+	},
+	{
+		"name": "Ruby Jewel Top Right",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelrubyne.png",
+		"codes": "rubyne"
+	},
+	{
+		"name": "Ruby Jewel Bottom Right",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelrubyse.png",
+		"codes": "rubyse"
+	},
+	{
+		"name": "Ruby Jewel Bottom Left",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelrubysw.png",
+		"codes": "rubysw"
+	},
+	{
+		"name": "Ruby Jewel Top Left",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelrubynw.png",
+		"codes": "rubynw"
+	},
+	{
+		"name": "Topaz Jewel Top Right",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jeweltopazne.png",
+		"codes": "topazne"
+	},
+	{
+		"name": "Topaz Jewel Bottom Right",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jeweltopazse.png",
+		"codes": "topazse"
+	},
+	{
+		"name": "Topaz Jewel Bottom Left",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jeweltopazsw.png",
+		"codes": "topazsw"
+	},
+	{
+		"name": "Topaz Jewel Top Left",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jeweltopaznw.png",
+		"codes": "topaznw"
+	},
+	{
+		"name": "Sapphire Jewel Top Right",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelsapphirene.png",
+		"codes": "sapphirene"
+	},
+	{
+		"name": "Sapphire Jewel Bottom Right",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelsapphirese.png",
+		"codes": "sapphirese"
+	},
+	{
+		"name": "Sapphire Jewel Bottom Left",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelsapphiresw.png",
+		"codes": "sapphiresw"
+	},
+	{
+		"name": "Sapphire Jewel Top Left",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 0,
+		"img": "images/jewelsapphirenw.png",
+		"codes": "sapphirenw"
+	},
+	{
+		"name": "Golden Jewel Top Right",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelgoldenne.png",
+		"codes": "goldenne"
+	},
+	{
+		"name": "Golden Jewel Bottom Right",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelgoldense.png",
+		"codes": "goldense"
+	},
+	{
+		"name": "Golden Jewel Bottom Left",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelgoldensw.png",
+		"codes": "goldensw"
+	},
+	{
+		"name": "Golden Jewel Top Left",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 0,
+		"img": "images/jewelgoldennw.png",
+		"codes": "goldennw"
 	},
 	{
 		"name": "CD",
@@ -140,5 +292,23 @@
 				"inherit_codes": false
 			}
 		]
-	}	
+	},
+	{
+		"name": "Required Jewels",
+		"type": "consumable",
+		"max_quantity": 4,
+		"initial_quantity": 2,
+		"codes": "reqjewel",
+		"allow_disabled": false,
+		"img": "images/requiredjewel.png"
+	},
+	{
+		"name": "Required Golden Jewels",
+		"type": "consumable",
+		"max_quantity": 1,
+		"initial_quantity": 1,
+		"codes": "reqgjewel",
+		"allow_disabled": false,
+		"img": "images/requiredgoldenjewel.png"
+	}                
 ]

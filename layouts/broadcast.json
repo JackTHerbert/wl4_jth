@@ -1,19 +1,38 @@
 {
 	"tracker_broadcast": {
 		"type": "array",
-		"orientation": "vertical",
+		"orientation": "horizontal",
 		"content": [
 			{
 				"type": "itemgrid",
 				"h_alignment": "left",
 				"item_margin": "1,2",
 				"rows": [
-					["progressivegroundpound","entry"],
-					["swim","emerald"],
-					["headsmash","ruby"],
-					["progressivegrab","topaz"],
-					["dashattack","sapphire"],
-					["enemyjump","golden"],
+					["progressivegroundpound"],
+					["swim"],
+					["headsmash"],
+					["progressivegrab"],
+					["dashattack"],
+					["enemyjump"],
+				]
+			},
+			{
+				"type": "itemgrid",
+				"h_alignment": "left",
+				"item_margin": "1,2",
+				"rows": [
+					["entrynw","entryne"],
+					["entrysw","entryse"],
+					["emeraldnw","emeraldne"],
+					["emeraldsw","emeraldse"],
+					["rubynw","rubyne"],
+					["rubysw","rubyse"],
+					["topaznw","topazne"],
+					["topazsw","topazse"],
+					["sapphirenw","sapphirene"],
+					["sapphiresw","sapphirese"],
+					["goldennw","goldenne"],
+					["goldensw","goldense"],
 				]
 			}
 		]
