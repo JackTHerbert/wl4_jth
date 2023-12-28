@@ -14,7 +14,7 @@
 					"content": [
 						{
 							"type": "group",
-							"header": "Items",
+							"header": "Abilities + Jewels",
 							"dock": "top",
 							"content": {
 								"type": "layout",
@@ -23,7 +23,7 @@
 						},
 						{
 							"type": "group",
-							"header": "Settings",
+							"header": "Difficulty",
 							"dock": "bottom",
 							"content": {
 								"type": "layout",
