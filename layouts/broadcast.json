@@ -13,7 +13,7 @@
 					["headsmash"],
 					["progressivegrab"],
 					["dashattack"],
-					["enemyjump"],
+					["enemyjump"]
 				]
 			},
 			{
@@ -32,7 +32,7 @@
 					["sapphirenw","sapphirene"],
 					["sapphiresw","sapphirese"],
 					["goldennw","goldenne"],
-					["goldensw","goldense"],
+					["goldensw","goldense"]
 				]
 			}
 		]
