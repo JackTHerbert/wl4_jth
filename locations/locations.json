@@ -36,7 +36,7 @@
 						"x": 202,
 						"y": 282
 					}
-				],
+				]
 	    },
 	    {
 				"name": "Spoiled Rotten",
@@ -45,7 +45,7 @@
 					{
 						"name": "Defeat Spoiled Rotten",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -53,7 +53,7 @@
 						"x": 667,
 						"y": 282
 					}
-				],
+				]
 			},
 	    {
 				"name": "Palm Tree Paradise",
@@ -106,7 +106,7 @@
 						"x": 389,
 						"y": 754
 					}
-				],
+				]
 				
 			},
 	    {
@@ -164,7 +164,7 @@
 						"x": 628,
 						"y": 754
 					}
-				],
+				]
 			},
 	    {
 				"name": "Mystic Lake",
@@ -241,7 +241,7 @@
 						"x": 868,
 						"y": 754
 					}
-				],
+				]
 			},
 	    {
 				"name": "Monsoon Jungle",
@@ -298,7 +298,7 @@
 						"x": 1110,
 						"y": 754
 					}
-				],
+				]
 			},
 	    {
 				"name": "Cractus",
@@ -307,7 +307,7 @@
 					{
 						"name": "Defeat Cractus",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -315,7 +315,7 @@
 						"x": 1576,
 						"y": 754
 					}
-				],
+				]
 			},
 	    {
 				"name": "The Curious Factory",
@@ -364,7 +364,7 @@
 					{
 						"name": "CD Box",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -372,7 +372,7 @@
 						"x": 389,
 						"y": 1224
 					}
-				],
+				]
 			},
 	    {
 				"name": "The Toxic Landfill",
@@ -430,7 +430,7 @@
 						"x": 628,
 						"y": 1224
 					}
-				],
+				]
 			},
 	    {
 				"name": "40 Below Fridge",
@@ -456,7 +456,7 @@
 						"name": "CD Box",
 						"access_rules": [ "headsmash" ],
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -464,7 +464,7 @@
 						"x": 868,
 						"y": 1224
 					}
-				],
+				]
 			},
 	    {
 				"name": "Pinball Zone",
@@ -520,7 +520,7 @@
 						"x": 1110,
 						"y": 1224
 					}
-				],
+				]
 			},
 	    {
 				"name": "Cuckoo Condor",
@@ -529,7 +529,7 @@
 					{
 						"name": "Defeat Cuckoo Condor",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -537,7 +537,7 @@
 						"x": 1576,
 						"y": 1224
 					}
-				],
+				]
 			},
 	    {
 				"name": "Toy Block Tower",
@@ -606,7 +606,7 @@
 						"x": 389,
 						"y": 1683
 					}
-				],
+				]
 			},
 	    {
 				"name": "The Big Board",
@@ -670,7 +670,7 @@
 						"x": 628,
 						"y": 1683
 					}
-				],
+				]
 			},
 	    {
 				"name": "Doodle Woods",
@@ -722,7 +722,7 @@
 						"name": "CD Box",
 						"access_rules": [ "normal,grab","normal,groundpound","hard","shard" ],
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -730,7 +730,7 @@
 						"x": 868,
 						"y": 1683
 					}
-				],
+				]
 			},
 	    {
 				"name": "Domino Row",
@@ -763,7 +763,7 @@
 					{
 						"name": "CD Box",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -771,7 +771,7 @@
 						"x": 1110,
 						"y": 1683
 					}
-				],
+				]
 			},
 	    {
 				"name": "Aerodent",
@@ -780,7 +780,7 @@
 					{
 						"name": "Defeat Aerodent",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -788,7 +788,7 @@
 						"x": 1576,
 						"y": 1683
 					}
-				],
+				]
 			},
 	    {
 				"name": "Crescent Moon Village",
@@ -841,7 +841,7 @@
 						"x": 389,
 						"y": 2153
 					}
-				],
+				]
 			},
 	    {
 				"name": "Arabian Night",
@@ -890,7 +890,7 @@
 						"x": 628,
 						"y": 2153
 					}
-				],
+				]
 			},
 	    {
 				"name": "Fiery Cavern",
@@ -929,7 +929,7 @@
 						"x": 868,
 						"y": 2153
 					}
-				],
+				]
 			},
 	    {
 				"name": "Hotel Horror",
@@ -986,16 +986,16 @@
 						"x": 1110,
 						"y": 2153
 					}
-				],
+				]
 			},
-	    {
+	    	{
 				"name": "Catbat",
 				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -1003,11 +1003,11 @@
 						"x": 1576,
 						"y": 2153
 					}
-				],
+				]
 			},
 			{
 				"name": "Golden Passage",
-				"access_rules": [ "swim,groundpound,grab" ],
+				"access_rules": [ "swim,groundpound,grab,$cractusne,$cractusse,$cractussw,$cractusnw,$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,$catbatne,$catbatse,$catbatsw,$catbatnw" ],
 				"sections": [
 					{
 						"name": "Current Puzzle Box",
@@ -1032,16 +1032,16 @@
 						"x": 1110,
 						"y": 282
 					}
-				],
+				]
 			},
-	    {
+	    	{
 				"name": "Golden Diva",
 				"access_rules": [ "$divane,$divase,$divasw,$divanw,grab" ],
 				"sections": [
 					{
 						"name": "Defeat Golden Diva",
 						"item_count": 1
-					},
+					}
 				],
 				"map_locations": [
 					{
@@ -1049,9 +1049,9 @@
 						"x": 1576,
 						"y": 282
 					}
-				],
-		},
+				]
+			}
 			
-	]	
+		]	
 	}
 ]
