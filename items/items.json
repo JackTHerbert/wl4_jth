@@ -269,7 +269,7 @@
 		"img": "images/cd.png",
 		"codes": "cd"
 	},
-	    {
+	{
 		"name": "Difficulty",
 		"type": "progressive",
 		"codes": "difficulty",
