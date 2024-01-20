@@ -818,7 +818,7 @@
 			},
 	    {
 				"name": "Crescent Moon Village",
-				"access_rules": [ "headsmash,dashattack" ],
+				"access_rules": [ "headsmash,dashattack","openportal,headsmash" ],
 				"sections": [
 					{
 						"name": "Agile Bat Box",
@@ -833,31 +833,36 @@
 					},
 					{
 						"name": "Metal Platform Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Metal Platform Rolling Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 		    {
 						"name": "Rolling Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 		    {
 						"name": "!-Switch Rolling Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 		    {
 						"name": "Sewer Box",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim,dashattack" ],
 						"item_count": 1
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "dashattack" ],
 						"item_count": 1
 					}
 				],
@@ -871,7 +876,7 @@
 			},
 	    {
 				"name": "Arabian Night",
-				"access_rules": [ "swim" ],
+				"access_rules": [ "swim","openportal" ],
 				"sections": [
 					{
 						"name": "Onomi Box",
@@ -902,11 +907,12 @@
 					},
 					{
 						"name": "Sewer Box",
-						"access_rules": [ "normal","supergroundpound,hard","supergroundpound,shard" ],
+						"access_rules": [ "swim,normal","swim,supergroundpound,hard","swim,supergroundpound,shard" ],
 						"item_count": 1
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "swim" ],
 						"item_count": 1
 					}
 				],
@@ -920,7 +926,7 @@
 			},
 	    {
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash" ],
+				"access_rules": [ "groundpound,dashattack,headsmash","openportal" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -929,6 +935,7 @@
 					},
 					{
 						"name": "Ice Beyond Door Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -938,14 +945,17 @@
 					},
 					{
 						"name": "Ice Detour Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snowman Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
 					}
 				],
@@ -959,7 +969,7 @@
 			},
 	    {
 				"name": "Hotel Horror",
-				"access_rules": [ "heavygrab" ],
+				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","openportal" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
@@ -1003,6 +1013,7 @@
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "shard","heavygrab,normal","heavygrab,hard" ],
 						"item_count": 1
 					}
 				],
