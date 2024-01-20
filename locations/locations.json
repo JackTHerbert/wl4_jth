@@ -111,49 +111,56 @@
 			},
 	    {
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound" ],
+				"access_rules": [ "swim,supergroundpound","openportal" ],
 				"sections": [
 					{
 						"name": "Current Cave Box",
+						"access_rules": [ "grab,swim,supergroundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Sunflower Jewel Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
-						"name": "Sunflower Box",
+						"name": "Sunflower Box",	
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Slope Room Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "8-Shaped Cave Box",
-						"access_rules": [ "grab" ],
+						"access_rules": [ "grab,supergroundpound" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "8-Shaped Cave Box",
-						"access_rules": [ "heavygrab" ],
+						"access_rules": [ "heavygrab,swim,supergroundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Beezly Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
+						"access_rules": [ "normal","hard","shard,swim,supergroundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Full Health Item Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					}
@@ -243,7 +250,7 @@
 					}
 				]
 			},
-	    {
+			{
 				"name": "Monsoon Jungle",
 				"access_rules": [ "groundpound" ],
 				"sections": [
@@ -300,7 +307,7 @@
 					}
 				]
 			},
-	    {
+			{
 				"name": "Cractus",
 				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound" ],
 				"sections": [
