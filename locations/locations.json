@@ -487,16 +487,17 @@
 			},
 	    {
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash" ],
+				"access_rules": [ "grab,groundpound,headsmash","grab,openportal" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
-			    			"visibility_rules": [ "normal","hard" ],
+			    		"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Switch Room Box",
-			    			"visibility_rules": [ "shard" ],
+						"access_rules": [ "groundpound" ],
+			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
@@ -505,31 +506,34 @@
 					},
 					{
 						"name": "Jungle Room Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snow Room Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Full Health Item Box",
 						"access_rules": [ "supergroundpound" ],
-			    			"visibility_rules": [ "normal","hard" ],
+			    		"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Pink Room Full Health Item Box",
 						"access_rules": [ "supergroundpound" ],
-			    			"visibility_rules": [ "shard" ],
+			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Rolling Room Full Health Item Box",
-			    			"visibility_rules": [ "shard" ],
+			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					}
 				],
@@ -753,7 +757,7 @@
 			},
 	    {
 				"name": "Domino Row",
-				"access_rules": [ "swim" ],
+				"access_rules": [ "swim","openportal" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -761,26 +765,29 @@
 					},
 					{
 						"name": "Rolling Box",
+						"access_rules": [ "swim,headsmash","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Swimming Detour Box",
-						"access_rules": [ "headsmash" ],
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Swimming Room Escape Box",
+						"access_rules": [ "swim,headsmash","swim,groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Keyzer Room Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "swim,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
+						"access_rules": [ "swim,headsmash","swim,groundpound" ],
 						"item_count": 1
 					}
 				],
