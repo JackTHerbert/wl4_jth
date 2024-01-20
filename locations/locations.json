@@ -174,58 +174,65 @@
 			},
 	    {
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash" ],
+				"access_rules": [ "swim,headsmash","openportal" ],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Large Cave Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Hill Room Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Small Cave Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,swim,headsmash" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Rock Cave Box",
 						"access_rules": [ "grab" ],
-				    		"visibility_rules": [ "shard" ],
+				    	"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Cavern Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Spring Cave Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Box Before Bridge",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Lake Exit Bubble Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,swim,headsmash" ],
 						"item_count": 1
 					},
 					{
@@ -236,7 +243,7 @@
 					},
 					{
 						"name": "Full Health Item Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,swim,headsmash" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					}
@@ -251,45 +258,51 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound" ],
+				"access_rules": [ "groundpound","openportal" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Escape Climb Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Brown Pipe Cave Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Fat Plummet Box",
+						"access_rules": [ "normal","hard,groundpound","shard,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Descent Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Puffy Hallway Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,groundpound" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Buried Cave Box",
-						"access_rules": [ "normal","grab,hard","grab,shard" ],
+						"access_rules": [ "normal,groundpound","grab,groundpound,hard","groundpound,grab,shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 					{
