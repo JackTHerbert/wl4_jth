@@ -42,6 +42,18 @@ function enemyjump()
   return has("enemyjump")
 end
 
+function normal()
+  return has("normal")
+end
+
+function hard()
+  return has("hard")
+end
+
+function shard()
+  return has("shard")
+end
+
 
 
 function spoiledne()
