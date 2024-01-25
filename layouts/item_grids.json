@@ -97,7 +97,7 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "difficulty"
+                        "op_difficulty"
                     ]
                 ]
             }
@@ -113,8 +113,8 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "reqjewel",
-                        "reqgjewel"
+                        "op_reqjewel",
+                        "op_reqgjewel"
                     ]
                 ]
             }
