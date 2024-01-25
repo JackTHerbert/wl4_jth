@@ -314,7 +314,7 @@
 	{
 		"name": "Open Portal",
 		"type": "toggle",
-		"codes": "openportal",
+		"codes": "op_openportal",
 		"img": "images/portal.png"
 	}                    
 ]

@@ -111,7 +111,7 @@
 			},
 	    {
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound","openportal" ],
+				"access_rules": [ "swim,supergroundpound","op_openportal" ],
 				"sections": [
 					{
 						"name": "Current Cave Box",
@@ -174,7 +174,7 @@
 			},
 	    {
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash","openportal" ],
+				"access_rules": [ "swim,headsmash","op_openportal" ],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
@@ -258,7 +258,7 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound","openportal" ],
+				"access_rules": [ "groundpound","op_openportal" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
@@ -487,7 +487,7 @@
 			},
 	    {
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash","grab,openportal" ],
+				"access_rules": [ "grab,groundpound,headsmash","grab,op_openportal" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
@@ -757,7 +757,7 @@
 			},
 	    {
 				"name": "Domino Row",
-				"access_rules": [ "swim","openportal" ],
+				"access_rules": [ "swim","op_openportal" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -818,7 +818,7 @@
 			},
 	    {
 				"name": "Crescent Moon Village",
-				"access_rules": [ "headsmash,dashattack","openportal,headsmash" ],
+				"access_rules": [ "headsmash,dashattack","op_openportal,headsmash" ],
 				"sections": [
 					{
 						"name": "Agile Bat Box",
@@ -876,7 +876,7 @@
 			},
 	    {
 				"name": "Arabian Night",
-				"access_rules": [ "swim","openportal" ],
+				"access_rules": [ "swim","op_openportal" ],
 				"sections": [
 					{
 						"name": "Onomi Box",
@@ -926,7 +926,7 @@
 			},
 	    {
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash","openportal" ],
+				"access_rules": [ "groundpound,dashattack,headsmash","op_openportal" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -969,7 +969,7 @@
 			},
 	    {
 				"name": "Hotel Horror",
-				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","openportal" ],
+				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","op_openportal" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
