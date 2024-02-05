@@ -41,11 +41,11 @@
 						},
 						{
 							"type": "group",
-							"header": "Open Portals",
+							"header": "YAML Options",
 							"dock": "bottom",
 							"content": {
 								"type": "layout",
-								"key": "open_portal"
+								"key": "ap_options"
 							}
 						}
 					]
