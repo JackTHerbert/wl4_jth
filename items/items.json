@@ -310,5 +310,11 @@
 		"codes": "reqgjewel",
 		"allow_disabled": false,
 		"img": "images/requiredgoldenjewel.png"
-	}                
+	},
+	{
+		"name": "Open Portal",
+		"type": "toggle",
+		"codes": "op_openportal",
+		"img": "images/portal.png"
+	}                    
 ]

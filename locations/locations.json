@@ -111,49 +111,55 @@
 			},
 	    {
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound" ],
+				"access_rules": [ "swim,supergroundpound","op_openportal" ],
 				"sections": [
 					{
 						"name": "Current Cave Box",
+						"access_rules": [ "grab,swim,supergroundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Sunflower Jewel Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
-						"name": "Sunflower Box",
+						"name": "Sunflower Box",	
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Slope Room Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "8-Shaped Cave Box",
-						"access_rules": [ "grab" ],
+						"access_rules": [ "grab,supergroundpound" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "8-Shaped Cave Box",
-						"access_rules": [ "heavygrab" ],
+						"access_rules": [ "heavygrab,supergroundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Beezly Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"item_count": 1
 					},
 					{
 						"name": "Full Health Item Box",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					}
@@ -168,58 +174,65 @@
 			},
 	    {
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash" ],
+				"access_rules": [ "swim,headsmash","op_openportal" ],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Large Cave Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Hill Room Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Small Cave Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,swim,headsmash" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Rock Cave Box",
 						"access_rules": [ "grab" ],
-				    		"visibility_rules": [ "shard" ],
+				    	"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Cavern Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Spring Cave Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Box Before Bridge",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Lake Exit Bubble Box",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,swim,headsmash" ],
 						"item_count": 1
 					},
 					{
@@ -230,7 +243,7 @@
 					},
 					{
 						"name": "Full Health Item Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,swim,headsmash" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					}
@@ -243,47 +256,53 @@
 					}
 				]
 			},
-	    {
+			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound" ],
+				"access_rules": [ "groundpound","op_openportal" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Escape Climb Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Brown Pipe Cave Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Fat Plummet Box",
+						"access_rules": [ "normal","hard,groundpound","shard,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Descent Box",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Puffy Hallway Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,groundpound" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Buried Cave Box",
-						"access_rules": [ "normal","grab,hard","grab,shard" ],
+						"access_rules": [ "normal,groundpound","grab,groundpound,hard","groundpound,grab,shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 					{
@@ -300,7 +319,7 @@
 					}
 				]
 			},
-	    {
+			{
 				"name": "Cractus",
 				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound" ],
 				"sections": [
@@ -468,16 +487,17 @@
 			},
 	    {
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash" ],
+				"access_rules": [ "grab,groundpound,headsmash","grab,op_openportal" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
-			    			"visibility_rules": [ "normal","hard" ],
+			    		"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Switch Room Box",
-			    			"visibility_rules": [ "shard" ],
+						"access_rules": [ "groundpound" ],
+			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
@@ -486,31 +506,34 @@
 					},
 					{
 						"name": "Jungle Room Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snow Room Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Full Health Item Box",
 						"access_rules": [ "supergroundpound" ],
-			    			"visibility_rules": [ "normal","hard" ],
+			    		"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Pink Room Full Health Item Box",
 						"access_rules": [ "supergroundpound" ],
-			    			"visibility_rules": [ "shard" ],
+			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Rolling Room Full Health Item Box",
-			    			"visibility_rules": [ "shard" ],
+			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					}
 				],
@@ -734,7 +757,7 @@
 			},
 	    {
 				"name": "Domino Row",
-				"access_rules": [ "swim" ],
+				"access_rules": [ "swim","op_openportal" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -742,26 +765,29 @@
 					},
 					{
 						"name": "Rolling Box",
+						"access_rules": [ "swim,headsmash","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Swimming Detour Box",
-						"access_rules": [ "headsmash" ],
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Swimming Room Escape Box",
+						"access_rules": [ "swim,headsmash","swim,groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Keyzer Room Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "swim,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
+						"access_rules": [ "swim,headsmash","swim,groundpound" ],
 						"item_count": 1
 					}
 				],
@@ -792,7 +818,7 @@
 			},
 	    {
 				"name": "Crescent Moon Village",
-				"access_rules": [ "headsmash,dashattack" ],
+				"access_rules": [ "headsmash,dashattack","op_openportal,headsmash" ],
 				"sections": [
 					{
 						"name": "Agile Bat Box",
@@ -807,31 +833,36 @@
 					},
 					{
 						"name": "Metal Platform Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Metal Platform Rolling Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 		    {
 						"name": "Rolling Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 		    {
 						"name": "!-Switch Rolling Box",
+						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 		    {
 						"name": "Sewer Box",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim,dashattack" ],
 						"item_count": 1
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "dashattack" ],
 						"item_count": 1
 					}
 				],
@@ -845,7 +876,7 @@
 			},
 	    {
 				"name": "Arabian Night",
-				"access_rules": [ "swim" ],
+				"access_rules": [ "swim","op_openportal" ],
 				"sections": [
 					{
 						"name": "Onomi Box",
@@ -876,11 +907,12 @@
 					},
 					{
 						"name": "Sewer Box",
-						"access_rules": [ "normal","supergroundpound,hard","supergroundpound,shard" ],
+						"access_rules": [ "swim,normal","swim,supergroundpound,hard","swim,supergroundpound,shard" ],
 						"item_count": 1
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "swim" ],
 						"item_count": 1
 					}
 				],
@@ -894,7 +926,7 @@
 			},
 	    {
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash" ],
+				"access_rules": [ "groundpound,dashattack,headsmash","op_openportal" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -903,6 +935,7 @@
 					},
 					{
 						"name": "Ice Beyond Door Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -912,14 +945,17 @@
 					},
 					{
 						"name": "Ice Detour Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snowman Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
 					}
 				],
@@ -933,7 +969,7 @@
 			},
 	    {
 				"name": "Hotel Horror",
-				"access_rules": [ "heavygrab" ],
+				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","op_openportal" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
@@ -977,6 +1013,7 @@
 					},
 		    {
 						"name": "CD Box",
+						"access_rules": [ "shard","heavygrab,normal","heavygrab,hard" ],
 						"item_count": 1
 					}
 				],
