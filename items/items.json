@@ -62,7 +62,7 @@
 		]
 	},	
 	{
-		"name": "Entry Jewel Top Right",
+		"name": "Top Right Entry Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -70,7 +70,7 @@
 		"codes": "entryne"
 	},
 	{
-		"name": "Entry Jewel Bottom Right",
+		"name": "Bottom Right Entry Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -78,7 +78,7 @@
 		"codes": "entryse"
 	},
 	{
-		"name": "Entry Jewel Bottom Left",
+		"name": "Bottom Left Entry Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -86,7 +86,7 @@
 		"codes": "entrysw"
 	},
 	{
-		"name": "Entry Jewel Top Left",
+		"name": "Top Left Entry Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -94,7 +94,7 @@
 		"codes": "entrynw"
 	},
 	{
-		"name": "Emerald Jewel Top Right",
+		"name": "Top Right Emerald Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -102,7 +102,7 @@
 		"codes": "emeraldne"
 	},
 	{
-		"name": "Emerald Jewel Bottom Right",
+		"name": "Bottom Right Emerald Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -110,7 +110,7 @@
 		"codes": "emeraldse"
 	},
 	{
-		"name": "Emerald Jewel Bottom Left",
+		"name": "Bottom Left Emerald Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -126,7 +126,7 @@
 		"codes": "nullitem"
 	},
 	{
-		"name": "Emerald Jewel Top Left",
+		"name": "Top Left Emerald Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -134,7 +134,7 @@
 		"codes": "emeraldnw"
 	},
 	{
-		"name": "Ruby Jewel Top Right",
+		"name": "Top Right Ruby Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -142,7 +142,7 @@
 		"codes": "rubyne"
 	},
 	{
-		"name": "Ruby Jewel Bottom Right",
+		"name": "Bottom Right Ruby Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -150,7 +150,7 @@
 		"codes": "rubyse"
 	},
 	{
-		"name": "Ruby Jewel Bottom Left",
+		"name": "Bottom Left Ruby Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -158,7 +158,7 @@
 		"codes": "rubysw"
 	},
 	{
-		"name": "Ruby Jewel Top Left",
+		"name": "Top Left Ruby Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -166,7 +166,7 @@
 		"codes": "rubynw"
 	},
 	{
-		"name": "Topaz Jewel Top Right",
+		"name": "Top Right Topaz Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -174,7 +174,7 @@
 		"codes": "topazne"
 	},
 	{
-		"name": "Topaz Jewel Bottom Right",
+		"name": "Bottom Right Topaz Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -182,7 +182,7 @@
 		"codes": "topazse"
 	},
 	{
-		"name": "Topaz Jewel Bottom Left",
+		"name": "Bottom Left Topaz Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -190,7 +190,7 @@
 		"codes": "topazsw"
 	},
 	{
-		"name": "Topaz Jewel Top Left",
+		"name": "Top Left Topaz Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -198,7 +198,7 @@
 		"codes": "topaznw"
 	},
 	{
-		"name": "Sapphire Jewel Top Right",
+		"name": "Top Right Sapphire Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -206,7 +206,7 @@
 		"codes": "sapphirene"
 	},
 	{
-		"name": "Sapphire Jewel Bottom Right",
+		"name": "Bottom Right Sapphire Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -214,7 +214,7 @@
 		"codes": "sapphirese"
 	},
 	{
-		"name": "Sapphire Jewel Bottom Left",
+		"name": "Bottom Left Sapphire Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -222,7 +222,7 @@
 		"codes": "sapphiresw"
 	},
 	{
-		"name": "Sapphire Jewel Top Left",
+		"name": "Top Left Sapphire Piece",
 		"type": "consumable",
 		"max_quantity": 4,
 		"initial_quantity": 0,
@@ -230,7 +230,7 @@
 		"codes": "sapphirenw"
 	},
 	{
-		"name": "Golden Jewel Top Right",
+		"name": "Top Right Golden Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -238,7 +238,7 @@
 		"codes": "goldenne"
 	},
 	{
-		"name": "Golden Jewel Bottom Right",
+		"name": "Bottom Right Golden Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -246,7 +246,7 @@
 		"codes": "goldense"
 	},
 	{
-		"name": "Golden Jewel Bottom Left",
+		"name": "Bottom Left Golden Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -254,7 +254,7 @@
 		"codes": "goldensw"
 	},
 	{
-		"name": "Golden Jewel Top Left",
+		"name": "Top Left Golden Jewel Piece",
 		"type": "consumable",
 		"max_quantity": 1,
 		"initial_quantity": 0,
@@ -310,5 +310,11 @@
 		"codes": "op_reqgjewel",
 		"allow_disabled": false,
 		"img": "images/requiredgoldenjewel.png"
-	}                
+	},
+	{
+		"name": "Open Portal",
+		"type": "toggle",
+		"codes": "op_openportal",
+		"img": "images/portal.png"
+	}                    
 ]
