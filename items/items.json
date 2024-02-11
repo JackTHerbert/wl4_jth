@@ -312,9 +312,15 @@
 		"img": "images/requiredgoldenjewel.png"
 	},
 	{
-		"name": "Open Portal",
+		"name": "Open Portals",
 		"type": "toggle",
 		"codes": "op_openportal",
 		"img": "images/portal.png"
-	}                    
+	},
+	{
+		"name": "Advanced Logic",
+		"type": "toggle",
+		"codes": "op_advancedlogic",
+		"img": "images/wario_splat.png"
+	}
 ]

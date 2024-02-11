@@ -120,7 +120,7 @@
             }
         ]
     },
-    "open_portal": {
+    "ap_options": {
         "type": "array",
         "orientation": "horizontal",
         "content": [
@@ -130,7 +130,7 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "op_openportal"
+                        "op_openportal","op_advancedlogic"
                     ]
                 ]
             }
