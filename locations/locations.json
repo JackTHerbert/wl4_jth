@@ -496,7 +496,7 @@
 					},
 					{
 						"name": "Switch Room Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic" ],
 			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -506,17 +506,16 @@
 					},
 					{
 						"name": "Jungle Room Box",
-						"access_rules": [ "groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snow Room Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic" ],
 						"item_count": 1
 					},
 					{
@@ -587,32 +586,32 @@
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Fire Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Hidden Falling Block Door Box",
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Bonfire Block Box",
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
-	            {
+					{
 						"name": "Red Pipe Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Escape Ledge Box",
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"item_count": 1
 					},
@@ -705,7 +704,7 @@
 					},
 					{
 						"name": "Grey Square Box",
-						"access_rules": [ "groundpound","grab" ],
+						"access_rules": [ "groundpound","grab,op_advancedlogic" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -743,7 +742,7 @@
 					},
 		    {
 						"name": "CD Box",
-						"access_rules": [ "normal,grab","normal,groundpound","hard","shard" ],
+						"access_rules": [ "normal,grab,op_advancedlogic","normal,groundpound","hard","shard" ],
 						"item_count": 1
 					}
 				],
@@ -757,7 +756,7 @@
 			},
 	    {
 				"name": "Domino Row",
-				"access_rules": [ "swim","op_openportal" ],
+				"access_rules": [ "swim,groundpound","op_openportal" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -765,7 +764,7 @@
 					},
 					{
 						"name": "Rolling Box",
-						"access_rules": [ "swim,headsmash","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,op_advancedlogic","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
@@ -776,7 +775,7 @@
 					},
 					{
 						"name": "Swimming Room Escape Box",
-						"access_rules": [ "swim,headsmash","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,op_advancedlogic","swim,groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -787,7 +786,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "swim,headsmash","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,op_advancedlogic","swim,groundpound" ],
 						"item_count": 1
 					}
 				],
@@ -1027,7 +1026,7 @@
 			},
 	    	{
 				"name": "Catbat",
-				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
