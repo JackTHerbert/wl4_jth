@@ -42,20 +42,6 @@ function enemyjump()
   return has("enemyjump")
 end
 
---function normal()
---  return has("normal")
---end
-
---function hard()
---  return has("hard")
---end
-
---function shard()
---  return has("shard")
---end
-
-
-
 function spoiledne()
   local jewelCount = Tracker:ProviderCountForCode("entryne")
   local jewelReq = Tracker:ProviderCountForCode("op_reqgjewel")
@@ -76,7 +62,6 @@ function spoilednw()
   local jewelReq = Tracker:ProviderCountForCode("op_reqgjewel")
   return jewelCount + 1 - jewelReq
 end
-
 
 function cractusne()
   local jewelCount = Tracker:ProviderCountForCode("emeraldne")

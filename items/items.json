@@ -313,14 +313,40 @@
 	},
 	{
 		"name": "Open Portals",
-		"type": "toggle",
+		"type": "progressive",
 		"codes": "op_openportal",
-		"img": "images/portal.png"
+		"allow_disabled": false,
+		"loop":true,
+		"stages": [
+			{
+				"img": "images/wl4 0.png",
+				"codes": "op_openportal_0",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/portal.png",
+				"codes": "op_openportal_1",
+				"inheret_codes": false
+			}
+		]
 	},
 	{
 		"name": "Advanced Logic",
-		"type": "toggle",
+		"type": "progressive",
 		"codes": "op_advancedlogic",
-		"img": "images/wario_splat.png"
+		"allow_disabled": false,
+		"loop":true,
+		"stages": [
+			{
+				"img": "images/wl4 1.png",
+				"codes": "op_advancedlogic_0",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/wario_splat.png",
+				"codes": "op_advancedlogic_1",
+				"inheret_codes": false
+			}
+		]
 	}
 ]

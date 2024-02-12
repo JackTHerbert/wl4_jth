@@ -44,6 +44,5 @@ ITEM_MAPPING = {
 	[0xEC42] = {"headsmash","toggle"},
 	[0xEC43] = {"progressivegrab","progressive"},
 	[0xEC44] = {"dashattack","toggle"},
-	[0xEC45] = {"enemyjump","toggle"},
---	[0xEC46] = {"op_difficulty","progressive"}
+	[0xEC45] = {"enemyjump","toggle"}
 }
