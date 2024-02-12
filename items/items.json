@@ -319,7 +319,7 @@
 		"loop":true,
 		"stages": [
 			{
-				"img": "images/wl4 0.png",
+				"img": "images/portal_grey.png",
 				"codes": "op_openportal_0",
 				"inheret_codes": false
 			},
@@ -338,7 +338,7 @@
 		"loop":true,
 		"stages": [
 			{
-				"img": "images/wl4 1.png",
+				"img": "images/wario_splat_grey.png",
 				"codes": "op_advancedlogic_0",
 				"inheret_codes": false
 			},
