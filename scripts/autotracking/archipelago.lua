@@ -71,6 +71,16 @@ function onClear(slot_data)
 			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
 		end
 	end
+
+    -- Thank you @alwaysintreble on the poptracker discord for help here
+    if slot_data["required_jewels"] then
+        Tracker:FindObjectForCode("op_reqjewel").AcquiredCount = tonumber(slot_data["required_jewels"])
+        if slot_data["required_jewels"] == 0 then
+            Tracker:FindObjectForCode("op_reqgjewel").AcquiredCount = tonumber(slot_data["required_jewels"])
+        else
+            Tracker:FindObjectForCode("op_reqgjewel").AcquiredCount = 1
+        end
+    end
 end
 
 -- called when an item gets collected
