@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/ap_slot.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -59,6 +60,26 @@ function onClear(slot_data)
 
     if SLOT_DATA == nil then
         return
+    end
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+	
+	--print(dump_table(slot_data))
+
+	for k,v in pairs(slot_data) do
+		if SLOT_CODES[k] then
+			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
+		end
+	end
+
+    -- Thank you @alwaysintreble on the poptracker discord for help here
+    if slot_data["required_jewels"] then
+        Tracker:FindObjectForCode("op_reqjewel").AcquiredCount = tonumber(slot_data["required_jewels"])
+        if slot_data["required_jewels"] == 0 then
+            Tracker:FindObjectForCode("op_reqgjewel").AcquiredCount = tonumber(slot_data["required_jewels"])
+        else
+            Tracker:FindObjectForCode("op_reqgjewel").AcquiredCount = 1
+        end
     end
 end
 

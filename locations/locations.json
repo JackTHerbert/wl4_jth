@@ -111,7 +111,7 @@
 			},
 	    {
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound","op_openportal" ],
+				"access_rules": [ "swim,supergroundpound","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Current Cave Box",
@@ -174,7 +174,7 @@
 			},
 	    {
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash","op_openportal" ],
+				"access_rules": [ "swim,headsmash","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
@@ -258,7 +258,7 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound","op_openportal" ],
+				"access_rules": [ "groundpound","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
@@ -487,7 +487,7 @@
 			},
 	    {
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash","grab,op_openportal" ],
+				"access_rules": [ "grab,groundpound,headsmash","grab,op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
@@ -496,7 +496,7 @@
 					},
 					{
 						"name": "Switch Room Box",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic" ],
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
 			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -510,12 +510,12 @@
 					},
 					{
 						"name": "Snow Room Box",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic" ],
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic" ],
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
 						"item_count": 1
 					},
 					{
@@ -704,7 +704,7 @@
 					},
 					{
 						"name": "Grey Square Box",
-						"access_rules": [ "groundpound","grab,op_advancedlogic" ],
+						"access_rules": [ "groundpound","grab,op_advancedlogic_1" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -742,7 +742,7 @@
 					},
 		    {
 						"name": "CD Box",
-						"access_rules": [ "normal,grab,op_advancedlogic","normal,groundpound","hard","shard" ],
+						"access_rules": [ "normal,grab,op_advancedlogic_1","normal,groundpound","hard","shard" ],
 						"item_count": 1
 					}
 				],
@@ -756,7 +756,7 @@
 			},
 	    {
 				"name": "Domino Row",
-				"access_rules": [ "swim,groundpound","op_openportal" ],
+				"access_rules": [ "swim,groundpound","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -764,7 +764,7 @@
 					},
 					{
 						"name": "Rolling Box",
-						"access_rules": [ "swim,headsmash,op_advancedlogic","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
@@ -775,7 +775,7 @@
 					},
 					{
 						"name": "Swimming Room Escape Box",
-						"access_rules": [ "swim,headsmash,op_advancedlogic","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -786,7 +786,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "swim,headsmash,op_advancedlogic","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
 						"item_count": 1
 					}
 				],
@@ -817,7 +817,7 @@
 			},
 	    {
 				"name": "Crescent Moon Village",
-				"access_rules": [ "headsmash,dashattack","op_openportal,headsmash" ],
+				"access_rules": [ "headsmash,dashattack","op_openportal_1,headsmash" ],
 				"sections": [
 					{
 						"name": "Agile Bat Box",
@@ -875,7 +875,7 @@
 			},
 	    {
 				"name": "Arabian Night",
-				"access_rules": [ "swim","op_openportal" ],
+				"access_rules": [ "swim","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Onomi Box",
@@ -925,7 +925,7 @@
 			},
 	    {
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash","op_openportal" ],
+				"access_rules": [ "groundpound,dashattack,headsmash","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -968,7 +968,7 @@
 			},
 	    {
 				"name": "Hotel Horror",
-				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","op_openportal" ],
+				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
@@ -1026,7 +1026,7 @@
 			},
 	    	{
 				"name": "Catbat",
-				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
