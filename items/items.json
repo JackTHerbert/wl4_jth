@@ -348,5 +348,29 @@
 				"inheret_codes": false
 			}
 		]
+	},
+	{
+		"name": "Open Doors",
+		"type": "progressive",
+		"codes": "op_doors",
+		"allow_disabled": false,
+		"loop":true,
+		"stages": [
+			{
+				"img": "images/keyzer.png",
+				"codes": "op_doors_0",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/keyzer_golden.png",
+				"codes": "op_doors_1",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/keyzer_grey.png",
+				"codes": "op_doors_2",
+				"inheret_codes": false
+			}
+		]
 	}
 ]

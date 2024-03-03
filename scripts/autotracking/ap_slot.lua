@@ -36,5 +36,9 @@ SLOT_CODES = {
     logic={
         code="op_advancedlogic",
         mapping=normalmap
-    }
+    },
+	open_doors={
+		code="op_doors",
+		mapping=diffmap
+	}
 }
