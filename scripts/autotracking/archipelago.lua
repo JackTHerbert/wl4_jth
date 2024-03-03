@@ -81,6 +81,45 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("op_reqgjewel").AcquiredCount = 1
         end
     end
+
+    if Tracker:FindObjectForCode("op_doors").CurrentStage == 0 then
+        Tracker:FindObjectForCode("keyzerhoh").Active = true
+        Tracker:FindObjectForCode("keyzerptp").Active = true
+        Tracker:FindObjectForCode("keyzerwf").Active = true
+        Tracker:FindObjectForCode("keyzerml").Active = true
+        Tracker:FindObjectForCode("keyzermj").Active = true
+        Tracker:FindObjectForCode("keyzercf").Active = true
+        Tracker:FindObjectForCode("keyzertl").Active = true
+        Tracker:FindObjectForCode("keyzerbf").Active = true
+        Tracker:FindObjectForCode("keyzerpz").Active = true
+        Tracker:FindObjectForCode("keyzertbt").Active = true
+        Tracker:FindObjectForCode("keyzerbb").Active = true
+        Tracker:FindObjectForCode("keyzerdw").Active = true
+        Tracker:FindObjectForCode("keyzerdr").Active = true
+        Tracker:FindObjectForCode("keyzercmv").Active = true
+        Tracker:FindObjectForCode("keyzeran").Active = true
+        Tracker:FindObjectForCode("keyzerfc").Active = true
+        Tracker:FindObjectForCode("keyzerhh").Active = true
+        Tracker:FindObjectForCode("keyzergp").Active = true
+    elseif Tracker:FindObjectForCode("op_doors").CurrentStage == 1 then
+        Tracker:FindObjectForCode("keyzerhoh").Active = true
+        Tracker:FindObjectForCode("keyzerptp").Active = true
+        Tracker:FindObjectForCode("keyzerwf").Active = true
+        Tracker:FindObjectForCode("keyzerml").Active = true
+        Tracker:FindObjectForCode("keyzermj").Active = true
+        Tracker:FindObjectForCode("keyzercf").Active = true
+        Tracker:FindObjectForCode("keyzertl").Active = true
+        Tracker:FindObjectForCode("keyzerbf").Active = true
+        Tracker:FindObjectForCode("keyzerpz").Active = true
+        Tracker:FindObjectForCode("keyzertbt").Active = true
+        Tracker:FindObjectForCode("keyzerbb").Active = true
+        Tracker:FindObjectForCode("keyzerdw").Active = true
+        Tracker:FindObjectForCode("keyzerdr").Active = true
+        Tracker:FindObjectForCode("keyzercmv").Active = true
+        Tracker:FindObjectForCode("keyzeran").Active = true
+        Tracker:FindObjectForCode("keyzerfc").Active = true
+        Tracker:FindObjectForCode("keyzerhh").Active = true
+    end
 end
 
 -- called when an item gets collected

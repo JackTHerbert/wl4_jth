@@ -28,6 +28,11 @@
 					{
 						"name": "Full Health Item Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer HOH",
+						"hosted_item": "keyzerhoh",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -40,7 +45,7 @@
 	    },
 	    {
 				"name": "Spoiled Rotten",
-				"access_rules": [ "$spoiledne,$spoiledse,$spoiledsw,$spoilednw" ],
+				"access_rules": [ "$spoiledne,$spoiledse,$spoiledsw,$spoilednw","keyzerhoh" ],
 				"sections": [
 					{
 						"name": "Defeat Spoiled Rotten",
@@ -98,6 +103,11 @@
 					{
 						"name": "Full Health Item Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer PTP",
+						"hosted_item": "keyzerptp",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -162,6 +172,12 @@
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer WF",
+						"hosted_item": "keyzerwf",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -246,6 +262,12 @@
 						"access_rules": [ "dashattack,swim,headsmash" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer ML",
+						"hosted_item": "keyzerml",
+						"access_rules": [ "swim,headsmash" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -309,6 +331,12 @@
 						"name": "Full Health Item Box",
 						"access_rules": [ "swim" ], 
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer MJ",
+						"hosted_item": "keyzermj",
+						"access_rules": [ "groundpound" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -383,6 +411,11 @@
 					{
 						"name": "CD Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer CF",
+						"hosted_item": "keyzercf",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -441,6 +474,11 @@
 						"name": "Full Health Item Box",
 			    			"visibility_rules": [ "normal" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer TL",
+						"hosted_item": "keyzertl",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -471,10 +509,15 @@
 						"name": "Snowman Puzzle Lower Box",
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"access_rules": [ "headsmash" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer BF",
+						"hosted_item": "keyzerbf",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -534,6 +577,12 @@
 						"name": "Rolling Room Full Health Item Box",
 			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer PZ",
+						"hosted_item": "keyzerpz",
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,op_advancedlogic_1" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -620,6 +669,11 @@
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer TBT",
+						"hosted_item": "keyzertbt",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -655,27 +709,27 @@
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Normal Enemy Room Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Fat Room Box",
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Toy Car Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Flat Room Box",
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"item_count": 1
 					},
@@ -684,6 +738,11 @@
 						"access_rules": [ "grab,enemyjump" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer BB",
+						"hosted_item": "keyzerbb",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -719,31 +778,36 @@
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Buried Door Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Purple Square Box",
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Blue Escape Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Blue Circle Box",
 						"access_rules": [ "enemyjump" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"access_rules": [ "normal,grab,op_advancedlogic_1","normal,groundpound","hard","shard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer DW",
+						"hosted_item": "keyzerdw",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -788,6 +852,12 @@
 						"name": "CD Box",
 						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer DR",
+						"hosted_item": "keyzerdr",
+						"access_rules": [ "swim,groundpound" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -842,27 +912,33 @@
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Rolling Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "!-Switch Rolling Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Sewer Box",
 						"access_rules": [ "swim,dashattack" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"access_rules": [ "dashattack" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer CMV",
+						"hosted_item": "keyzercmv",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -898,7 +974,7 @@
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Kool-Aid Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
@@ -909,10 +985,15 @@
 						"access_rules": [ "swim,normal","swim,supergroundpound,hard","swim,supergroundpound,shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"access_rules": [ "swim" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer AN",
+						"hosted_item": "keyzeran",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -956,6 +1037,12 @@
 						"name": "CD Box",
 						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer FC",
+						"hosted_item": "keyzerfc",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -990,30 +1077,35 @@
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "3F Hallway Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Room 402 Box",
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "4F Hallway Box",
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "Exterior Box",
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
-		    {
+					{
 						"name": "CD Box",
 						"access_rules": [ "shard","heavygrab,normal","heavygrab,hard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer HH",
+						"hosted_item": "keyzerhh",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -1060,6 +1152,11 @@
 					{
 						"name": "Mad Scienstein Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer GP",
+						"hosted_item": "keyzergp",
+						"visibility_rules": [ "op_doors_1","op_doors_2" ]
 					}
 				],
 				"map_locations": [
