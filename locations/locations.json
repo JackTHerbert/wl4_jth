@@ -45,7 +45,7 @@
 	    },
 	    {
 				"name": "Spoiled Rotten",
-				"access_rules": [ "$spoiledne,$spoiledse,$spoiledsw,$spoilednw","keyzerhoh" ],
+				"access_rules": [ "$spoiledne,$spoiledse,$spoiledsw,$spoilednw,keyzerhoh" ],
 				"sections": [
 					{
 						"name": "Defeat Spoiled Rotten",
@@ -121,7 +121,7 @@
 			},
 	    {
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound","op_openportal_1" ],
+				"access_rules": [ "swim,supergroundpound,keyzerptp","op_openportal_1,keyzerptp" ],
 				"sections": [
 					{
 						"name": "Current Cave Box",
@@ -190,7 +190,7 @@
 			},
 	    {
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash","op_openportal_1" ],
+				"access_rules": [ "swim,headsmash,keyzerwf","op_openportal_1,keyzerwf" ],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
@@ -280,7 +280,7 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound","op_openportal_1" ],
+				"access_rules": [ "groundpound,keyzerml","op_openportal_1,keyzerml" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
@@ -349,7 +349,7 @@
 			},
 			{
 				"name": "Cractus",
-				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound" ],
+				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound,keyzermj" ],
 				"sections": [
 					{
 						"name": "Defeat Cractus",
@@ -428,7 +428,7 @@
 			},
 	    {
 				"name": "The Toxic Landfill",
-				"access_rules": [ "dashattack,supergroundpound,headsmash" ],
+				"access_rules": [ "dashattack,supergroundpound,headsmash,keyzercf" ],
 				"sections": [
 					{
 						"name": "Portal Room Box",
@@ -491,7 +491,7 @@
 			},
 	    {
 				"name": "40 Below Fridge",
-				"access_rules": [ "supergroundpound" ],
+				"access_rules": [ "supergroundpound,keyzertl" ],
 				"sections": [
 					{
 						"name": "Looping Room Box",
@@ -530,7 +530,7 @@
 			},
 	    {
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash","grab,op_openportal_1" ],
+				"access_rules": [ "grab,groundpound,headsmash,keyzerbf","grab,op_openportal_1,keyzerbf" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
@@ -595,7 +595,7 @@
 			},
 	    {
 				"name": "Cuckoo Condor",
-				"access_rules": [ "$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,grab" ],
+				"access_rules": [ "$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,grab,keyzerpz" ],
 				"sections": [
 					{
 						"name": "Defeat Cuckoo Condor",
@@ -686,7 +686,7 @@
 			},
 	    {
 				"name": "The Big Board",
-				"access_rules": [ "groundpound" ],
+				"access_rules": [ "groundpound,keyzertbt" ],
 				"sections": [
 					{
 						"name": "First Box",
@@ -755,6 +755,7 @@
 			},
 	    {
 				"name": "Doodle Woods",
+				"access_rules": [ "keyzerbb" ],
 				"sections": [
 					{
 						"name": "Box Behind Wall",
@@ -820,7 +821,7 @@
 			},
 	    {
 				"name": "Domino Row",
-				"access_rules": [ "swim,groundpound","op_openportal_1" ],
+				"access_rules": [ "swim,groundpound,keyzerdw","op_openportal_1,keyzerdw" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -870,7 +871,7 @@
 			},
 	    {
 				"name": "Aerodent",
-				"access_rules": [ "$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,grab" ],
+				"access_rules": [ "$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,grab,keyzerdr" ],
 				"sections": [
 					{
 						"name": "Defeat Aerodent",
@@ -951,7 +952,7 @@
 			},
 	    {
 				"name": "Arabian Night",
-				"access_rules": [ "swim","op_openportal_1" ],
+				"access_rules": [ "swim,keyzercmv","op_openportal_1,keyzercmv" ],
 				"sections": [
 					{
 						"name": "Onomi Box",
@@ -1006,7 +1007,7 @@
 			},
 	    {
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash","op_openportal_1" ],
+				"access_rules": [ "groundpound,dashattack,headsmash,keyzeran","op_openportal_1,keyzeran" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -1055,7 +1056,7 @@
 			},
 	    {
 				"name": "Hotel Horror",
-				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","op_openportal_1" ],
+				"access_rules": [ "normal,heavygrab,keyzerfc","hard,heavygrab,keyzerfc","shard,keyzerfc","op_openportal_1,keyzerfc" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
@@ -1118,7 +1119,7 @@
 			},
 	    	{
 				"name": "Catbat",
-				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound,keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1,keyzerhh" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
@@ -1169,7 +1170,7 @@
 			},
 	    	{
 				"name": "Golden Diva",
-				"access_rules": [ "$divane,$divase,$divasw,$divanw,grab,$cractusne,$cractusse,$cractussw,$cractusnw,$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,$catbatne,$catbatse,$catbatsw,$catbatnw" ],
+				"access_rules": [ "$divane,$divase,$divasw,$divanw,grab,$cractusne,$cractusse,$cractussw,$cractusnw,$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,$catbatne,$catbatse,$catbatsw,$catbatnw,keyzergp" ],
 				"sections": [
 					{
 						"name": "Defeat Golden Diva",
