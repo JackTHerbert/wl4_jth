@@ -46,5 +46,9 @@ SLOT_CODES = {
 	goal={
 		code="op_treasurehunt",
 		mapping=treasuremap	
-    }
+    },
+	open_doors={
+		code="op_doors",
+		mapping=diffmap
+	}
 }
