@@ -25,6 +25,7 @@ diffmap={[0]=0,[1]=1,[2]=2}
 normalmap={[0]=0,[1]=1}
 doormap={[0]=2,[1]=1,[2]=0}
 treasuremap={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
+doormap={[0]=2,[1]=1,[2]=0}
 
 SLOT_CODES = {
     difficulty={
@@ -49,6 +50,6 @@ SLOT_CODES = {
     },
 	open_doors={
 		code="op_doors",
-		mapping=diffmap
+		mapping=doormap
 	}
 }

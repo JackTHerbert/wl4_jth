@@ -28,6 +28,11 @@
 					{
 						"name": "Full Health Item Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer HOH",
+						"hosted_item": "keyzerhoh",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
