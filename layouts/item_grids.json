@@ -130,7 +130,7 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "op_openportal","op_advancedlogic"
+                        "op_openportal","op_advancedlogic","op_doors"
                     ]
                 ]
             }

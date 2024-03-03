@@ -23,6 +23,7 @@ end
 
 diffmap={[0]=0,[1]=1,[2]=2}
 normalmap={[0]=0,[1]=1}
+doormap={[0]=2,[1]=1,[2]=0}
 
 SLOT_CODES = {
     difficulty={
@@ -36,5 +37,9 @@ SLOT_CODES = {
     logic={
         code="op_advancedlogic",
         mapping=normalmap
-    }
+    },
+	open_doors={
+		code="op_doors",
+		mapping=doormap
+	}
 }
