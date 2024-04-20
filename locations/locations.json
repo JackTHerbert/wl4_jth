@@ -253,14 +253,7 @@
 					},
 					{
 						"name": "Full Health Item Box",
-						"access_rules": [ "grab" ],
-						"visibility_rules": [ "normal","hard" ],
-						"item_count": 1
-					},
-					{
-						"name": "Full Health Item Box",
-						"access_rules": [ "dashattack,swim,headsmash" ],
-						"visibility_rules": [ "shard" ],
+						"access_rules": [ "normal,grab","hard,grab","shard,dashattack,swim,headsmash" ],
 						"item_count": 1
 					},
 					{
