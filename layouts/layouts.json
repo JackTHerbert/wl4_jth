@@ -14,7 +14,7 @@
 					"content": [
 						{
 							"type": "group",
-							"header": "Abilities + Jewels",
+							"header": "Abilities, Jewels, & Treasures",
 							"dock": "top",
 							"content": {
 								"type": "layout",

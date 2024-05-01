@@ -84,7 +84,39 @@
                         "goldense"
                     ]
                 ]
-            }
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "1,1",
+                "item_size": "4,4",
+                "rows": [
+                    [
+                        "treasure1",
+                        "treasure2"
+                    ],
+                    [
+                        "treasure3",
+                        "treasure4"
+                    ],
+                    [
+                        "treasure5",
+                        "treasure6"
+                    ],
+                    [
+                        "treasure7",
+                        "treasure8"
+                    ],
+                    [
+                        "treasure9",
+                        "treasure10"
+                    ],
+                    [
+                        "treasure11",
+                        "treasure12"
+                    ]
+                ]
+            }			
         ]
     },
     "settings": {
@@ -130,7 +162,7 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "op_openportal","op_advancedlogic","op_doors"
+                        "op_openportal","op_advancedlogic","op_doors","op_treasurehunt"
                     ]
                 ]
             }
