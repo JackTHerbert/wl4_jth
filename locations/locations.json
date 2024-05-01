@@ -39,23 +39,6 @@
 				]
 	    },
 	    {
-				"name": "Spoiled Rotten",
-				"access_rules": [ "$spoiledne,$spoiledse,$spoiledsw,$spoilednw" ],
-				"sections": [
-					{
-						"name": "Defeat Spoiled Rotten",
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "map",
-						"x": 667,
-						"y": 282
-					}
-				]
-			},
-	    {
 				"name": "Palm Tree Paradise",
 				"sections": [
 					{
@@ -319,7 +302,22 @@
 					{
 						"name": "Defeat Cractus",
 						"item_count": 1
-					}
+					},
+					{
+						"name": "0:15",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]					
+					},
+					{
+						"name": "0:35",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
+					},
+					{
+						"name": "0:55",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
+					}					
 				],
 				"map_locations": [
 					{
@@ -544,6 +542,21 @@
 					{
 						"name": "Defeat Cuckoo Condor",
 						"item_count": 1
+					},
+					{
+						"name": "0:15",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]					
+					},
+					{
+						"name": "0:35",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
+					},
+					{
+						"name": "0:55",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
 					}
 				],
 				"map_locations": [
@@ -798,6 +811,21 @@
 					{
 						"name": "Defeat Aerodent",
 						"item_count": 1
+					},
+					{
+						"name": "0:15",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]					
+					},
+					{
+						"name": "0:35",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
+					},
+					{
+						"name": "0:55",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
 					}
 				],
 				"map_locations": [
@@ -1024,6 +1052,21 @@
 					{
 						"name": "Defeat Catbat",
 						"item_count": 1
+					},
+					{
+						"name": "0:15",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]					
+					},
+					{
+						"name": "0:35",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
+					},
+					{
+						"name": "0:55",
+						"item_count": 1,
+						"visibility_rules": [ "op_treasurehunt_1" ]						
 					}
 				],
 				"map_locations": [

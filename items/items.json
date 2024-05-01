@@ -270,6 +270,78 @@
 		"codes": "cd"
 	},
 	{
+		"name": "Golden Tree Pot",
+		"type": "toggle",
+		"img": "images/treasure1.png",
+		"codes": "treasure1"
+	},
+	{
+		"name": "Golden Apple",
+		"type": "toggle",
+		"img": "images/treasure2.png",
+		"codes": "treasure2"
+	},
+	{
+		"name": "Golden Fish",
+		"type": "toggle",
+		"img": "images/treasure3.png",
+		"codes": "treasure3"
+	},
+	{
+		"name": "Golden Candle Holder",
+		"type": "toggle",
+		"img": "images/treasure4.png",
+		"codes": "treasure4"
+	},
+	{
+		"name": "Golden Lamp",
+		"type": "toggle",
+		"img": "images/treasure5.png",
+		"codes": "treasure5"
+	},
+	{
+		"name": "Golden Crescent Moon Bed",
+		"type": "toggle",
+		"img": "images/treasure6.png",
+		"codes": "treasure6"
+	},
+	{
+		"name": "Golden Teddy Bear",
+		"type": "toggle",
+		"img": "images/treasure7.png",
+		"codes": "treasure7"
+	},
+	{
+		"name": "Golden Lollipop",
+		"type": "toggle",
+		"img": "images/treasure8.png",
+		"codes": "treasure8"
+	},
+	{
+		"name": "Golden Game Boy Advance",
+		"type": "toggle",
+		"img": "images/treasure9.png",
+		"codes": "treasure9"
+	},
+	{
+		"name": "Golden Robot",
+		"type": "toggle",
+		"img": "images/treasure10.png",
+		"codes": "treasure10"
+	},
+	{
+		"name": "Golden Rocket",
+		"type": "toggle",
+		"img": "images/treasure11.png",
+		"codes": "treasure11"
+	},
+	{
+		"name": "Golden Rocking Horse",
+		"type": "toggle",
+		"img": "images/treasure12.png",
+		"codes": "treasure12"
+	},	
+	{
 		"name": "Difficulty",
 		"type": "progressive",
 		"codes": "op_difficulty",
@@ -330,6 +402,25 @@
 			}
 		]
 	},
+	{
+		"name": "Treasure Hunt",
+		"type": "progressive",
+		"codes": "op_treasurehunt",
+		"allow_disabled": false,
+		"loop":true,
+		"stages": [
+			{
+				"img": "images/chest_grey.png",
+				"codes": "op_treasurehunt_0",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/chest.png",
+				"codes": "op_treasurehunt_1",
+				"inheret_codes": false
+			}
+		]
+	},	
 	{
 		"name": "Advanced Logic",
 		"type": "progressive",
