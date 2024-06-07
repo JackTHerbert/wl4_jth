@@ -103,7 +103,7 @@
 				"sections": [
 					{
 						"name": "Current Cave Box",
-						"access_rules": [ "grab,swim,supergroundpound" ],
+						"access_rules": [ "swim,supergroundpound" ],
 						"item_count": 1
 					},
 					{
@@ -127,6 +127,7 @@
 					{
 						"name": "8-Shaped Cave Box",
 						"access_rules": [ "hard,grab,supergroundpound","shard,heavygrab,supergroundpound" ],
+						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
