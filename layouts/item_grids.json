@@ -9,24 +9,12 @@
                 "item_margin": "1,1",
                 "item_size": "4,4",
                 "rows": [
-                    [
-                        "progressivegroundpound"
-                    ],
-                    [
-                        "swim"
-                    ],
-                    [
-                        "headsmash"
-                    ],
-                    [
-                        "progressivegrab"
-                    ],
-                    [
-                        "dashattack"
-                    ],
-                    [
-                        "enemyjump"
-                    ]
+                    ["progressivegroundpound"],
+                    ["swim"],
+                    ["headsmash"],
+                    ["progressivegrab"],
+                    ["dashattack"],
+                    ["enemyjump"]
                 ]
             },
             {
@@ -35,54 +23,18 @@
                 "item_margin": "1,1",
                 "item_size": "2,2",
                 "rows": [
-                    [
-                        "entrynw",
-                        "entryne"
-                    ],
-                    [
-                        "entrysw",
-                        "entryse"
-                    ],
-                    [
-                        "emeraldnw",
-                        "emeraldne"
-                    ],
-                    [
-                        "emeraldsw",
-                        "emeraldse"
-                    ],
-                    [
-                        "rubynw",
-                        "rubyne"
-                    ],
-                    [
-                        "rubysw",
-                        "rubyse"
-                    ],
-                    [
-                        "topaznw",
-                        "topazne"
-                    ],
-                    [
-                        "topazsw",
-                        "topazse"
-                    ],
-                    [
-                        "sapphirenw",
-                        "sapphirene"
-                    ],
-                    [
-                        "sapphiresw",
-                        "sapphirese"
-                    ],
-                    [
-                        "goldennw",
-                        "goldenne"
-                    ],
-                    [
-                        "goldensw",
-                        "goldense"
-                    ]
+                    ["entrynw","entryne"],
+                    ["entrysw","entryse"],
+                    ["emeraldnw","emeraldne"],
+                    ["emeraldsw","emeraldse"],
+                    ["rubynw","rubyne"],
+                    ["rubysw","rubyse"],
+                    ["topaznw","topazne"],
+                    ["topazsw","topazse"],
+                    ["sapphirenw","sapphirene"],
+                    ["sapphiresw","sapphirese"],
+                    ["goldennw","goldenne"],
+                    ["goldensw","goldense"]
                 ]
             },
             {
@@ -91,30 +43,12 @@
                 "item_margin": "1,1",
                 "item_size": "4,4",
                 "rows": [
-                    [
-                        "treasure1",
-                        "treasure2"
-                    ],
-                    [
-                        "treasure3",
-                        "treasure4"
-                    ],
-                    [
-                        "treasure5",
-                        "treasure6"
-                    ],
-                    [
-                        "treasure7",
-                        "treasure8"
-                    ],
-                    [
-                        "treasure9",
-                        "treasure10"
-                    ],
-                    [
-                        "treasure11",
-                        "treasure12"
-                    ]
+                    ["treasure1","treasure2"],
+                    ["treasure3","treasure4"],
+                    ["treasure5","treasure6"],
+                    ["treasure7","treasure8"],
+                    ["treasure9","treasure10"],
+                    ["treasure11","treasure12"]
                 ]
             }			
         ]
@@ -128,9 +62,7 @@
                 "item_size": 96,
                 "h_alignment": "center",
                 "rows": [
-                    [
-                        "op_difficulty"
-                    ]
+                    ["op_difficulty"]
                 ]
             }
         ]
@@ -144,10 +76,7 @@
                 "item_size": "4,4",
                 "h_alignment": "center",
                 "rows": [
-                    [
-                        "op_reqjewel",
-                        "op_reqgjewel"
-                    ]
+                    ["op_reqjewel","op_reqgjewel"]
                 ]
             }
         ]
@@ -161,9 +90,7 @@
                 "item_size": "4,4",
                 "h_alignment": "center",
                 "rows": [
-                    [
-                        "op_openportal","op_advancedlogic","op_treasurehunt"
-                    ]
+                    ["op_openportal","op_advancedlogic","op_treasurehunt"]
                 ]
             }
         ]

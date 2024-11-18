@@ -439,5 +439,35 @@
 				"inheret_codes": false
 			}
 		]
+	},
+	{
+		"name": "Defeat Cractus (Event)",
+		"type": "toggle",
+		"img": "images/boss_cractus.png",
+		"codes": "eventcractus"
+	},
+	{
+		"name": "Defeat Cuckoo Condor (Event)",
+		"type": "toggle",
+		"img": "images/boss_condor.png",
+		"codes": "eventcondor"
+	},
+	{
+		"name": "Defeat Aerodent (Event)",
+		"type": "toggle",
+		"img": "images/boss_aerodent.png",
+		"codes": "eventaerodent"
+	},
+	{
+		"name": "Defeat Catbat (Event)",
+		"type": "toggle",
+		"img": "images/boss_catbat.png",
+		"codes": "eventcatbat"
+	},
+	{
+		"name": "Defeat Golden Diva (Event)",
+		"type": "toggle",
+		"img": "images/boss_diva.png",
+		"codes": "eventdiva"
 	}
 ]
