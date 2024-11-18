@@ -295,7 +295,8 @@
 				"sections": [
 					{
 						"name": "Defeat Cractus",
-						"item_count": 1
+						"item_count": 1,
+						"visibility_rules": [ "$bossdoor" ]
 					},
 					{
 						"name": "0:15",
@@ -535,7 +536,8 @@
 				"sections": [
 					{
 						"name": "Defeat Cuckoo Condor",
-						"item_count": 1
+						"item_count": 1,
+						"visibility_rules": [ "$bossdoor" ]
 					},
 					{
 						"name": "0:15",
@@ -804,7 +806,8 @@
 				"sections": [
 					{
 						"name": "Defeat Aerodent",
-						"item_count": 1
+						"item_count": 1,
+						"visibility_rules": [ "$bossdoor" ]
 					},
 					{
 						"name": "0:15",
@@ -1045,7 +1048,8 @@
 				"sections": [
 					{
 						"name": "Defeat Catbat",
-						"item_count": 1
+						"item_count": 1,
+						"visibility_rules": [ "$bossdoor" ]
 					},
 					{
 						"name": "0:15",

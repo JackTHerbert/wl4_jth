@@ -9,6 +9,15 @@ function has(item, amount)
     end
 end
 
+function bossdoor()
+  if
+    has("op_treasurehunt_1") == true then
+    return false
+else
+    return true
+ end
+end
+
 -- basic functions
 function groundpound()
     return has("groundpound")
