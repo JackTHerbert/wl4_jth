@@ -193,22 +193,18 @@ function onNotifyLaunch(k, v)
 end
 
 --Not working
-function updateEvents(v, reset)
-    if v ~= nil then
+function updateEvents(value, reset)
+    if value ~= nil then
       if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("updateEvents: Value - %s", v))
       end
       for _, event in pairs(EVENT_FLAG_MAPPING) do
         local bitmask = 2 ^ event.bit
-        if reset or (v & bitmask ~= event.status) then
-          event.status = v & bitmask
+        if reset or (value & bitmask ~= event.status) then
+          event.status = value & bitmask
           for _, code in pairs(event.codes) do
             if code.setting == nil or has(code.setting) then
---              if code.code == "harbor_mail" then
---                Tracker:FindObjectForCode(code.code).Active = Tracker:FindObjectForCode(code.code).Active or value & bitmask ~= 0
---              else
-                Tracker:FindObjectForCode(code.code).Active = v & bitmask ~= 0
---              end
+                Tracker:FindObjectForCode(code.code).Active = value & bitmask ~= 0
             end
           end
         end
