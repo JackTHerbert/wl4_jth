@@ -1,0 +1,69 @@
+{
+    "versions": [
+        {
+            "package_version": "0.6",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.6.zip",
+            "sha256": "f5aaa53cf2ef84afaecb1fad1d5614694787b2ef9e76df5aa9d81fa0a6a50a4f",
+            "changelog": [
+                "Wario Land 4 AP 3.0.0 Support",
+                "Fixed Location Mapping with the item ID update brought in with apworld release 3.0.0"
+            ]
+        },
+        {
+            "package_version": "0.5",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.5.zip",
+            "sha256": "2d7ba0ca278ec81396eb941759a4cba01b0aa9bcbaee891ce480aa22aac43e8f",
+            "changelog": [
+                "Wario Land 4 AP 2.0.0 Support (Golden Treasure Hunt)",
+                "Fixed Location Mapping with the addition of Golden Treasure Hunt, Added Locations for Golden Treasure hunt",
+                "Added Items for Golden Treasure Hunt, Full Changelog: v0.4-H1...v0.5"
+            ]
+        },
+        {
+            "package_version": "0.4-H1",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.4-H1.zip",
+            "sha256": "f0f77d300ea1a42200cbb13ee1b4625afecf66a1580c1754fbfb54e49d9c10e8",
+            "changelog": [
+                "Hotfix for APWorld 0.4.5",
+                "Fixed location_mapping.lua to match the removal of Spoiled Rotten in APWorld's locations.py."
+            ]
+        },
+        {
+            "package_version": "0.4",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.4.zip",
+            "sha256": "53a939b13d28cff7fa9bafd6056b04def37d719f60446d4996521aa173b920e9",
+            "changelog": [
+                "Options, Fixes, and More!",
+                "Added 'Open Portal' option toggle",
+                "Added 'Advanced Logic' option toggle",
+                "Altered jewel piece names to match AP",
+                "fixed whitespace",
+                "Altered logic to match current AP",
+                "Fixed Golden passage and golden diva appearing as beatable before other bosses are available",
+                "Added auto tracking of options via slot_data"
+            ]
+        },
+        {
+            "package_version": "0.3",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.3.zip",
+            "sha256": "72189601d0ea95cda1aa1cc664886e889ca227cb57f4c442d693dfcd6692ed07",
+            "changelog": [
+                "Split Gems Release",
+                "Many big changes have been made to this release!",
+                "The gem tracker now will keep checks over gem quadrants, rather than all gem pieces in hallways.",
+                "Locations should be fixed on all difficulties, tracking for chests collected should be working properly now.",
+                "A new Manual option to track how many gems you need in each passage.",
+                "Small other fixes too!"
+            ]
+        },
+        {
+            "package_version": "0.2",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.2.zip",
+            "sha256": "64e1a888b96565bba40353779d9d8da3bd0c0f8b83138dbde11db9f45a938a18",
+            "changelog": [
+                "WL4_JTH Tracker Version 0.2",
+                "Initial release"
+            ]
+        }
+    ]
+}

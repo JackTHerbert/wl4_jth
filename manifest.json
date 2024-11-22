@@ -9,5 +9,6 @@
       "display_name": "Map Tracker",
       "flags": ["ap"]
     }
-  }
+  },
+  "versions_url": "https://raw.githubusercontent.com/JackTHerbert/wl4_jth/master/versions.json"
 }
