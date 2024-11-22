@@ -1102,7 +1102,7 @@
 			},
 	    	{
 				"name": "Golden Diva",
-				"access_rules": [ "$divane,$divase,$divasw,$divanw,heavygrab,$cractusne,$cractusse,$cractussw,$cractusnw,$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,$catbatne,$catbatse,$catbatsw,$catbatnw" ],
+				"access_rules": [ "$divane,$divase,$divasw,$divanw,heavygrab,eventcractus,eventcuckoo,eventaerodent,eventcatbat" ],
 				"sections": [
 					{
 						"name": "Defeat Golden Diva",
