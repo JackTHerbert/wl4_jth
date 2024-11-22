@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/ap_slot.lua")
+ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -72,6 +73,12 @@ function onClear(slot_data)
 		end
 	end
 
+    if PLAYER_ID > -1 then
+        updateEvents(0, true)
+        EVENT_ID = "wl4_events_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
+    end
     -- Thank you @alwaysintreble on the poptracker discord for help here
     if slot_data["required_jewels"] then
         Tracker:FindObjectForCode("op_reqjewel").AcquiredCount = tonumber(slot_data["required_jewels"])
@@ -171,6 +178,46 @@ function onLocation(location_id, location_name)
     end
 end
 
+function onNotify(k, v, old_value)
+	if v ~= old_value then
+		if k == EVENT_ID then
+		  updateEvents(v, false)
+		end
+	end
+end
+
+function onNotifyLaunch(k, v)
+	if k == EVENT_ID then
+		updateEvents(v, false)
+	end
+end
+
+--Not working
+function updateEvents(v, reset)
+    if v ~= nil then
+      if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("updateEvents: Value - %s", v))
+      end
+      for _, event in pairs(EVENT_FLAG_MAPPING) do
+        local bitmask = 2 ^ event.bit
+        if reset or (v & bitmask ~= event.status) then
+          event.status = v & bitmask
+          for _, code in pairs(event.codes) do
+            if code.setting == nil or has(code.setting) then
+--              if code.code == "harbor_mail" then
+--                Tracker:FindObjectForCode(code.code).Active = Tracker:FindObjectForCode(code.code).Active or value & bitmask ~= 0
+--              else
+                Tracker:FindObjectForCode(code.code).Active = v & bitmask ~= 0
+--              end
+            end
+          end
+        end
+      end
+    end
+  end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
