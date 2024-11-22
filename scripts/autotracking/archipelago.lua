@@ -192,7 +192,6 @@ function onNotifyLaunch(k, v)
 	end
 end
 
---Not working
 function updateEvents(value, reset)
     if value ~= nil then
       if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
