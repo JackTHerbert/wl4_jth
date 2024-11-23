@@ -469,5 +469,138 @@
 		"type": "toggle",
 		"img": "images/boss_diva.png",
 		"codes": "eventdiva"
+	},
+	{
+		"name": "Open Doors",
+		"type": "progressive",
+		"codes": "op_doors",
+		"allow_disabled": false,
+		"loop":true,
+		"stages": [
+			{
+				"img": "images/keyzer_grey.png",
+				"codes": "op_doors_0",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/keyzer_golden.png",
+				"codes": "op_doors_1",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/keyzer.png",
+				"codes": "op_doors_2",
+				"inheret_codes": false
+			}
+		]
+	},
+	{
+		"name": "Keyzer Hall Of Hieroglyphs",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerhoh"
+	},
+	{
+		"name": "Keyzer Palm Tree Paradise",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerptp"
+	},
+	{
+		"name": "Keyzer Wildflower Fields",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerwf"
+	},
+	{
+		"name": "Keyzer Mystic Lake",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerml"
+	},
+	{
+		"name": "Keyzer Monsoon Jungle",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzermj"
+	},
+	{
+		"name": "Keyzer The Curious Factory",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzercf"
+	},
+	{
+		"name": "Keyzer The Toxic Landfill",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzertl"
+	},
+	{
+		"name": "Keyzer 40 Below Fridge",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerbf"
+	},
+	{
+		"name": "Keyzer Pinball Zone",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerpz"
+	},
+	{
+		"name": "Keyzer Toy Block Tower",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzertbt"
+	},
+	{
+		"name": "Keyzer The Big Board",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerbb"
+	},
+	{
+		"name": "Keyzer Doodle Woods",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerdw"
+	},
+	{
+		"name": "Keyzer Domino Row",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerdr"
+	},
+	{
+		"name": "Keyzer Crescent Moon Village",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzercmv"
+	},
+	{
+		"name": "Keyzer Arabian Night",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzeran"
+	},
+	{
+		"name": "Keyzer Fiery Cavern",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerfc"
+	},
+	{
+		"name": "Keyzer Hotel Horror",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzerhh"
+	},
+	{
+		"name": "Keyzer Golden Passage",
+		"type": "toggle",
+		"img": "images/keyzer.png",
+		"codes": "keyzergp"
 	}
+
 ]
