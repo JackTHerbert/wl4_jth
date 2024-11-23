@@ -81,7 +81,13 @@
 					{
 						"name": "Full Health Item Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerptp",
+						"visibility_rules": [ "op_doors_2" ]
 					}
+
 				],
 				"map_locations": [
 					{
@@ -94,7 +100,7 @@
 			},
 			{
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound","op_openportal_1" ],
+				"access_rules": [ "swim,supergroundpound,keyzerptp","op_openportal_1,keyzerptp" ],
 				"sections": [
 					{
 						"name": "Current Cave Box",
@@ -139,7 +145,14 @@
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerwf",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
+
 				],
 				"map_locations": [
 					{
@@ -151,7 +164,7 @@
 			},
 			{
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash","op_openportal_1" ],
+				"access_rules": [ "swim,headsmash,keyzerwf","op_openportal_1,keyzerwf" ],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
@@ -216,6 +229,12 @@
 						"name": "Full Health Item Box",
 						"access_rules": [ "normal,grab","hard,grab","shard,dashattack,swim,headsmash" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerml",
+						"access_rules": [ "swim,headsmash" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -228,7 +247,7 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound","op_openportal_1" ],
+				"access_rules": [ "groundpound,keyzerml","op_openportal_1,keyzerml" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
@@ -279,6 +298,12 @@
 						"name": "Full Health Item Box",
 						"access_rules": [ "swim" ], 
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzermj",
+						"access_rules": [ "groundpound" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -291,7 +316,7 @@
 			},
 			{
 				"name": "Cractus",
-				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound" ],
+				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound,keyzermj" ],
 				"sections": [
 					{
 						"name": "Defeat Cractus",
@@ -368,6 +393,11 @@
 					{
 						"name": "CD Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzercf",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -380,7 +410,7 @@
 			},
 			{
 				"name": "The Toxic Landfill",
-				"access_rules": [ "dashattack,supergroundpound,headsmash" ],
+				"access_rules": [ "dashattack,supergroundpound,headsmash,keyzercf" ],
 				"sections": [
 					{
 						"name": "Portal Room Box",
@@ -426,6 +456,11 @@
 						"name": "Full Health Item Box",
 			    			"visibility_rules": [ "normal" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzertl",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -438,7 +473,7 @@
 			},
 			{
 				"name": "40 Below Fridge",
-				"access_rules": [ "supergroundpound" ],
+				"access_rules": [ "supergroundpound,keyzertl" ],
 				"sections": [
 					{
 						"name": "Looping Room Box",
@@ -460,6 +495,11 @@
 						"name": "CD Box",
 						"access_rules": [ "headsmash" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerbf",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -472,7 +512,7 @@
 			},
 			{
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash","grab,op_openportal_1" ],
+				"access_rules": [ "grab,groundpound,headsmash,keyzerbf","grab,op_openportal_1,keyzerbf" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
@@ -519,6 +559,12 @@
 						"name": "Rolling Room Full Health Item Box",
 			    		"visibility_rules": [ "shard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerpz",
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,op_advancedlogic_1" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -531,7 +577,7 @@
 			},
 			{
 				"name": "Cuckoo Condor",
-				"access_rules": [ "$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,grab" ],
+				"access_rules": [ "$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,grab,keyzerpz" ],
 				"sections": [
 					{
 						"name": "Defeat Cuckoo Condor",
@@ -620,6 +666,11 @@
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzertbt",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -632,7 +683,7 @@
 			},
 			{
 				"name": "The Big Board",
-				"access_rules": [ "groundpound" ],
+				"access_rules": [ "groundpound,keyzertbt" ],
 				"sections": [
 					{
 						"name": "First Box",
@@ -684,6 +735,11 @@
 						"access_rules": [ "grab,enemyjump" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerbb",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -696,6 +752,7 @@
 			},
 			{
 				"name": "Doodle Woods",
+				"access_rules": [ "keyzerbb" ],
 				"sections": [
 					{
 						"name": "Box Behind Wall",
@@ -744,6 +801,11 @@
 						"name": "CD Box",
 						"access_rules": [ "normal,grab,op_advancedlogic_1","normal,groundpound","hard","shard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerdw",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -756,7 +818,7 @@
 			},
 			{
 				"name": "Domino Row",
-				"access_rules": [ "swim,groundpound","op_openportal_1" ],
+				"access_rules": [ "swim,groundpound,keyzerdw","op_openportal_1,keyzerdw" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -788,6 +850,12 @@
 						"name": "CD Box",
 						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerdr",
+						"access_rules": [ "swim,groundpound" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -800,7 +868,7 @@
 			},
 			{
 				"name": "Aerodent",
-				"access_rules": [ "$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,grab" ],
+				"access_rules": [ "$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,grab,keyzerdr" ],
 				"sections": [
 					{
 						"name": "Defeat Aerodent",
@@ -878,6 +946,12 @@
 						"name": "CD Box",
 						"access_rules": [ "dashattack" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzercmv",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -890,7 +964,7 @@
 			},
 			{
 				"name": "Arabian Night",
-				"access_rules": [ "swim","op_openportal_1" ],
+				"access_rules": [ "swim,keyzercmv","op_openportal_1,keyzercmv" ],
 				"sections": [
 					{
 						"name": "Onomi Box",
@@ -928,6 +1002,11 @@
 						"name": "CD Box",
 						"access_rules": [ "swim" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzeran",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -940,7 +1019,7 @@
 			},
 			{
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash","op_openportal_1" ],
+				"access_rules": [ "groundpound,dashattack,headsmash,keyzeran","op_openportal_1,keyzeran" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -971,6 +1050,12 @@
 						"name": "CD Box",
 						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerfc",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -983,7 +1068,7 @@
 			},
 			{
 				"name": "Hotel Horror",
-				"access_rules": [ "normal,heavygrab","hard,heavygrab","shard","op_openportal_1" ],
+				"access_rules": [ "normal,heavygrab,keyzerfc","hard,heavygrab,keyzerfc","shard,keyzerfc","op_openportal_1,keyzerfc" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
@@ -1029,6 +1114,11 @@
 						"name": "CD Box",
 						"access_rules": [ "shard","heavygrab,normal","heavygrab,hard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerhh",
+						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -1041,7 +1131,7 @@
 			},
 	    	{
 				"name": "Catbat",
-				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound,keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1,keyzerhh" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
@@ -1090,6 +1180,11 @@
 					{
 						"name": "Mad Scienstein Box",
 						"item_count": 1
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzergp",
+						"visibility_rules": [ "op_doors_1","op_doors_2" ]
 					}
 				],
 				"map_locations": [
@@ -1102,7 +1197,7 @@
 			},
 	    	{
 				"name": "Golden Diva",
-				"access_rules": [ "$divane,$divase,$divasw,$divanw,heavygrab,eventcractus,eventcondor,eventaerodent,eventcatbat" ],
+				"access_rules": [ "$divane,$divase,$divasw,$divanw,heavygrab,eventcractus,eventcondor,eventaerodent,eventcatbat,keyzergp" ],
 				"sections": [
 					{
 						"name": "Defeat Golden Diva",
