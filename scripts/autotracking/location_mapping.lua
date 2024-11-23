@@ -88,9 +88,9 @@ LOCATION_MAPPING = {
 	[0xEC0F87] = {"@World/Pinball Zone/Pink Room Full Health Item Box"},
 	[0xEC0F88] = {"@World/Pinball Zone/Rolling Room Full Health Item Box"},
 
-	[0xEC10E3] = {"@World/Cuckoo Condor/0:55"},
+	[0xEC10E1] = {"@World/Cuckoo Condor/0:55"},
 	[0xEC10E2] = {"@World/Cuckoo Condor/0:35"},
-	[0xEC10E1] = {"@World/Cuckoo Condor/0:15"},
+	[0xEC10E3] = {"@World/Cuckoo Condor/0:15"},
 
 
 	[0xEC1261] = {"@World/Toy Block Tower/Toy Car Overhang Box"},
