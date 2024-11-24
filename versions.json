@@ -1,6 +1,21 @@
 {
     "versions": [
         {
+            "package_version": "0.7",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.7.zip",
+            "sha256": "543fc28d6bf52d37bc9341765b2ff4a48b32ccbb2021eff4d9123030c6c28d82",
+            "changelog": [
+                "THE Event Tracking Update",
+                "Added code to pull the events bitfield.",
+                "Tracker now automatically tracks when bosses are defeated.",
+                "New option: Open Doors",
+                "Keyzer locations have been added, and are tracked now automatically.",
+                "'Open Doors: Closed' and 'Open Doors: Closed Diva' now takes into account what levels you have unlocked.",
+                "'Open Doors: Open' updates locations after the game connects for the first time.",
+                "Poptracker pack now also has a versions list, so this and future releases can be updated directly from Poptracker."
+            ]
+        },
+        {
             "package_version": "0.6",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.6.zip",
             "sha256": "f5aaa53cf2ef84afaecb1fad1d5614694787b2ef9e76df5aa9d81fa0a6a50a4f",
