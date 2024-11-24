@@ -1,7 +1,7 @@
 {
     "versions": [
         {
-            "package_version": "0.7",
+            "package_version": "0.7 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.7.zip",
             "sha256": "543fc28d6bf52d37bc9341765b2ff4a48b32ccbb2021eff4d9123030c6c28d82",
             "changelog": [
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "package_version": "0.6",
+            "package_version": "0.6 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.6.zip",
             "sha256": "f5aaa53cf2ef84afaecb1fad1d5614694787b2ef9e76df5aa9d81fa0a6a50a4f",
             "changelog": [
