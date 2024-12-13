@@ -1,0 +1,252 @@
+{
+    "map_layout": {
+		"type": "tabbed",
+		"dock": "top",
+		"tabs": [
+			{
+				"title": "Overview",
+				"icon": "images/map.png",
+				"content": {
+					"type": "map",
+					"maps": ["map"]
+					}
+			},
+			{
+				"title": "Level Views",
+				"content": {
+					"type": "tabbed",
+					"dock": "top",
+					"tabs": [
+						{
+							"title": "Entry/Golden Passage",
+							"content": {
+								"type": "tabbed",
+								"dock": "top",
+								"tabs": [
+									{
+										"title": "Hall Of Heiroglyphs",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Pipe Entrances",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Pipe Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Shoulder Bash Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Dash Attack Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Hallway After Dash",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Grab and Throw Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 3",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 4",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ground Pound Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR10"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+									}
+								]
+							}
+						},
+                        {
+                            "title": "Emerald Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Palm Tree Paradise",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 3",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ladder Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Big Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 4",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "The Lost Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR01"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Wildflower Fields",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+					]
+				}
+			}
+		]
+    }
+}

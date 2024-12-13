@@ -1214,5 +1214,111 @@
 			}
 			
 		]	
+	},
+	{
+		"name": "HOH",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"access_rules": [ "dashattack,grab,supergroundpound" ],
+		"children": [
+			{
+				"name": "First Jewel Box",
+				"sections": [
+					{
+						"name": "First Jewel Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR01",
+						"x": 296,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Second Jewel Box",
+				"sections": [
+					{
+						"name": "Second Jewel Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR03",
+						"x": 264,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Third Jewel Box",
+				"sections": [
+					{
+						"name": "Third Jewel Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR07",
+						"x": 264,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Fourth Jewel Box",
+				"sections": [
+					{
+						"name": "Fourth Jewel Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR09",
+						"x": 264,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Grab Tutorial Item",
+				"sections": [
+					{
+						"name": "Full Health Item Box",
+						"visibility_rules": ["normal","hard"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR06",
+						"x": 680,
+						"y": 385
+					}
+				]
+			},
+			{
+				"name": "Hidden Room",
+				"sections": [
+					{
+						"name": "Full Health Item Box",
+						"visibility_rules": ["shard"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR10",
+						"x": 95,
+						"y": 180
+					}
+				]
+			}
+		]
 	}
 ]

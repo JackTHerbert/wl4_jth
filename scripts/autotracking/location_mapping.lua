@@ -1,9 +1,9 @@
 LOCATION_MAPPING = {
-    [0xEC00E1] = {"@World/Hall of Hieroglyphs/First Jewel Box"},
-	[0xEC00E2] = {"@World/Hall of Hieroglyphs/Second Jewel Box"},
-	[0xEC00E3] = {"@World/Hall of Hieroglyphs/Third Jewel Box"},
-	[0xEC00E4] = {"@World/Hall of Hieroglyphs/Fourth Jewel Box"},
-	[0xEC00E7] = {"@World/Hall of Hieroglyphs/Full Health Item Box"},
+    [0xEC00E1] = {"@World/Hall of Hieroglyphs/First Jewel Box","@HOH/First Jewel Box/First Jewel Box"},
+	[0xEC00E2] = {"@World/Hall of Hieroglyphs/Second Jewel Box","@HOH/Second Jewel Box/Second Jewel Box"},
+	[0xEC00E3] = {"@World/Hall of Hieroglyphs/Third Jewel Box","@HOH/Third Jewel Box/Third Jewel Box"},
+	[0xEC00E4] = {"@World/Hall of Hieroglyphs/Fourth Jewel Box","@HOH/Fourth Jewel Box/Fourth Jewel Box"},
+	[0xEC00E7] = {"@World/Hall of Hieroglyphs/Full Health Item Box","@HOH/Grab Tutorial Item/Full Health Item Box","@HOH/Hidden Room/Full Health Item Box"},
 
 
 	[0xEC0621] = {"@World/Palm Tree Paradise/First Box"},

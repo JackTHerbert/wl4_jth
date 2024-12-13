@@ -169,4 +169,42 @@ function divanw()
   return jewelCount + 1 - jewelReq
 end
 
-
+function doorcheck()
+  local doormode2 = Tracker:ProviderCountForCode("op_doors_2")
+  local doormode1 = Tracker:ProviderCountForCode("op_doors_1")
+  if doormode2 == 1 then
+    Tracker:FindObjectForCode("keyzergp").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerptp").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerwf").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerml").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzermj").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzercf").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzertl").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerbf").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerpz").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzertbt").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerbb").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerdw").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerdr").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzercmv").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzeran").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerfc").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerhh").AcquiredCount = 1
+  else if doormode1 == 1 then
+    Tracker:FindObjectForCode("keyzerptp").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerwf").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerml").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzermj").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzercf").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzertl").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerbf").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerpz").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzertbt").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerbb").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerdw").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerdr").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzercmv").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzeran").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerfc").AcquiredCount = 1
+    Tracker:FindObjectForCode("keyzerhh").AcquiredCount = 1
+  end
