@@ -122,7 +122,23 @@
                                                 }
                                             ]
                                         }
-									}
+									},
+                                    {
+                                        "title": "Golden Passage",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Hallway",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
 								]
 							}
 						},
@@ -236,6 +252,257 @@
                                                     "content": {
                                                         "type": "map",
                                                         "maps": ["WFR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mystic Lake",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Monsoon Jungle",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ruby Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Curious Factory",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Hallway",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Toxic Landfill",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "40 Below Fridge",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Pinball Zone",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Outside of Pinball Puzzles",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Topaz Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Toy Block Tower",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Big Board",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Doodle Woods",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Domino Row",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sapphire Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Crescent Moon Village",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Alleyway",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Arabian Night",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Fiery Cavern",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR00"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Hotel Horror",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "First Floor",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR00"]
                                                     }
                                                 }
                                             ]
