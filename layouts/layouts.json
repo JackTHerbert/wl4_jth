@@ -54,18 +54,8 @@
 					"type": "dock",
 					"content": [
 						{
-							"type": "tabbed",
-							"dock": "top",
-							"tabs": [
-								{
-									"title": "Map",
-									"icon": "images/map.png",
-									"content": {
-										"type": "map",
-										"maps": ["map"]
-									}
-								}
-							]
+							"type": "layout",
+							"key": "map_layout"
 						}
 					]
 				}

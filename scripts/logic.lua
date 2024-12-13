@@ -168,5 +168,3 @@ function divanw()
   local jewelReq = Tracker:ProviderCountForCode("op_reqgjewel")
   return jewelCount + 1 - jewelReq
 end
-
-

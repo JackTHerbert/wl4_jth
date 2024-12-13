@@ -188,7 +188,7 @@ function updateEvents(value, reset)
         end
       end
     end
-  end
+end
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
