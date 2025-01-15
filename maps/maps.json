@@ -1360,5 +1360,47 @@
 		"location_size": 25,
 		"location_border_thickness": 2,
 		"img": "images/levelrooms/5-0-gp/room06.png"
+	},
+	{
+		"name": "BOSS0",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/spoiledroom.png"
+	},
+	{
+		"name": "BOSS00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/spoiledroom1.png"
+	},
+	{
+		"name": "BOSS1",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/cractusroom.png"
+	},
+	{
+		"name": "BOSS2",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/cuckooroom.png"
+	},
+	{
+		"name": "BOSS3",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/aerodentroom.png"
+	},
+	{
+		"name": "BOSS4",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/catbatroom.png"
+	},
+	{
+		"name": "BOSS5",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/divaroom.png"
 	}
 ]
