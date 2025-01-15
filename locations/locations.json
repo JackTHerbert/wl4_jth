@@ -1320,5 +1320,230 @@
 				]
 			}
 		]
+	},
+	{
+		"name": "PTP",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "First Box",
+				"sections": [
+					{
+						"name": "First Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR02",
+						"x": 585,
+						"y": 210
+					}
+				]
+			},
+			{
+				"name": "Ledge Item",
+				"sections": [
+					{
+						"name": "Ledge Box",
+						"visibility_rules": [ "hard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR02",
+						"x": 820,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Dead End Box",
+				"sections": [
+					{
+						"name": "Dead End Box",
+						"visibility_rules": [ "shard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR06",
+						"x": 505,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Box Before Cave",
+				"sections": [
+					{
+						"name": "Box Before Cave",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR03",
+						"x": 505,
+						"y": 225
+					}
+				]
+			},
+			{
+				"name": "Hidden Item",
+				"sections": [
+					{
+						"name": "Hidden Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR03",
+						"x": 660,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Ladder Cave",
+				"sections": [
+					{
+						"name": "Ladder Cave Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR03",
+						"x": 940,
+						"y": 190
+					}
+				]
+			},
+			{
+				"name": "Ladder Cave Box (Middle)",
+				"sections": [
+					{
+						"name": "Ladder Cave Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR07",
+						"x": 105,
+						"y": 225
+					}
+				]
+			},
+			{
+				"name": "Ladder Cave Box (Upper)",
+				"sections": [
+					{
+						"name": "Ladder Cave Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR07",
+						"x": 160,
+						"y": 110
+					}
+				]
+			},
+			{
+				"name": "Platform Cave Hidden Item",
+				"sections": [
+					{
+						"name": "Platform Cave Box",
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 95,
+						"y": 130
+					}
+				]
+			},
+			{
+				"name": "Platform Cave Item",
+				"sections": [
+					{
+						"name": "Platform Cave Box",
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 215,
+						"y": 130
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"name": "CD Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 440,
+						"y": 290
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"name": "Full Health Item Box",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR06",
+						"x": 328,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerptp",
+						"visibility_rules": [ "op_doors_2" ]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR05",
+						"x": 430,
+						"y": 125
+					}
+				]
+			}
+		]
 	}
 ]
