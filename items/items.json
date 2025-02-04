@@ -441,6 +441,25 @@
 		]
 	},
 	{
+		"name": "Diamond Shuffle",
+		"type": "progressive",
+		"codes": "op_diamond",
+		"allow_disabled": false,
+		"loop":true,
+		"stages": [
+			{
+				"img": "images/diamond_grey.png",
+				"codes": "op_diamond_0",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/diamond.png",
+				"codes": "op_diamond_1",
+				"inheret_codes": false
+			}
+		]
+	},
+	{
 		"name": "Defeat Cractus (Event)",
 		"type": "toggle",
 		"img": "images/boss_cractus.png",
