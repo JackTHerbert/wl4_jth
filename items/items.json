@@ -476,6 +476,7 @@
 		"codes": "op_doors",
 		"allow_disabled": false,
 		"loop":true,
+		"initial_stage_idx": 2,
 		"stages": [
 			{
 				"img": "images/keyzer_grey.png",
@@ -601,6 +602,25 @@
 		"type": "toggle",
 		"img": "images/keyzer.png",
 		"codes": "keyzergp"
+	},	
+	{
+		"name": "Automatic Tab Toggle",
+		"type": "progressive",
+		"codes": "op_auto_tab",
+		"allow_disabled": false,
+		"loop":true,
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/wario_splat_grey.png",
+				"codes": "op_auto_tab_off",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/wario_splat.png",
+				"codes": "op_auto_tab_on",
+				"inheret_codes": false
+			}
+		]
 	}
-
 ]
