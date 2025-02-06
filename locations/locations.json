@@ -1958,6 +1958,81 @@
 						"restrict_visibility_rules": [ "shard" ]
 					}
 				]
+			},
+			{
+				"name": "Stone Block Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Stone Block Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR05",
+						"x": 336,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "Grab Tutorial Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Grab Tutorial Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR06",
+						"x": 680,
+						"y": 385
+					}
+				]
+			},
+			{
+				"name": "Diamond Above Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Diamond Above Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR09",
+						"x": 264,
+						"y": 80
+					}
+				]
+			},
+			{
+				"name": "Alcove Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Alcove Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR10",
+						"x": 95,
+						"y": 178
+					}
+				]
+			},
+			{
+				"name": "Ground Pound Tutorial Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Ground Pound Tutorial Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR10",
+						"x": 351,
+						"y": 113
+					}
+				]
 			}
 		]
 	},
@@ -1986,6 +2061,9 @@
 				"sections": [
 					{
 						"ref": "World/Palm Tree Paradise/Ledge Box"
+					},
+					{
+						"ref": "World/Palm Tree Paradise/Ledge Diamond"
 					}
 				],
 				"map_locations": [
@@ -2031,6 +2109,9 @@
 				"sections": [
 					{
 						"ref": "World/Palm Tree Paradise/Hidden Box"
+					},
+					{
+						"ref": "World/Palm Tree Paradise/Hidden Tunnel Diamond"
 					}
 				],
 				"map_locations": [
@@ -2046,6 +2127,9 @@
 				"sections": [
 					{
 						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
+					},
+					{
+						"ref": "World/Palm Tree Paradise/Ladder Cave Pink Room Diamond"
 					}
 				],
 				"map_locations": [
@@ -2101,6 +2185,21 @@
 				]
 			},
 			{
+				"name": "Platform Cave Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Platform Cave Hidden Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 95,
+						"y": 97
+					}
+				]
+			},
+			{
 				"name": "CD Box",
 				"sections": [
 					{
@@ -2131,6 +2230,66 @@
 				]
 			},
 			{
+				"name": "Submerged Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Submerged Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR08",
+						"x": 175,
+						"y": 290
+					},
+					{
+						"map": "PTPR05",
+						"x": 255,
+						"y": 255
+					}
+				]
+			},
+			{
+				"name": "Ladder Cave Pink Room Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Ladder Cave Pink Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR11",
+						"x": 63,
+						"y": 210
+					},
+					{
+						"map": "PTPR07",
+						"x": 160,
+						"y": 55
+					}
+				]
+			},
+			{
+				"name": "Scienstein Throw Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Scienstein Throw Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR10",
+						"x": 159,
+						"y": 195
+					},
+					{
+						"map": "PTPR05",
+						"x": 145,
+						"y": 115
+					}
+				]
+			},
+			{
 				"name": "Keyzer",
 				"sections": [
 					{
@@ -2142,6 +2301,283 @@
 						"map": "PTPR05",
 						"x": 430,
 						"y": 130
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "WF",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Current Cave Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Current Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR07",
+						"x": 424,
+						"y": 113,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "WFR07",
+						"x": 123,
+						"y": 113,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Sunflower Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Sunflower Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR08",
+						"x": 360,
+						"y": 353
+					}
+				]
+			},
+			{
+				"name": "Sunflower Ledge Item",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Sunflower Box"
+					},
+					{
+						"ref": "World/Wildflower Fields/Sunflower Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR08",
+						"x": 751,
+						"y": 177
+					}
+				]
+			},
+			{
+				"name": "Slope Room Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Slope Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 584,
+						"y": 179
+					}
+				]
+			},
+			{
+				"name": "8-Shaped Cave Item",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/8-Shaped Cave Box"
+					},
+					{
+						"ref": "World/Wildflower Fields/8-Shaped Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 576,
+						"y": 416
+					},
+					{
+						"map": "WFR04",
+						"x": 639,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "Beezly Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Beezly Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR09",
+						"x": 936,
+						"y": 306,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "WFR09",
+						"x": 1012,
+						"y": 147,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR00",
+						"x": 365,
+						"y": 36
+					},
+					{
+						"map": "WFR01",
+						"x": 104,
+						"y": 116
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR08",
+						"x": 728,
+						"y": 353
+					}
+				]
+			},
+			{
+				"name": "Scienstein Stomp Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Scienstein Stomp Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR06",
+						"x": 416,
+						"y": 560
+					},
+					{
+						"map": "WFR12",
+						"x": 222,
+						"y": 257
+					}
+				]
+			},
+			{
+				"name": "Hidden Tunnel Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Hidden Tunnel Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR00",
+						"x": 79,
+						"y": 225
+					}
+				]
+			},
+			{
+				"name": "Escape Detour Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Escape Detour Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 95,
+						"y": 114
+					}
+				]
+			},
+			{
+				"name": "Escape Detour Corner Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Escape Detour Corner Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 335,
+						"y": 37
+					},
+					{
+						"map": "WFR03",
+						"x": 303,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Current Cave Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Current Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR07",
+						"x": 191,
+						"y": 802
+					}
+				]
+			},
+			{
+				"name": "Switch Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Switch Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR10",
+						"x": 64,
+						"y": 442
+					},
+					{
+						"map": "WFR13",
+						"x": 78,
+						"y": 80
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR05",
+						"x": 172,
+						"y": 128
 					}
 				]
 			}
