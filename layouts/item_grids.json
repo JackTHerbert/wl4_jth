@@ -91,7 +91,7 @@
                 "h_alignment": "center",
                 "rows": [
                     ["op_openportal","op_advancedlogic","op_treasurehunt"],
-                    ["op_doors","op_auto_tab"]
+                    ["op_doors","op_diamond","op_auto_tab"]
                 ]
             }
         ]
