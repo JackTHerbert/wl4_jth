@@ -1881,8 +1881,7 @@
 				"name": "First Jewel Box",
 				"sections": [
 					{
-						"name": "First Jewel Box",
-						"item_count": 1
+						"ref": "World/Hall of Hieroglyphs/First Jewel Box"
 					}
 				],
 				"map_locations": [
@@ -1897,8 +1896,7 @@
 				"name": "Second Jewel Box",
 				"sections": [
 					{
-						"name": "Second Jewel Box",
-						"item_count": 1
+						"ref": "World/Hall of Hieroglyphs/Second Jewel Box"
 					}
 				],
 				"map_locations": [
@@ -1913,8 +1911,7 @@
 				"name": "Third Jewel Box",
 				"sections": [
 					{
-						"name": "Third Jewel Box",
-						"item_count": 1
+						"ref": "World/Hall of Hieroglyphs/Third Jewel Box"
 					}
 				],
 				"map_locations": [
@@ -1929,8 +1926,7 @@
 				"name": "Fourth Jewel Box",
 				"sections": [
 					{
-						"name": "Fourth Jewel Box",
-						"item_count": 1
+						"ref": "World/Hall of Hieroglyphs/Fourth Jewel Box"
 					}
 				],
 				"map_locations": [
@@ -1942,36 +1938,24 @@
 				]
 			},
 			{
-				"name": "Grab Tutorial Item",
+				"name": "Full Health Item Box",
 				"sections": [
 					{
-						"name": "Full Health Item Box",
-						"visibility_rules": ["normal","hard"],
-						"item_count": 1
+						"ref": "World/Hall of Hieroglyphs/Full Health Item Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "HOHR06",
 						"x": 680,
-						"y": 385
-					}
-				]
-			},
-			{
-				"name": "Hidden Room",
-				"sections": [
-					{
-						"name": "Full Health Item Box",
-						"visibility_rules": ["shard"],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
+						"y": 385,
+						"restrict_visibility_rules": ["normal","hard"]
+					},
 					{
 						"map": "HOHR10",
 						"x": 95,
-						"y": 180
+						"y": 178,
+						"restrict_visibility_rules": [ "shard" ]
 					}
 				]
 			}
@@ -1986,15 +1970,13 @@
 				"name": "First Box",
 				"sections": [
 					{
-						"name": "First Box",
-						"visibility_rules": [ "normal" ],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/First Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR02",
-						"x": 585,
+						"x": 584,
 						"y": 210
 					}
 				]
@@ -2003,16 +1985,14 @@
 				"name": "Ledge Item",
 				"sections": [
 					{
-						"name": "Ledge Box",
-						"visibility_rules": [ "hard" ],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Ledge Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR02",
-						"x": 820,
-						"y": 160
+						"x": 835,
+						"y": 155
 					}
 				]
 			},
@@ -2020,16 +2000,14 @@
 				"name": "Dead End Box",
 				"sections": [
 					{
-						"name": "Dead End Box",
-						"visibility_rules": [ "shard" ],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Dead End Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR06",
-						"x": 505,
-						"y": 145
+						"x": 504,
+						"y": 143
 					}
 				]
 			},
@@ -2037,16 +2015,14 @@
 				"name": "Box Before Cave",
 				"sections": [
 					{
-						"name": "Box Before Cave",
-						"visibility_rules": [ "normal" ],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Box Before Cave"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR03",
-						"x": 505,
-						"y": 225
+						"x": 504,
+						"y": 226
 					}
 				]
 			},
@@ -2054,16 +2030,14 @@
 				"name": "Hidden Item",
 				"sections": [
 					{
-						"name": "Hidden Box",
-						"visibility_rules": [ "hard","shard" ],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Hidden Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR03",
-						"x": 660,
-						"y": 160
+						"x": 655,
+						"y": 161
 					}
 				]
 			},
@@ -2071,83 +2045,58 @@
 				"name": "Ladder Cave",
 				"sections": [
 					{
-						"name": "Ladder Cave Box",
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR03",
-						"x": 940,
+						"x": 938,
 						"y": 190
 					}
 				]
 			},
 			{
-				"name": "Ladder Cave Box (Middle)",
+				"name": "Ladder Cave Box",
 				"sections": [
 					{
-						"name": "Ladder Cave Box",
-						"visibility_rules": [ "normal" ],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR07",
-						"x": 105,
-						"y": 225
-					}
-				]
-			},
-			{
-				"name": "Ladder Cave Box (Upper)",
-				"sections": [
-					{
-						"name": "Ladder Cave Box",
-						"visibility_rules": [ "hard","shard" ],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
+						"x": 104,
+						"y": 225,
+						"restrict_visibility_rules": [ "normal" ]
+					},
 					{
 						"map": "PTPR07",
 						"x": 160,
-						"y": 110
+						"y": 112,
+						"restrict_visibility_rules": [ "hard","shard" ]
 					}
 				]
 			},
 			{
-				"name": "Platform Cave Hidden Item",
+				"name": "Platform Cave Box",
 				"sections": [
 					{
-						"name": "Platform Cave Box",
-						"visibility_rules": [ "hard","shard" ],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Platform Cave Jewel Box"
 					}
 				],
 				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 216,
+						"y": 133,
+						"restrict_visibility_rules": [ "normal" ]
+					},
 					{
 						"map": "PTPR04",
 						"x": 95,
-						"y": 130
-					}
-				]
-			},
-			{
-				"name": "Platform Cave Item",
-				"sections": [
-					{
-						"name": "Platform Cave Box",
-						"visibility_rules": [ "normal" ],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
-					{
-						"map": "PTPR04",
-						"x": 215,
-						"y": 130
+						"y": 133,
+						"restrict_visibility_rules": [ "hard","shard" ]
 					}
 				]
 			},
@@ -2155,8 +2104,7 @@
 				"name": "CD Box",
 				"sections": [
 					{
-						"name": "CD Box",
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/CD Box"
 					}
 				],
 				"map_locations": [
@@ -2171,8 +2119,7 @@
 				"name": "Full Health Item Box",
 				"sections": [
 					{
-						"name": "Full Health Item Box",
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Full Health Item Box"
 					}
 				],
 				"map_locations": [
@@ -2187,16 +2134,14 @@
 				"name": "Keyzer",
 				"sections": [
 					{
-						"name": "Keyzer",
-						"hosted_item": "keyzerptp",
-						"visibility_rules": [ "op_doors_2" ]
+						"ref": "World/Palm Tree Paradise/Keyzer"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR05",
 						"x": 430,
-						"y": 125
+						"y": 130
 					}
 				]
 			}

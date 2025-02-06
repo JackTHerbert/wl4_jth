@@ -495,6 +495,7 @@
 		"codes": "op_doors",
 		"allow_disabled": false,
 		"loop":true,
+		"initial_stage_idx": 2,
 		"stages": [
 			{
 				"img": "images/keyzer_grey.png",
@@ -620,6 +621,25 @@
 		"type": "toggle",
 		"img": "images/keyzer.png",
 		"codes": "keyzergp"
+	},	
+	{
+		"name": "Automatic Tab Toggle",
+		"type": "progressive",
+		"codes": "op_auto_tab",
+		"allow_disabled": false,
+		"loop":true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/autotaboff.png",
+				"codes": "op_auto_tab_off",
+				"inheret_codes": false
+			},
+			{
+				"img": "images/autotabon.png",
+				"codes": "op_auto_tab_on",
+				"inheret_codes": false
+			}
+		]
 	}
-
 ]
