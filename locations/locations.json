@@ -1298,7 +1298,7 @@
 					{
 						"map": "HOHR10",
 						"x": 95,
-						"y": 180,
+						"y": 178,
 						"restrict_visibility_rules": [ "shard" ]
 					}
 				]
@@ -1320,7 +1320,7 @@
 				"map_locations": [
 					{
 						"map": "PTPR02",
-						"x": 585,
+						"x": 584,
 						"y": 210
 					}
 				]
@@ -1335,8 +1335,8 @@
 				"map_locations": [
 					{
 						"map": "PTPR02",
-						"x": 820,
-						"y": 160
+						"x": 835,
+						"y": 155
 					}
 				]
 			},
@@ -1350,8 +1350,8 @@
 				"map_locations": [
 					{
 						"map": "PTPR06",
-						"x": 505,
-						"y": 145
+						"x": 504,
+						"y": 143
 					}
 				]
 			},
@@ -1365,8 +1365,8 @@
 				"map_locations": [
 					{
 						"map": "PTPR03",
-						"x": 505,
-						"y": 225
+						"x": 504,
+						"y": 226
 					}
 				]
 			},
@@ -1380,8 +1380,8 @@
 				"map_locations": [
 					{
 						"map": "PTPR03",
-						"x": 660,
-						"y": 160
+						"x": 655,
+						"y": 161
 					}
 				]
 			},
@@ -1395,7 +1395,7 @@
 				"map_locations": [
 					{
 						"map": "PTPR03",
-						"x": 940,
+						"x": 938,
 						"y": 190
 					}
 				]
@@ -1410,14 +1410,14 @@
 				"map_locations": [
 					{
 						"map": "PTPR07",
-						"x": 105,
+						"x": 104,
 						"y": 225,
 						"restrict_visibility_rules": [ "normal" ]
 					},
 					{
 						"map": "PTPR07",
 						"x": 160,
-						"y": 110,
+						"y": 112,
 						"restrict_visibility_rules": [ "hard","shard" ]
 					}
 				]
@@ -1432,14 +1432,14 @@
 				"map_locations": [
 					{
 						"map": "PTPR04",
-						"x": 215,
-						"y": 130,
+						"x": 216,
+						"y": 133,
 						"restrict_visibility_rules": [ "normal" ]
 					},
 					{
 						"map": "PTPR04",
 						"x": 95,
-						"y": 130,
+						"y": 133,
 						"restrict_visibility_rules": [ "hard","shard" ]
 					}
 				]
@@ -1485,7 +1485,7 @@
 					{
 						"map": "PTPR05",
 						"x": 430,
-						"y": 125
+						"y": 130
 					}
 				]
 			}
