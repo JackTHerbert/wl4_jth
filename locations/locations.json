@@ -129,15 +129,15 @@
 						"item_count": 1
 					},
 					{
-						"name": "Scienstein Throw Diamond",
+						"name": "Switch Staircase Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"access_rules": [ "grab" ],
+						"access_rules": [ "grab","op_advancedlogic_1,enemyjump" ],
 						"item_count": 1
 					},
 					{
-						"name": "Ladder Cave Pink Room Diamond",
+						"name": "Scienstein Throw Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"access_rules": [ "grab","op_advancedlogic_1,enemyjump" ],
+						"access_rules": [ "grab" ],
 						"item_count": 1
 					},
 					{
@@ -1699,7 +1699,7 @@
 						"item_count": 1
 					},
 					{
-						"name": " Transformation Puzzle Fat Diamond",
+						"name": "Transformation Puzzle Fat Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1
 					},
