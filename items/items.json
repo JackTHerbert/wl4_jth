@@ -609,15 +609,15 @@
 		"codes": "op_auto_tab",
 		"allow_disabled": false,
 		"loop":true,
-		"initial_stage_idx": 1,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
-				"img": "images/wario_splat_grey.png",
+				"img": "images/autotaboff.png",
 				"codes": "op_auto_tab_off",
 				"inheret_codes": false
 			},
 			{
-				"img": "images/wario_splat.png",
+				"img": "images/autotabon.png",
 				"codes": "op_auto_tab_on",
 				"inheret_codes": false
 			}

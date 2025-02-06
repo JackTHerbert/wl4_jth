@@ -11,8 +11,8 @@ LOCATION_MAPPING = {
 	[0xEC0681] = {"@World/Palm Tree Paradise/Dead End Box"},
 	[0xEC0622] = {"@World/Palm Tree Paradise/Box Before Cave"},
 	[0xEC06C2] = {"@World/Palm Tree Paradise/Hidden Box"},
-	[0xEC06E3] = {"@PTP/Platform Cave Item/Platform Cave Jewel Box","@PTP/Platform Cave Hidden Item/Platform Cave Jewel Box"},
-	[0xEC06E4] = {"@PTP/Ladder Cave Box (Middle)/Ladder Cave Box","@PTP/Ladder Cave Box (Upper)/Ladder Cave Box"},
+	[0xEC06E3] = {"@World/Palm Tree Paradise/Platform Cave Jewel Box"},
+	[0xEC06E4] = {"@World/Palm Tree Paradise/Ladder Cave Box"},
 	[0xEC06E5] = {"@World/Palm Tree Paradise/CD Box"},
 	[0xEC06E7] = {"@World/Palm Tree Paradise/Full Health Item Box"},
 

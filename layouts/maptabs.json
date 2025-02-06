@@ -418,7 +418,7 @@
                                                     }
                                                 },
                                                 {
-                                                    "title": "Lake Enterance",
+                                                    "title": "Lake Entrance",
                                                     "content": {
                                                         "type": "map",
                                                         "maps": ["MLR01"]
@@ -1538,7 +1538,7 @@
                                                     }
                                                 },
                                                 {
-                                                    "title": "Carpet Enterance",
+                                                    "title": "Carpet Entrance",
                                                     "content": {
                                                         "type": "map",
                                                         "maps": ["ANR01"]

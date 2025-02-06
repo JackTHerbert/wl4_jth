@@ -67,16 +67,12 @@
 						"item_count": 1
 					},
 					{
-						"ref": "PTP/Platform Cave Item/Platform Cave Jewel Box"
+						"name": "Platform Cave Jewel Box",
+						"item_count": 1
 					},
 					{
-						"ref": "PTP/Platform Cave Hidden Item/Platform Cave Jewel Box"
-					},
-					{
-						"ref": "PTP/Ladder Cave Box (Middle)/Ladder Cave Box"
-					},
-					{
-						"ref": "PTP/Ladder Cave Box (Upper)/Ladder Cave Box"
+						"name": "Ladder Cave Box",
+						"item_count": 1
 					},
 					{
 						"name": "CD Box",
@@ -1286,34 +1282,24 @@
 				]
 			},
 			{
-				"name": "Grab Tutorial Item",
+				"name": "Full Health Item Box",
 				"sections": [
 					{
-						"ref": "World/Hall of Hieroglyphs/Full Health Item Box",
-						"visibility_rules": ["normal","hard"]
+						"ref": "World/Hall of Hieroglyphs/Full Health Item Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "HOHR06",
 						"x": 680,
-						"y": 385
-					}
-				]
-			},
-			{
-				"name": "Hidden Room",
-				"sections": [
-					{
-						"ref": "World/Hall of Hieroglyphs/Full Health Item Box",
-						"visibility_rules": ["shard"]
-					}
-				],
-				"map_locations": [
+						"y": 385,
+						"restrict_visibility_rules": ["normal","hard"]
+					},
 					{
 						"map": "HOHR10",
 						"x": 95,
-						"y": 180
+						"y": 180,
+						"restrict_visibility_rules": [ "shard" ]
 					}
 				]
 			}
@@ -1403,11 +1389,7 @@
 				"name": "Ladder Cave",
 				"sections": [
 					{
-						"ref": "PTP/Ladder Cave Box (Middle)/Ladder Cave Box"
-					},
-					{
-						
-						"ref": "PTP/Ladder Cave Box (Upper)/Ladder Cave Box"
+						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
 					}
 				],
 				"map_locations": [
@@ -1419,70 +1401,46 @@
 				]
 			},
 			{
-				"name": "Ladder Cave Box (Middle)",
+				"name": "Ladder Cave Box",
 				"sections": [
 					{
-						"name": "Ladder Cave Box",
-						"visibility_rules": ["normal"],
-						"item_count": 1
+						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR07",
 						"x": 105,
-						"y": 225
-					}
-				]
-			},
-			{
-				"name": "Ladder Cave Box (Upper)",
-				"sections": [
-					{
-						"name": "Ladder Cave Box",
-						"visibility_rules": ["hard","shard"],
-						"item_count": 1
-					}
-				],
-				"map_locations": [
+						"y": 225,
+						"restrict_visibility_rules": [ "normal" ]
+					},
 					{
 						"map": "PTPR07",
 						"x": 160,
-						"y": 110
+						"y": 110,
+						"restrict_visibility_rules": [ "hard","shard" ]
 					}
 				]
 			},
 			{
-				"name": "Platform Cave Hidden Item",
+				"name": "Platform Cave Box",
 				"sections": [
 					{
-						"name": "Platform Cave Jewel Box",
-						"item_count": 1,
-						"visibility_rules": ["hard","shard"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "PTPR04",
-						"x": 95,
-						"y": 130
-					}
-				]
-			},
-			{
-				"name": "Platform Cave Item",
-				"sections": [
-					{
-						"name": "Platform Cave Jewel Box",
-						"item_count": 1,
-						"visibility_rules": ["normal"]
+						"ref": "World/Palm Tree Paradise/Platform Cave Jewel Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "PTPR04",
 						"x": 215,
-						"y": 130
+						"y": 130,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "PTPR04",
+						"x": 95,
+						"y": 130,
+						"restrict_visibility_rules": [ "hard","shard" ]
 					}
 				]
 			},
