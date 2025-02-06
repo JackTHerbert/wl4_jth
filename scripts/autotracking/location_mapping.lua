@@ -187,7 +187,7 @@ LOCATION_MAPPING = {
 	[0xEC13ED] = {"@World/The Big Board/Scienstein Puzzle Diamond"},
 
 	[0xEC1421] = {"@World/Doodle Woods/Box Behind Wall"},
-	[0xEC14C1] = {"@World/Doodle Woods/Gray Square Box"},
+	[0xEC14C1] = {"@World/Doodle Woods/Grey Square Box"},
 	[0xEC1422] = {"@World/Doodle Woods/Orange Escape Box"},
 	[0xEC14C2] = {"@World/Doodle Woods/Pink Circle Box"},
 	[0xEC1423] = {"@World/Doodle Woods/Buried Door Box"},
