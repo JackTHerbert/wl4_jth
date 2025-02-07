@@ -32,27 +32,37 @@
 					{
 						"name": "Stone Block Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Grab Tutorial Diamond",
 						"visibility_rules": [ "op_diamond_1,shard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Diamond Above Jewel Box",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Alcove Diamond",
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Ground Pound Tutorial Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					}
 				],
 				"map_locations": [
@@ -110,35 +120,47 @@
 					{
 						"name": "Ledge Diamond",
 						"visibility_rules": [ "op_diamond_1,shard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Hidden Tunnel Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Platform Cave Hidden Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Submerged Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
 						"access_rules": [ "swim" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Switch Staircase Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
 						"access_rules": [ "grab","op_advancedlogic_1,enemyjump" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Throw Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
 						"access_rules": [ "grab" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -208,49 +230,65 @@
 						"name": "8-Shaped Cave Diamond",
 						"access_rules": [ "supergroundpound,grab" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Stomp Diamond",
 						"access_rules": [ "supergroundpound,grab,enemyjump" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Hidden Tunnel Diamond",
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Escape Detour Diamond",
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Escape Detour Corner Diamond",
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Current Cave Diamond",
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Sunflower Diamond",
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Switch Puzzle Diamond",
 						"access_rules": [ "swim,supergroundpound,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -340,37 +378,49 @@
 						"name": "Air Pocket Diamond",
 						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "op_diamond_1,hard","op_diamond_1,shard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Large Cave Diamond",
 						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Shallow Pool Puzzle Diamond",
 						"access_rules": [ "swim,headsmash,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Eel Cave Underwater Diamond",
 						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Bubble Path Diamond",
 						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Deep Pool Puzzle Diamond",
 						"access_rules": [ "swim,headsmash,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -444,31 +494,41 @@
 					{
 						"name": "Archer Pink Room Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Rock Catching Diamond",
 						"access_rules": [ "grab" ], 
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Fat Plummet Diamond",
 						"access_rules": [ "groundpound" ], 
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Puffy Hallway Diamond",
 						"access_rules": [ "groundpound" ], 
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Buried Cave Diamond",
 						"access_rules": [ "groundpound" ], 
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -558,30 +618,40 @@
 					{
 						"name": "T-Tunnel Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Puzzle Diamond",
 						"access_rules": [ "grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Rock Puzzle Diamond",
 						"access_rules": [ "grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Underground Chamber Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Gear Elevator Diamond",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Gear Elevator Box",
@@ -613,7 +683,7 @@
 				"sections": [
 					{
 						"name": "Portal Room Box",
-			    			"visibility_rules": [ "normal" ],
+			    		"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
@@ -638,7 +708,7 @@
 					},
 					{
 						"name": "Ledge Box",
-			    			"visibility_rules": [ "normal" ],
+			    		"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
@@ -653,52 +723,68 @@
 					},
 					{
 						"name": "Full Health Item Box",
-			    			"visibility_rules": [ "normal" ],
+			    		"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Trash Plummet Diamond",
-			    			"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Spike Ceiling Diamond",
-			    			"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Sewage Pool Diamond",
 						"access_rules": [ "swim" ],
-			    			"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Trash Sprint Diamond",
-			    			"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Transformation Puzzle Lower Diamond",
-			    			"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Rock Throwing Diamond",
 						"access_rules": [ "grab" ],
-			    			"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Current Circle Diamond",
 						"access_rules": [ "swim" ],
-			    			"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Transformation Puzzle Upper Diamond",
 						"access_rules": [ "heavygrab","enemyjump" ],
-			    			"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -746,67 +832,89 @@
 					{
 						"name": "Conveyor Room Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Maze Cage Diamond",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Maze Pit Diamond",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Looping Room Diamond",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Ice Block Diamond",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Snowman Puzzle Left Diamond",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Snowman Puzzle Bottom Diamond",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Snowman Puzzle Diamond Under Door",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Snowman Puzzle Right Diamond",
 						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Crystal Lobbing Diamond",
 						"access_rules": [ "supergroundpound,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Yeti Puzzle Diamond",
 						"access_rules": [ "supergroundpound,heavygrab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -876,30 +984,40 @@
 					{
 						"name": "Fruit Room Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Flaming Wario Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Switch Room Diamond",
 						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
 						"visibility_rules": [ "op_diamond_1,hard","op_diamond_1,shard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Snow Room Diamond",
 						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Robot Room Diamond",
 						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,op_advancedlogic_1" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1011,30 +1129,40 @@
 					{
 						"name": "Tower Diamond",
 						"visibility_rules": [ "op_diamond_1,hard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Escape Ledge Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Cage Diamond",
 						"access_rules": [ "enemyjump" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Circle Block Diamond",
 						"access_rules": [ "supergroundpound,dashattack" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Dash Diamond ",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "op_diamond_1,shard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1108,29 +1236,39 @@
 					{
 						"name": "Fire Room Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Enemy Room Diamond",
 						"access_rules": [ "grab" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Fat Room Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Bouncy Room Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Puzzle Diamond",
 						"access_rules": [ "grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1201,29 +1339,39 @@
 					{
 						"name": "Platform Staircase Diamond",
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Hidden Platform Puzzle Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Rolling Room Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Pink Circle Diamond",
 						"access_rules": [ "enemyjump" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Blue Circle Diamond",
 						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1278,13 +1426,17 @@
 						"name": "Toy Car Tower Diamond",
 						"access_rules": [ "grab,enemyjump,op_advancedlogic_1","grab,enemyjump,groundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Switch Ladder Diamond",
 						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1385,37 +1537,49 @@
 					{
 						"name": "First Village Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Agile Bat Hidden Diamond",
 						"access_rules": [ "groundpound,grab,headsmash" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Dropdown Diamond",
 						"access_rules": [ "dashattack,headsmash" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Candle Dodging Diamond",
 						"access_rules": [ "dashattack,headsmash" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Glass Ball Puzzle Diamond",
 						"access_rules": [ "dashattack,headsmash,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Sewer Diamond",
 						"access_rules": [ "dashattack,headsmash,swim" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1476,55 +1640,73 @@
 					{
 						"name": "City Ledge Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Onomi Diamond",
 						"access_rules": [ "groundpound","headsmash" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Flying Carpet Dash Attack Diamond",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Puzzle Diamond",
 						"access_rules": [ "dashattack,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Kool-Aid Diamond",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Left Sewer Ceiling Diamond",
 						"access_rules": [ "dashattack,swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Right Sewer Ceiling Diamond",
 						"access_rules": [ "dashattack,swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Sewer Air Pocket Diamond",
 						"access_rules": [ "dashattack,swim,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Sewer Submerged Diamond",
 						"access_rules": [ "dashattack,swim,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1577,42 +1759,56 @@
 					{
 						"name": "Long Lava Geyser Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Puzzle Diamond",
 						"access_rules": [ "grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Spring Puzzle Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Ice Jump Diamond",
 						"access_rules": [ "dashattack,groundpound,headsmash,enemyjump" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Corner Diamond",
 						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Hidden Ice Diamond",
 						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Frozen Diamond",
 						"access_rules": [ "dashattack,groundpound,headsmash" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1681,32 +1877,44 @@
 					{
 						"name": "Room 102 Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Room 402 Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Bonfire Block Diamond",
 						"visibility_rules": [ "op_diamond_1,shard" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Exterior Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Transformation Puzzle Fat Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Transformation Puzzle Spring Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -1781,60 +1989,80 @@
 					{
 						"name": "Long Hall Left Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Long Hall Right Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Current Puzzle Diamond",
 						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Spring Shaft Diamond",
 						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Zombie Hall Left Diamond",
 						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Zombie Hall Right Diamond",
 						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Digging Diamond",
 						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Slope Diamond",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Escape Diamond",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Scienstein Roll Diamond",
 						"access_rules": [ "swim,groundpound,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
