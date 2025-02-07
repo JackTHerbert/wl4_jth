@@ -1499,6 +1499,7 @@
 				"sections": [
 					{
 						"name": "Agile Bat Box",
+						"access_rules": [ "headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
