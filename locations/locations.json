@@ -1687,7 +1687,7 @@
 					},
 					{
 						"name": "Left Sewer Ceiling Diamond",
-						"access_rules": [ "dashattack,swim" ],
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1695,7 +1695,7 @@
 					},
 					{
 						"name": "Right Sewer Ceiling Diamond",
-						"access_rules": [ "dashattack,swim" ],
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
