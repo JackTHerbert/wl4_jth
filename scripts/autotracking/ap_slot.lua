@@ -46,5 +46,9 @@ SLOT_CODES = {
 	open_doors={
 		code="op_doors",
 		mapping=doormap
+	},
+	diamond_shuffle={
+		code="op_diamond",
+		mapping=normalmap
 	}
 }

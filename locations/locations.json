@@ -399,6 +399,14 @@
 						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
+						"name": "Small Cave Diamond",
+						"access_rules": [ "dashattack,swim,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Eel Cave Underwater Diamond",
 						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "op_diamond_1" ],
@@ -2357,7 +2365,7 @@
 						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
 					},
 					{
-						"ref": "World/Palm Tree Paradise/Ladder Cave Pink Room Diamond"
+						"ref": "World/Palm Tree Paradise/Switch Staircase Diamond"
 					}
 				],
 				"map_locations": [
@@ -2478,10 +2486,10 @@
 				]
 			},
 			{
-				"name": "Ladder Cave Pink Room Diamond",
+				"name": "Switch Staircase Diamond",
 				"sections": [
 					{
-						"ref": "World/Palm Tree Paradise/Ladder Cave Pink Room Diamond"
+						"ref": "World/Palm Tree Paradise/Switch Staircase Diamond"
 					}
 				],
 				"map_locations": [
@@ -2633,10 +2641,10 @@
 				]
 			},
 			{
-				"name": "Beezly Box",
+				"name": "Beezley Box",
 				"sections": [
 					{
-						"ref": "World/Wildflower Fields/Beezly Box"
+						"ref": "World/Wildflower Fields/Beezley Box"
 					}
 				],
 				"map_locations": [
@@ -2806,6 +2814,650 @@
 						"map": "WFR05",
 						"x": 172,
 						"y": 128
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "ML",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Air Pocket",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Air Pocket Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Air Pocket Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR02",
+						"x": 824,
+						"y": 338
+					}
+				]
+			},
+			{
+				"name": "Large Cave",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Large Cave Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Large Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR02",
+						"x": 639,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "Small Cave",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Small Cave Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Small Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR03",
+						"x": 111,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR09",
+						"x": 296,
+						"y": 160,
+						"restrict_visibility_rules": ["normal","hard"]
+					},
+					{
+						"map": "MLR01",
+						"x": 550,
+						"y": 293,
+						"restrict_visibility_rules": ["normal","hard"]
+					},
+					{
+						"map": "MLR03",
+						"x": 111,
+						"y": 145,
+						"restrict_visibility_rules": ["shard"]
+					}
+				]
+			},
+			{
+				"name": "Hill Room Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Hill Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR07",
+						"x": 200,
+						"y": 115
+					}
+				]
+			},
+			{
+				"name": "Rock Cave Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Rock Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR01",
+						"x": 550,
+						"y": 293
+					},
+					{
+						"map": "MLR09",
+						"x": 296,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Cavern Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Cavern Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR04",
+						"x": 424,
+						"y": 481
+					}
+				]
+			},
+			{
+				"name": "Spring Cave Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Spring Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR04",
+						"x": 443,
+						"y": 123
+					}
+				]
+			},
+			{
+				"name": "Box Before Bridge",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Box Before Bridge"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR05",
+						"x": 344,
+						"y": 163
+					}
+				]
+			},
+			{
+				"name": "Bubble Air Pocket",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Lake Exit Bubble Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Bubble Path Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR05",
+						"x": 799,
+						"y": 258
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR01",
+						"x": 48,
+						"y": 191
+					},
+					{
+						"map": "MLR08",
+						"x": 88,
+						"y": 99
+					}
+				]
+			},
+			{
+				"name": "Shallow Pool Puzzle Diamond",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Shallow Pool Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR02",
+						"x": 369,
+						"y": 469
+					},
+					{
+						"map": "MLR10",
+						"x": 255,
+						"y": 210
+					}
+				]
+			},
+			{
+				"name": "Deep Pool Puzzle Diamond",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Deep Pool Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR06",
+						"x": 352,
+						"y": 75
+					},
+					{
+						"map": "MLR11",
+						"x": 127,
+						"y": 353
+					}
+				]
+			},
+			{
+				"name": "Eel Cave Underwater Diamond",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Eel Cave Underwater Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR03",
+						"x": 543,
+						"y": 482
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR06",
+						"x": 540,
+						"y": 96
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "MJ",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Spiky Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Spiky Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR06",
+						"x": 184,
+						"y": 740
+					}
+				]
+			},
+			{
+				"name": "Escape Climb Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Escape Climb Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR06",
+						"x": 519,
+						"y": 412
+					}
+				]
+			},
+			{
+				"name": "Brown Pipe Cave Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Brown Pipe Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR06",
+						"x": 590,
+						"y": 700
+					},
+					{
+						"map": "MJR13",
+						"x": 225,
+						"y": 157
+					}
+				]
+			},
+			{
+				"name": "Fat Plummet",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Box"
+					},
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR02",
+						"x": 496,
+						"y": 542
+					}
+				]
+			},
+			{
+				"name": "Fat Plummet Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR04",
+						"x": 392,
+						"y": 1700,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "MJR04",
+						"x": 398,
+						"y": 1824,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Fat Plummet Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR04",
+						"x": 398,
+						"y": 1824
+					}
+				]
+			},
+			{
+				"name": "Descent Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Descent Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR08",
+						"x": 280,
+						"y": 355
+					}
+				]
+			},
+			{
+				"name": "Puffy Hallway",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Puffy Hallway Box"
+					},
+					{
+						"ref": "World/Monsoon Jungle/Puffy Hallway Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR08",
+						"x": 240,
+						"y": 36
+					},
+					{
+						"map": "MJR09",
+						"x": 111,
+						"y": 146
+					}
+				]
+			},
+			{
+				"name": "Buried Cave",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Box"
+					},
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR10",
+						"x": 560,
+						"y": 190
+					}
+				]
+			},
+			{
+				"name": "Buried Cave Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR11",
+						"x": 248,
+						"y": 306,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "MJR11",
+						"x": 95,
+						"y": 97,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Buried Cave Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR11",
+						"x": 95,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR02",
+						"x": 272,
+						"y": 32
+					},
+					{
+						"map": "MJR05",
+						"x": 1032,
+						"y": 161
+					} 
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR01",
+						"x": 154,
+						"y": 330
+					},
+					{
+						"map": "MJR03",
+						"x": 216,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "Archer Pink Room Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Archer Pink Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR02",
+						"x": 497,
+						"y": 117
+					},
+					{ 
+						"map": "MJR14",
+						"x": 590,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Rock Catching Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Rock Catching Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR00",
+						"x": 512,
+						"y": 120
+					},
+					{
+						"map": "MJR15",
+						"x": 670,
+						"y": 129
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR00",
+						"x": 445,
+						"y": 80
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Cractus",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Defeat Cractus",
+				"sections": [
+					{
+						"ref": "World/Cractus/Defeat Cractus"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 113,
+						"y": 32
+					}
+				]
+			},
+			{
+				"name": "0:15",
+				"sections": [
+					{
+						"ref": "World/Cractus/0:15"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 80,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "0:35",
+				"sections": [
+					{
+						"ref": "World/Cractus/0:35"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 112,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "0:55",
+				"sections": [
+					{
+						"ref": "World/Cractus/0:55"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 144,
+						"y": 96
 					}
 				]
 			}
