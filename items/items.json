@@ -391,11 +391,13 @@
 		"loop":true,
 		"stages": [
 			{
+				"name": "Open Portals Off",
 				"img": "images/portal_grey.png",
 				"codes": "op_openportal_0",
 				"inheret_codes": false
 			},
 			{
+				"name": "Open Portals On",
 				"img": "images/portal.png",
 				"codes": "op_openportal_1",
 				"inheret_codes": false
@@ -410,11 +412,13 @@
 		"loop":true,
 		"stages": [
 			{
+				"name": "Treasure Hunt Off",
 				"img": "images/chest_grey.png",
 				"codes": "op_treasurehunt_0",
 				"inheret_codes": false
 			},
 			{
+				"name": "Treasure Hunt On",
 				"img": "images/chest.png",
 				"codes": "op_treasurehunt_1",
 				"inheret_codes": false
@@ -429,11 +433,13 @@
 		"loop":true,
 		"stages": [
 			{
+				"name": "Advanced Logic Off",
 				"img": "images/wario_splat_grey.png",
 				"codes": "op_advancedlogic_0",
 				"inheret_codes": false
 			},
 			{
+				"name": "Advanced Logic On",
 				"img": "images/wario_splat.png",
 				"codes": "op_advancedlogic_1",
 				"inheret_codes": false
@@ -448,11 +454,13 @@
 		"loop":true,
 		"stages": [
 			{
+				"name": "Diamond Shuffle Off",
 				"img": "images/diamond_grey.png",
 				"codes": "op_diamond_0",
 				"inheret_codes": false
 			},
 			{
+				"name": "Diamond Shuffle On",
 				"img": "images/diamond.png",
 				"codes": "op_diamond_1",
 				"inheret_codes": false
@@ -498,16 +506,19 @@
 		"initial_stage_idx": 2,
 		"stages": [
 			{
+				"name": "No Keyzer (Open Doors)",
 				"img": "images/keyzer_grey.png",
 				"codes": "op_doors_0",
 				"inheret_codes": false
 			},
 			{
+				"name": "Golden Passage Keyzer Required",
 				"img": "images/keyzer_golden.png",
 				"codes": "op_doors_1",
 				"inheret_codes": false
 			},
 			{
+				"name": "Keyzer Required (Closed Doors)",
 				"img": "images/keyzer.png",
 				"codes": "op_doors_2",
 				"inheret_codes": false
