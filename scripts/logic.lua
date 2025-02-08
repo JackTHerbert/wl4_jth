@@ -168,3 +168,191 @@ function divanw()
   local jewelReq = Tracker:ProviderCountForCode("op_reqgjewel")
   return jewelCount + 1 - jewelReq
 end
+
+function keyzerptp()
+  if has("keyzerptp") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerwf()
+  if has("keyzerwf") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerml()
+  if has("keyzerml") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzermj()
+  if has("keyzermj") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzercf()
+  if has("keyzercf") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzertl()
+  if has("keyzertl") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerbf()
+  if has("keyzerbf") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerpz()
+  if has("keyzerpz") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzertbt()
+  if has("keyzertbt") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerbb()
+  if has("keyzerbb") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerdw()
+  if has("keyzerdw") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerdr()
+  if has("keyzerdr") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzercmv()
+  if has("keyzercmv") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzeran()
+  if has("keyzeran") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerfc()
+  if has("keyzerfc") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzerhh()
+  if has("keyzerhh") then
+    return 1
+  else
+    if has("op_doors_2") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
+function keyzergp()
+  if has("keyzergp") then
+    return 1
+  else
+    if has("op_doors_1") then
+      return 0
+    else
+      return 1
+    end
+  end
+end
