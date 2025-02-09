@@ -28,6 +28,41 @@
 					{
 						"name": "Full Health Item Box",
 						"item_count": 1
+					},
+					{
+						"name": "Stone Block Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Grab Tutorial Diamond",
+						"visibility_rules": [ "op_diamond_1,shard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Diamond Above Jewel Box",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Alcove Diamond",
+						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Ground Pound Tutorial Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					}
 				],
 				"map_locations": [
@@ -83,6 +118,51 @@
 						"item_count": 1
 					},
 					{
+						"name": "Ledge Diamond",
+						"visibility_rules": [ "op_diamond_1,shard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Hidden Tunnel Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Platform Cave Hidden Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Submerged Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"access_rules": [ "swim" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Switch Staircase Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"access_rules": [ "grab","op_advancedlogic_1,enemyjump" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Throw Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"access_rules": [ "grab" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerptp",
 						"visibility_rules": [ "op_doors_2" ]
@@ -100,7 +180,7 @@
 			},
 			{
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound,keyzerptp","op_openportal_1,keyzerptp" ],
+				"access_rules": [ "swim,supergroundpound,$keyzerptp","op_openportal_1,$keyzerptp" ],
 				"sections": [
 					{
 						"name": "Current Cave Box",
@@ -132,7 +212,7 @@
 						"item_count": 1
 					},
 					{
-						"name": "Beezly Box",
+						"name": "Beezley Box",
 						"access_rules": [ "swim,supergroundpound" ],
 						"item_count": 1
 					},
@@ -145,6 +225,70 @@
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
+					},
+					{
+						"name": "8-Shaped Cave Diamond",
+						"access_rules": [ "supergroundpound,grab" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Stomp Diamond",
+						"access_rules": [ "supergroundpound,grab,enemyjump" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Hidden Tunnel Diamond",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Escape Detour Diamond",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Escape Detour Corner Diamond",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Current Cave Diamond",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Sunflower Diamond",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Switch Puzzle Diamond",
+						"access_rules": [ "swim,supergroundpound,grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -164,7 +308,7 @@
 			},
 			{
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash,keyzerwf","op_openportal_1,keyzerwf" ],
+				"access_rules": [ "swim,headsmash,$keyzerwf","op_openportal_1,$keyzerwf" ],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
@@ -193,7 +337,7 @@
 					{
 						"name": "Rock Cave Box",
 						"access_rules": [ "grab" ],
-				    	"visibility_rules": [ "shard" ],
+				    		"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
@@ -231,6 +375,62 @@
 						"item_count": 1
 					},
 					{
+						"name": "Air Pocket Diamond",
+						"access_rules": [ "swim,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,hard","op_diamond_1,shard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Large Cave Diamond",
+						"access_rules": [ "swim,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Shallow Pool Puzzle Diamond",
+						"access_rules": [ "swim,headsmash,supergroundpound,grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Small Cave Diamond",
+						"access_rules": [ "dashattack,swim,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Eel Cave Underwater Diamond",
+						"access_rules": [ "swim,headsmash" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Bubble Path Diamond",
+						"access_rules": [ "swim,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Deep Pool Puzzle Diamond",
+						"access_rules": [ "swim,headsmash,grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerml",
 						"access_rules": [ "swim,headsmash" ],
@@ -247,7 +447,7 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound,keyzerml","op_openportal_1,keyzerml" ],
+				"access_rules": [ "groundpound,$keyzerml","op_openportal_1,$keyzerml" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
@@ -300,6 +500,45 @@
 						"item_count": 1
 					},
 					{
+						"name": "Archer Pink Room Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Rock Catching Diamond",
+						"access_rules": [ "grab" ], 
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Fat Plummet Diamond",
+						"access_rules": [ "groundpound" ], 
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Puffy Hallway Diamond",
+						"access_rules": [ "groundpound,dashattack" ], 
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Buried Cave Diamond",
+						"access_rules": [ "groundpound,grab" ], 
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzermj",
 						"access_rules": [ "groundpound" ],
@@ -316,7 +555,7 @@
 			},
 			{
 				"name": "Cractus",
-				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound,keyzermj" ],
+				"access_rules": [ "$cractusne,$cractusse,$cractussw,$cractusnw,groundpound,$keyzermj" ],
 				"sections": [
 					{
 						"name": "Defeat Cractus",
@@ -385,6 +624,44 @@
 						"item_count": 1
 					},
 					{
+						"name": "T-Tunnel Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Puzzle Diamond",
+						"access_rules": [ "grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Rock Puzzle Diamond",
+						"access_rules": [ "grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Underground Chamber Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Gear Elevator Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Gear Elevator Box",
 						"access_rules": [ "dashattack" ],
 						"visibility_rules": [ "hard","shard" ],
@@ -410,11 +687,11 @@
 			},
 			{
 				"name": "The Toxic Landfill",
-				"access_rules": [ "dashattack,supergroundpound,headsmash,keyzercf" ],
+				"access_rules": [ "dashattack,supergroundpound,headsmash,$keyzercf" ],
 				"sections": [
 					{
 						"name": "Portal Room Box",
-			    			"visibility_rules": [ "normal" ],
+			    		"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
@@ -439,7 +716,7 @@
 					},
 					{
 						"name": "Ledge Box",
-			    			"visibility_rules": [ "normal" ],
+			    		"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
@@ -454,8 +731,68 @@
 					},
 					{
 						"name": "Full Health Item Box",
-			    			"visibility_rules": [ "normal" ],
+			    		"visibility_rules": [ "normal" ],
 						"item_count": 1
+					},
+					{
+						"name": "Trash Plummet Diamond",
+			    		"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Spike Ceiling Diamond",
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Sewage Pool Diamond",
+						"access_rules": [ "swim" ],
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Trash Sprint Diamond",
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Transformation Puzzle Lower Diamond",
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Rock Throwing Diamond",
+						"access_rules": [ "grab" ],
+			    		"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Current Circle Diamond",
+						"access_rules": [ "swim" ],
+			    		"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Transformation Puzzle Upper Diamond",
+						"access_rules": [ "heavygrab","enemyjump" ],
+			    		"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
@@ -473,32 +810,124 @@
 			},
 			{
 				"name": "40 Below Fridge",
-				"access_rules": [ "supergroundpound,keyzertl" ],
+				"access_rules": [ "supergroundpound,$keyzertl","op_openportal_1,$keyzertl" ],
 				"sections": [
 					{
 						"name": "Looping Room Box",
+						"access_rules": [ "supergroundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Maze Room Box",
+						"access_rules": [ "supergroundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snowman Puzzle Upper Box",
+						"access_rules": [ "supergroundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snowman Puzzle Lower Box",
+						"access_rules": [ "supergroundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "headsmash" ],
+						"access_rules": [ "headsmash,supergroundpound" ],
 						"item_count": 1
+					},
+					{
+						"name": "Conveyor Room Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Maze Cage Diamond",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Maze Pit Diamond",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Looping Room Diamond",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Ice Block Diamond",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Snowman Puzzle Left Diamond",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Snowman Puzzle Bottom Diamond",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Snowman Puzzle Diamond Under Door",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Snowman Puzzle Right Diamond",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Crystal Lobbing Diamond",
+						"access_rules": [ "supergroundpound,grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Yeti Puzzle Diamond",
+						"access_rules": [ "supergroundpound,heavygrab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerbf",
+						"access_rules": [ "supergroundpound" ],
 						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
@@ -512,7 +941,7 @@
 			},
 			{
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash,keyzerbf","grab,op_openportal_1,keyzerbf" ],
+				"access_rules": [ "grab,groundpound,headsmash,$keyzerbf","grab,op_openportal_1,$keyzerbf" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
@@ -522,7 +951,7 @@
 					{
 						"name": "Switch Room Box",
 						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
-			    		"visibility_rules": [ "shard" ],
+						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
@@ -546,24 +975,62 @@
 					{
 						"name": "Full Health Item Box",
 						"access_rules": [ "supergroundpound" ],
-			    		"visibility_rules": [ "normal","hard" ],
+						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Pink Room Full Health Item Box",
 						"access_rules": [ "supergroundpound" ],
-			    		"visibility_rules": [ "shard" ],
+						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Rolling Room Full Health Item Box",
-			    		"visibility_rules": [ "shard" ],
+						"visibility_rules": [ "shard" ],
 						"item_count": 1
+					},
+					{
+						"name": "Fruit Room Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Flaming Wario Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Switch Room Diamond",
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
+						"visibility_rules": [ "op_diamond_1,hard","op_diamond_1,shard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Snow Room Diamond",
+						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Robot Room Diamond",
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,op_advancedlogic_1" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerpz",
-						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,op_advancedlogic_1" ],
 						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
@@ -577,7 +1044,7 @@
 			},
 			{
 				"name": "Cuckoo Condor",
-				"access_rules": [ "$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,grab,keyzerpz" ],
+				"access_rules": [ "$cuckoone,$cuckoose,$cuckoosw,$cuckoonw,grab,$keyzerpz" ],
 				"sections": [
 					{
 						"name": "Defeat Cuckoo Condor",
@@ -668,6 +1135,44 @@
 						"item_count": 1
 					},
 					{
+						"name": "Tower Diamond",
+						"visibility_rules": [ "op_diamond_1,hard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Escape Ledge Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Cage Diamond",
+						"access_rules": [ "enemyjump" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Circle Block Diamond",
+						"access_rules": [ "supergroundpound,dashattack" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Dash Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1,shard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzertbt",
 						"visibility_rules": [ "op_doors_2" ]
@@ -683,7 +1188,7 @@
 			},
 			{
 				"name": "The Big Board",
-				"access_rules": [ "groundpound,keyzertbt" ],
+				"access_rules": [ "groundpound,$keyzertbt" ],
 				"sections": [
 					{
 						"name": "First Box",
@@ -737,6 +1242,43 @@
 						"item_count": 1
 					},
 					{
+						"name": "Fire Room Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Enemy Room Diamond",
+						"access_rules": [ "grab" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Fat Room Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Bouncy Room Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Puzzle Diamond",
+						"access_rules": [ "grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerbb",
 						"visibility_rules": [ "op_doors_2" ]
@@ -752,7 +1294,7 @@
 			},
 			{
 				"name": "Doodle Woods",
-				"access_rules": [ "keyzerbb" ],
+				"access_rules": [ "$keyzerbb" ],
 				"sections": [
 					{
 						"name": "Box Behind Wall",
@@ -803,6 +1345,43 @@
 						"item_count": 1
 					},
 					{
+						"name": "Platform Staircase Diamond",
+						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Hidden Platform Puzzle Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Rolling Room Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Pink Circle Diamond",
+						"access_rules": [ "enemyjump" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Blue Circle Diamond",
+						"access_rules": [ "groundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerdw",
 						"visibility_rules": [ "op_doors_2" ]
@@ -818,7 +1397,7 @@
 			},
 			{
 				"name": "Domino Row",
-				"access_rules": [ "swim,groundpound,keyzerdw","op_openportal_1,keyzerdw" ],
+				"access_rules": [ "swim,groundpound,$keyzerdw","op_openportal_1,$keyzerdw" ],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -852,6 +1431,22 @@
 						"item_count": 1
 					},
 					{
+						"name": "Toy Car Tower Diamond",
+						"access_rules": [ "grab,enemyjump,op_advancedlogic_1","grab,enemyjump,groundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Switch Ladder Diamond",
+						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerdr",
 						"access_rules": [ "swim,groundpound" ],
@@ -868,7 +1463,7 @@
 			},
 			{
 				"name": "Aerodent",
-				"access_rules": [ "$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,grab,keyzerdr" ],
+				"access_rules": [ "$aerodentne,$aerodentse,$aerodentsw,$aerodentnw,grab,$keyzerdr" ],
 				"sections": [
 					{
 						"name": "Defeat Aerodent",
@@ -900,57 +1495,105 @@
 			},
 			{
 				"name": "Crescent Moon Village",
-				"access_rules": [ "headsmash,dashattack","op_openportal_1,headsmash" ],
+				"access_rules": [ "headsmash,dashattack","op_openportal_1" ],
 				"sections": [
 					{
 						"name": "Agile Bat Box",
+						"access_rules": [ "headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Agile Bat Hidden Box",
-						"access_rules": [ "groundpound,grab" ],
+						"access_rules": [ "groundpound,grab,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Metal Platform Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Metal Platform Rolling Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Rolling Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,headsmash" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "!-Switch Rolling Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,headsmash" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Sewer Box",
-						"access_rules": [ "swim,dashattack" ],
+						"access_rules": [ "swim,dashattack,headsmash" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,headsmash" ],
 						"item_count": 1
+					},
+					{
+						"name": "First Village Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Agile Bat Hidden Diamond",
+						"access_rules": [ "groundpound,grab,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Dropdown Diamond",
+						"access_rules": [ "dashattack,headsmash" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Candle Dodging Diamond",
+						"access_rules": [ "dashattack,headsmash" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Glass Ball Puzzle Diamond",
+						"access_rules": [ "dashattack,headsmash,grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Sewer Diamond",
+						"access_rules": [ "dashattack,headsmash,swim" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzercmv",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "dashattack,headsmash" ],
 						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
@@ -964,7 +1607,7 @@
 			},
 			{
 				"name": "Arabian Night",
-				"access_rules": [ "swim,keyzercmv","op_openportal_1,keyzercmv" ],
+				"access_rules": [ "swim,$keyzercmv","op_openportal_1,$keyzercmv" ],
 				"sections": [
 					{
 						"name": "Onomi Box",
@@ -1004,6 +1647,77 @@
 						"item_count": 1
 					},
 					{
+						"name": "City Ledge Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Onomi Diamond",
+						"access_rules": [ "groundpound","headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Flying Carpet Dash Attack Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Puzzle Diamond",
+						"access_rules": [ "dashattack,grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Kool-Aid Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Left Sewer Ceiling Diamond",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Right Sewer Ceiling Diamond",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Sewer Air Pocket Diamond",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Sewer Submerged Diamond",
+						"access_rules": [ "swim,supergroundpound" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzeran",
 						"visibility_rules": [ "op_doors_2" ]
@@ -1019,7 +1733,7 @@
 			},
 			{
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash,keyzeran","op_openportal_1,keyzeran" ],
+				"access_rules": [ "groundpound,dashattack,headsmash,$keyzeran","op_openportal_1,$keyzeran" ],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -1052,6 +1766,60 @@
 						"item_count": 1
 					},
 					{
+						"name": "Long Lava Geyser Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Puzzle Diamond",
+						"access_rules": [ "grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Spring Puzzle Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Ice Jump Diamond",
+						"access_rules": [ "dashattack,groundpound,headsmash,enemyjump" ],
+						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Corner Diamond",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Hidden Ice Diamond",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Frozen Diamond",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerfc",
 						"access_rules": [ "dashattack,groundpound,headsmash" ],
@@ -1068,7 +1836,7 @@
 			},
 			{
 				"name": "Hotel Horror",
-				"access_rules": [ "normal,heavygrab,keyzerfc","hard,heavygrab,keyzerfc","shard,keyzerfc","op_openportal_1,keyzerfc" ],
+				"access_rules": [ "normal,heavygrab,$keyzerfc","hard,heavygrab,$keyzerfc","shard,$keyzerfc","op_openportal_1,$keyzerfc" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
@@ -1116,6 +1884,48 @@
 						"item_count": 1
 					},
 					{
+						"name": "Room 102 Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Room 402 Diamond",
+						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Bonfire Block Diamond",
+						"visibility_rules": [ "op_diamond_1,shard" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Exterior Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Transformation Puzzle Fat Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Transformation Puzzle Spring Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerhh",
 						"visibility_rules": [ "op_doors_2" ]
@@ -1131,7 +1941,7 @@
 			},
 	    	{
 				"name": "Catbat",
-				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound,keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1,keyzerhh" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound,$keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1,$keyzerhh" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
@@ -1163,27 +1973,110 @@
 			},
 			{
 				"name": "Golden Passage",
-				"access_rules": [ "swim,groundpound,grab,eventcractus,eventcondor,eventaerodent,eventcatbat" ],
+				"access_rules": [ "eventcractus,eventcondor,eventaerodent,eventcatbat" ],
 				"sections": [
 					{
 						"name": "Current Puzzle Box",
+						"access_rules": [ "swim" ],
 						"item_count": 1
 					},
 					{
 						"name": "River Box",
+						"access_rules": [ "swim" ],
 						"item_count": 1
 					},
 					{
 						"name": "Bat Room Box",
+						"access_rules": [ "swim" ],
 						"item_count": 1
 					},
 					{
 						"name": "Mad Scienstein Box",
+						"access_rules": [ "swim,groundpound" ],
 						"item_count": 1
+					},
+					{
+						"name": "Long Hall Left Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Long Hall Right Diamond",
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Current Puzzle Diamond",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Spring Shaft Diamond",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Zombie Hall Left Diamond",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Zombie Hall Right Diamond",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Digging Diamond",
+						"access_rules": [ "swim" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Slope Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Escape Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Scienstein Roll Diamond",
+						"access_rules": [ "swim,groundpound,grab" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzergp",
+						"access_rules": [ "swim,groundpound,grab" ],
 						"visibility_rules": [ "op_doors_1","op_doors_2" ]
 					}
 				],
@@ -1197,7 +2090,7 @@
 			},
 	    	{
 				"name": "Golden Diva",
-				"access_rules": [ "$divane,$divase,$divasw,$divanw,heavygrab,eventcractus,eventcondor,eventaerodent,eventcatbat,keyzergp" ],
+				"access_rules": [ "$divane,$divase,$divasw,$divanw,heavygrab,eventcractus,eventcondor,eventaerodent,eventcatbat,$keyzergp" ],
 				"sections": [
 					{
 						"name": "Defeat Golden Diva",
@@ -1214,5 +2107,5037 @@
 			}
 			
 		]	
+	},
+	{
+		"name": "HOH",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"access_rules": [ "dashattack,grab,supergroundpound" ],
+		"children": [
+			{
+				"name": "First Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/First Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR01",
+						"x": 296,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Second Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Second Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR03",
+						"x": 264,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Third Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Third Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR07",
+						"x": 264,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Fourth Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Fourth Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR09",
+						"x": 264,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR06",
+						"x": 680,
+						"y": 385,
+						"restrict_visibility_rules": ["normal","hard"]
+					},
+					{
+						"map": "HOHR10",
+						"x": 95,
+						"y": 178,
+						"restrict_visibility_rules": [ "shard" ]
+					}
+				]
+			},
+			{
+				"name": "Stone Block Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Stone Block Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR05",
+						"x": 336,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "Grab Tutorial Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Grab Tutorial Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR06",
+						"x": 680,
+						"y": 385
+					}
+				]
+			},
+			{
+				"name": "Diamond Above Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Diamond Above Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR09",
+						"x": 264,
+						"y": 80
+					}
+				]
+			},
+			{
+				"name": "Alcove Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Alcove Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR10",
+						"x": 95,
+						"y": 178
+					}
+				]
+			},
+			{
+				"name": "Ground Pound Tutorial Diamond",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Ground Pound Tutorial Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR10",
+						"x": 351,
+						"y": 113
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "PTP",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "First Box",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/First Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR02",
+						"x": 584,
+						"y": 210
+					}
+				]
+			},
+			{
+				"name": "Ledge Item",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Ledge Box"
+					},
+					{
+						"ref": "World/Palm Tree Paradise/Ledge Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR02",
+						"x": 835,
+						"y": 155
+					}
+				]
+			},
+			{
+				"name": "Dead End Box",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Dead End Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR06",
+						"x": 504,
+						"y": 143
+					}
+				]
+			},
+			{
+				"name": "Box Before Cave",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Box Before Cave"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR03",
+						"x": 504,
+						"y": 226
+					}
+				]
+			},
+			{
+				"name": "Hidden Item",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Hidden Box"
+					},
+					{
+						"ref": "World/Palm Tree Paradise/Hidden Tunnel Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR03",
+						"x": 655,
+						"y": 161
+					}
+				]
+			},
+			{
+				"name": "Ladder Cave",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
+					},
+					{
+						"ref": "World/Palm Tree Paradise/Switch Staircase Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR03",
+						"x": 938,
+						"y": 190
+					}
+				]
+			},
+			{
+				"name": "Ladder Cave Box",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Ladder Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR07",
+						"x": 104,
+						"y": 225,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "PTPR07",
+						"x": 160,
+						"y": 112,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Platform Cave Box",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Platform Cave Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 216,
+						"y": 133,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "PTPR04",
+						"x": 95,
+						"y": 133,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Platform Cave Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Platform Cave Hidden Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 95,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR04",
+						"x": 440,
+						"y": 290
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR06",
+						"x": 328,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Submerged Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Submerged Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR08",
+						"x": 175,
+						"y": 290
+					},
+					{
+						"map": "PTPR05",
+						"x": 255,
+						"y": 255
+					}
+				]
+			},
+			{
+				"name": "Switch Staircase Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Switch Staircase Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR10",
+						"x": 159,
+						"y": 195
+					},
+					{
+						"map": "PTPR07",
+						"x": 160,
+						"y": 55
+					}
+				]
+			},
+			{
+				"name": "Scienstein Throw Diamond",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Scienstein Throw Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR11",
+						"x": 63,
+						"y": 210
+					},
+					{
+						"map": "PTPR05",
+						"x": 145,
+						"y": 115
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Palm Tree Paradise/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PTPR05",
+						"x": 430,
+						"y": 130
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "WF",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Current Cave Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Current Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR07",
+						"x": 424,
+						"y": 113,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "WFR07",
+						"x": 123,
+						"y": 113,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Sunflower Jewel Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Sunflower Jewel Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR08",
+						"x": 360,
+						"y": 353
+					}
+				]
+			},
+			{
+				"name": "Sunflower Ledge Item",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Sunflower Box"
+					},
+					{
+						"ref": "World/Wildflower Fields/Sunflower Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR08",
+						"x": 751,
+						"y": 177
+					}
+				]
+			},
+			{
+				"name": "Slope Room Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Slope Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 584,
+						"y": 179
+					}
+				]
+			},
+			{
+				"name": "8-Shaped Cave Item",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/8-Shaped Cave Box"
+					},
+					{
+						"ref": "World/Wildflower Fields/8-Shaped Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 576,
+						"y": 416
+					},
+					{
+						"map": "WFR04",
+						"x": 639,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "Beezley Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Beezley Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR09",
+						"x": 936,
+						"y": 306,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "WFR09",
+						"x": 1012,
+						"y": 147,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR00",
+						"x": 365,
+						"y": 36
+					},
+					{
+						"map": "WFR01",
+						"x": 104,
+						"y": 116
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR08",
+						"x": 728,
+						"y": 353
+					}
+				]
+			},
+			{
+				"name": "Scienstein Stomp Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Scienstein Stomp Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR06",
+						"x": 416,
+						"y": 560
+					},
+					{
+						"map": "WFR12",
+						"x": 222,
+						"y": 257
+					}
+				]
+			},
+			{
+				"name": "Hidden Tunnel Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Hidden Tunnel Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR00",
+						"x": 79,
+						"y": 225
+					}
+				]
+			},
+			{
+				"name": "Escape Detour Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Escape Detour Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 95,
+						"y": 114
+					}
+				]
+			},
+			{
+				"name": "Escape Detour Corner Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Escape Detour Corner Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR02",
+						"x": 335,
+						"y": 37
+					},
+					{
+						"map": "WFR03",
+						"x": 303,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Current Cave Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Current Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR07",
+						"x": 191,
+						"y": 802
+					}
+				]
+			},
+			{
+				"name": "Switch Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Switch Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR10",
+						"x": 64,
+						"y": 442
+					},
+					{
+						"map": "WFR13",
+						"x": 78,
+						"y": 80
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Wildflower Fields/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "WFR05",
+						"x": 172,
+						"y": 128
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "ML",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Air Pocket",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Air Pocket Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Air Pocket Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR02",
+						"x": 824,
+						"y": 338
+					}
+				]
+			},
+			{
+				"name": "Large Cave",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Large Cave Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Large Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR02",
+						"x": 639,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "Small Cave",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Small Cave Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Small Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR03",
+						"x": 111,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR09",
+						"x": 296,
+						"y": 160,
+						"restrict_visibility_rules": ["normal","hard"]
+					},
+					{
+						"map": "MLR01",
+						"x": 550,
+						"y": 293,
+						"restrict_visibility_rules": ["normal","hard"]
+					},
+					{
+						"map": "MLR03",
+						"x": 111,
+						"y": 145,
+						"restrict_visibility_rules": ["shard"]
+					}
+				]
+			},
+			{
+				"name": "Hill Room Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Hill Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR07",
+						"x": 200,
+						"y": 115
+					}
+				]
+			},
+			{
+				"name": "Rock Cave Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Rock Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR01",
+						"x": 550,
+						"y": 293
+					},
+					{
+						"map": "MLR09",
+						"x": 296,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Cavern Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Cavern Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR04",
+						"x": 424,
+						"y": 481
+					}
+				]
+			},
+			{
+				"name": "Spring Cave Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Spring Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR04",
+						"x": 443,
+						"y": 123
+					}
+				]
+			},
+			{
+				"name": "Box Before Bridge",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Box Before Bridge"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR05",
+						"x": 344,
+						"y": 163
+					}
+				]
+			},
+			{
+				"name": "Bubble Air Pocket",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Lake Exit Bubble Box"
+					},
+					{
+						"ref": "World/Mystic Lake/Bubble Path Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR05",
+						"x": 799,
+						"y": 258
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR01",
+						"x": 48,
+						"y": 191
+					},
+					{
+						"map": "MLR08",
+						"x": 88,
+						"y": 99
+					}
+				]
+			},
+			{
+				"name": "Shallow Pool Puzzle Diamond",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Shallow Pool Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR02",
+						"x": 369,
+						"y": 469
+					},
+					{
+						"map": "MLR10",
+						"x": 255,
+						"y": 210
+					}
+				]
+			},
+			{
+				"name": "Deep Pool Puzzle Diamond",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Deep Pool Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR06",
+						"x": 352,
+						"y": 75
+					},
+					{
+						"map": "MLR11",
+						"x": 127,
+						"y": 353
+					}
+				]
+			},
+			{
+				"name": "Eel Cave Underwater Diamond",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Eel Cave Underwater Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR03",
+						"x": 543,
+						"y": 482
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections":[
+					{
+						"ref": "World/Mystic Lake/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MLR06",
+						"x": 540,
+						"y": 96
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "MJ",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Spiky Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Spiky Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR06",
+						"x": 184,
+						"y": 740
+					}
+				]
+			},
+			{
+				"name": "Escape Climb Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Escape Climb Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR06",
+						"x": 519,
+						"y": 412
+					}
+				]
+			},
+			{
+				"name": "Brown Pipe Cave Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Brown Pipe Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR06",
+						"x": 590,
+						"y": 700
+					},
+					{
+						"map": "MJR13",
+						"x": 225,
+						"y": 157
+					}
+				]
+			},
+			{
+				"name": "Fat Plummet",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Box"
+					},
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR02",
+						"x": 496,
+						"y": 542
+					}
+				]
+			},
+			{
+				"name": "Fat Plummet Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR04",
+						"x": 392,
+						"y": 1700,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "MJR04",
+						"x": 398,
+						"y": 1824,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Fat Plummet Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Fat Plummet Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR04",
+						"x": 398,
+						"y": 1824
+					}
+				]
+			},
+			{
+				"name": "Descent Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Descent Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR08",
+						"x": 280,
+						"y": 355
+					}
+				]
+			},
+			{
+				"name": "Puffy Hallway",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Puffy Hallway Box"
+					},
+					{
+						"ref": "World/Monsoon Jungle/Puffy Hallway Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR08",
+						"x": 240,
+						"y": 36
+					},
+					{
+						"map": "MJR09",
+						"x": 111,
+						"y": 146
+					}
+				]
+			},
+			{
+				"name": "Buried Cave",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Box"
+					},
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR10",
+						"x": 560,
+						"y": 190
+					}
+				]
+			},
+			{
+				"name": "Buried Cave Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR11",
+						"x": 248,
+						"y": 306,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "MJR11",
+						"x": 95,
+						"y": 97,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Buried Cave Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Buried Cave Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR11",
+						"x": 95,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR02",
+						"x": 272,
+						"y": 32
+					},
+					{
+						"map": "MJR05",
+						"x": 1032,
+						"y": 161
+					} 
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR01",
+						"x": 154,
+						"y": 330
+					},
+					{
+						"map": "MJR03",
+						"x": 216,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "Archer Pink Room Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Archer Pink Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR02",
+						"x": 497,
+						"y": 117
+					},
+					{ 
+						"map": "MJR14",
+						"x": 590,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Rock Catching Diamond",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Rock Catching Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR00",
+						"x": 512,
+						"y": 120
+					},
+					{
+						"map": "MJR15",
+						"x": 670,
+						"y": 129
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections":[
+					{
+						"ref": "World/Monsoon Jungle/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "MJR00",
+						"x": 445,
+						"y": 80
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Cractus",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Defeat Cractus",
+				"sections": [
+					{
+						"ref": "World/Cractus/Defeat Cractus"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 113,
+						"y": 32
+					}
+				]
+			},
+			{
+				"name": "0:15",
+				"sections": [
+					{
+						"ref": "World/Cractus/0:15"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 80,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "0:35",
+				"sections": [
+					{
+						"ref": "World/Cractus/0:35"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 112,
+						"y": 96
+					}
+				]
+			},
+			{
+				"name": "0:55",
+				"sections": [
+					{
+						"ref": "World/Cractus/0:55"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS1",
+						"x": 144,
+						"y": 96
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Curious Factory",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "First Drop Box",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/First Drop Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR01",
+						"x": 920,
+						"y": 290
+					}
+				]
+			},
+			{
+				"name": "Thin Gap Item",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Thin Gap Box"
+					},
+					{
+						"ref": "World/The Curious Factory/T-Tunnel Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR01",
+						"x": 95,
+						"y": 66
+					}
+				]
+			},
+			{
+				"name": "Early Escape Box",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Early Escape Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR06",
+						"x": 408,
+						"y": 514
+					}
+				]
+			},
+			{
+				"name": "Conveyor Room Box",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Conveyor Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR04",
+						"x": 88,
+						"y": 124
+					}
+				]
+			},
+			{
+				"name": "Late Escape Box",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Late Escape Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR07",
+						"x": 88,
+						"y": 114
+					}
+				]
+			},
+			{
+				"name": "Underground Chamber Item",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Underground Chamber Box"
+					},
+					{
+						"ref": "World/The Curious Factory/Underground Chamber Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR07",
+						"x": 255,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "Frog Switch Room Box",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Frog Switch Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR05",
+						"x": 360,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "Gear Elevator Item",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Gear Elevator Box"
+					},
+					{
+						"ref": "World/The Curious Factory/Gear Elevator Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR05",
+						"x": 720,
+						"y": 446
+					},
+					{
+						"map": "CFR08",
+						"x": 287,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR07",
+						"x": 1640,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Scienstein Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Scienstein Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR02",
+						"x": 288,
+						"y": 315
+					},
+					{
+						"map": "CFR09",
+						"x": 79,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Rock Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Rock Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR04",
+						"x": 193,
+						"y": 395
+					},
+					{
+						"map": "CFR10",
+						"x": 190,
+						"y": 209
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/The Curious Factory/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CFR05",
+						"x": 539,
+						"y": 64
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Toxic Landfill",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Portal Room Box",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Portal Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR00",
+						"x": 344,
+						"y": 754
+					}
+				]
+			},
+			{
+				"name": "Box Above Portal",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Box Above Portal"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR00",
+						"x": 479,
+						"y": 119
+					}
+				]
+			},
+			{
+				"name": "Fat Room Box",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Fat Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR01",
+						"x": 345,
+						"y": 995,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "TLR01",
+						"x": 95,
+						"y": 946,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Trash Plummet Diamond",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Trash Plummet Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR01",
+						"x": 95,
+						"y": 946
+					}
+				]
+			},
+			{
+				"name": "Spring Room Box",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Spring Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR04",
+						"x": 296,
+						"y": 882
+					}
+				]
+			},
+			{
+				"name": "Current Circle",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Current Circle Box"
+					},
+					{
+						"ref": "World/The Toxic Landfill/Current Circle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR04",
+						"x": 255,
+						"y": 128
+					},
+					{
+						"map": "TLR05",
+						"x": 271,
+						"y": 178
+					}
+				]
+			},
+			{
+				"name": "Ledge Box",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Ledge Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR06",
+						"x": 408,
+						"y": 194
+					}
+				]
+			},
+			{
+				"name": "Transformation Puzzle",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Transformation Puzzle Box"
+					},
+					{
+						"ref": "World/The Toxic Landfill/Transformation Puzzle Upper Diamond"
+					},
+					{
+						"ref": "World/The Toxic Landfill/Transformation Puzzle Lower Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR06",
+						"x": 1071,
+						"y": 190
+					}
+				]
+			},
+			{
+				"name": "Transformation Puzzle Upper Item",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Transformation Puzzle Box"
+					},
+					{
+						"ref": "World/The Toxic Landfill/Transformation Puzzle Upper Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR07",
+						"x": 112,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "Transformation Puzzle Lower Diamond",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Transformation Puzzle Lower Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR07",
+						"x": 79,
+						"y": 400
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR06",
+						"x": 104,
+						"y": 419
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR06",
+						"x": 984,
+						"y": 131
+					}
+				]
+			},
+			{
+				"name": "Spike Ceiling And Puzzle Room",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Spike Ceiling Diamond"
+					},
+					{
+						"ref": "World/The Toxic Landfill/Rock Throwing Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR01",
+						"x": 368,
+						"y": 45
+					}
+				]
+			},
+			{
+				"name": "Spike Ceiling Diamond",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Spike Ceiling Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR02",
+						"x": 191,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Rock Throwing Diamond",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Rock Throwing Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR02",
+						"x": 191,
+						"y": 40
+					},
+					{
+						"map": "TLR11",
+						"x": 319,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "Sewage Pool Diamond",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Sewage Pool Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR03",
+						"x": 895,
+						"y": 417
+					}
+				]
+			},
+			{
+				"name": "Trash Sprint Diamond",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Trash Sprint Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR06",
+						"x": 95,
+						"y": 498
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/The Toxic Landfill/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TLR08",
+						"x": 363,
+						"y": 224
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "40 Below Fridge",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Maze Room Box",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Maze Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR04",
+						"x": 232,
+						"y": 98,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "40BFR04",
+						"x": 703,
+						"y": 224,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Looping Room Box",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Looping Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR05",
+						"x": 248,
+						"y": 674,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "40BFR05",
+						"x": 607,
+						"y": 657,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Upper Box",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Upper Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 744,
+						"y": 115,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "40BFR07",
+						"x": 142,
+						"y": 144,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Lower Box",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Lower Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 232,
+						"y": 434,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "40BFR07",
+						"x": 671,
+						"y": 433,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR02",
+						"x": 136,
+						"y": 115
+					}
+				]
+			},
+			{
+				"name": "Conveyor Room Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Conveyor Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR01",
+						"x": 79,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Maze Cage Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Maze Cage Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR04",
+						"x": 703,
+						"y": 224
+					}
+				]
+			},
+			{
+				"name": "Maze Pit Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Maze Pit Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR04",
+						"x": 816,
+						"y": 241
+					}
+				]
+			},
+			{
+				"name": "Crystal Lobbing Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Crystal Lobbing Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR04",
+						"x": 112,
+						"y": 574
+					},
+					{
+						"map": "40BFR09",
+						"x": 287,
+						"y": 192
+					}
+				]
+			},
+			{
+				"name": "Looping Room Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Looping Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR05",
+						"x": 607,
+						"y": 657
+					}
+				]
+			},
+			{
+				"name": "Ice Block Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Ice Block Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR06",
+						"x": 479,
+						"y": 353
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Left Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Left Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 142,
+						"y": 144
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Bottom Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Bottom Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 671,
+						"y": 433
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Diamond Under Door",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Diamond Under Door"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 702,
+						"y": 193
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Right Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Right Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 846,
+						"y": 129
+					}
+				]
+			},
+			{
+				"name": "Yeti Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Yeti Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 768,
+						"y": 328
+					},
+					{
+						"map": "40BFR10",
+						"x": 207,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR04",
+						"x": 700,
+						"y": 367
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Pinball Zone",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children": [
+			{
+				"name": "Rolling Room Box",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Rolling Room Box"
+					},
+					{
+						"ref": "World/Pinball Zone/Rolling Room Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR00",
+						"x": 392,
+						"y": 1170
+					}
+				]
+			},
+			{
+				"name": "Switch Room Box",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Switch Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR00",
+						"x": 545,
+						"y": 275
+					}
+				]
+			},
+			{
+				"name": "Fruit Room Box",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Fruit Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR02",
+						"x": 696,
+						"y": 323,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "PZR02",
+						"x": 95,
+						"y": 256,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Jungle Room Box",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Jungle Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR03",
+						"x": 152,
+						"y": 450,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "PZR03",
+						"x": 519,
+						"y": 450,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Snow Room Box",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Snow Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR04",
+						"x": 520,
+						"y": 466,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "PZR04",
+						"x": 95,
+						"y": 321,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR00",
+						"x": 88,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Full Health Item Box"
+					},
+					{
+						"ref": "World/Pinball Zone/Pink Room Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR04",
+						"x": 688,
+						"y": 369
+					},
+					{
+						"map": "PZR08",
+						"x": 280,
+						"y": 225
+					}
+				]
+			},
+			{
+				"name": "Fruit Room Diamond",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Fruit Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR02",
+						"x": 95,
+						"y": 256
+					}
+				]
+			},
+			{
+				"name": "Flaming Wario Diamond",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Flaming Wario Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR02",
+						"x": 801,
+						"y": 346
+					},
+					{
+						"map": "PZR07",
+						"x": 62,
+						"y": 64
+					}
+				]
+			},
+			{
+				"name": "Snow Room Diamond",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Snow Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR04",
+						"x": 95,
+						"y": 321
+					}
+				]
+			},
+			{
+				"name": "Switch Room Diamond",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Switch Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR00",
+						"x": 594,
+						"y": 256
+					}
+				]
+			},
+			{
+				"name": "Robot Room Diamond",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Robot Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR05",
+						"x": 79,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Pinball Zone/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "PZR00",
+						"x": 251,
+						"y": 384
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Cuckoo Condor",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Defeat Cuckoo Condor",
+				"sections": [
+					{
+						"ref": "World/Cuckoo Condor/Defeat Cuckoo Condor"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS2",
+						"x": 112,
+						"y": 38
+					}
+				]
+			},
+			{
+				"name": "0:15",
+				"sections": [
+					{
+						"ref": "World/Cuckoo Condor/0:15"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS2",
+						"x": 80,
+						"y": 107
+					}
+				]
+			},
+			{
+				"name": "0:35",
+				"sections": [
+					{
+						"ref": "World/Cuckoo Condor/0:35"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS2",
+						"x": 112,
+						"y": 107
+					}
+				]
+			},
+			{
+				"name": "0:55",
+				"sections": [
+					{
+						"ref": "World/Cuckoo Condor/0:55"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS2",
+						"x": 144,
+						"y": 107
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Toy Block Tower",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+			"name": "Toy Car Overhang Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Toy Car Overhang Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR01",
+						"x": 239,
+						"y": 194
+					},
+					{
+						"map": "TBTR02",
+						"x": 264,
+						"y": 211
+					}
+				]
+			},
+			{
+			"name": "Tower Exterior Top Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Tower Exterior Top Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR05",
+						"x": 169,
+						"y": 94
+					}
+				]
+			},
+			{
+			"name": "Hidden Tower Room Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Hidden Tower Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR04",
+						"x": 89,
+						"y": 195
+					},
+					{
+						"map": "TBTR03",
+						"x": 425,
+						"y": 639
+					}
+				]
+			},
+			{
+			"name": "Digging Room Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Digging Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR06",
+						"x": 456,
+						"y": 363
+					}
+				]
+			},
+			{
+			"name": "Fire Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Fire Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR07",
+						"x": 120,
+						"y": 131
+					}
+				]
+			},
+			{
+			"name": "Hidden Falling Block Door Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Hidden Falling Block Door Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR07",
+						"x": 208,
+						"y": 207
+					},
+					{
+						"map": "TBTR09",
+						"x": 209,
+						"y": 141
+					}
+				]
+			},
+			{
+			"name": "Bonfire Block Item",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Bonfire Block Box"
+					},
+					{
+						"ref": "World/Toy Block Tower/Bonfire Block Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR07",
+						"x": 479,
+						"y": 338
+					}
+				]
+			},
+			{
+			"name": "Red Pipe Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Red Pipe Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR10",
+						"x": 408,
+						"y": 242
+					}
+				]
+			},
+			{
+			"name": "Escape Ledge Item",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Escape Ledge Box"
+					},
+					{
+						"ref": "World/Toy Block Tower/Escape Ledge Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR10",
+						"x": 31,
+						"y": 239
+					},
+					{
+						"map": "TBTR11",
+						"x": 111,
+						"y": 177
+					},
+					{
+						"map": "TBTR12",
+						"x": 511,
+						"y": 32,
+						"restrict_visibility_rules": [ "shard" ]
+					}
+				]
+			},
+			{
+			"name": "CD Box",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR12",
+						"x": 639,
+						"y": 272
+					},
+					{
+						"map": "TBTR13",
+						"x": 200,
+						"y": 146
+					}
+				]
+			},
+			{
+			"name": "Puzzle Room Item",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Full Health Item Box"
+					},
+					{
+						"ref": "World/Toy Block Tower/Dash Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR03",
+						"x": 96,
+						"y": 676
+					},
+					{
+						"map": "TBTR14",
+						"x": 88,
+						"y": 195
+					}
+				]
+			},
+			{
+			"name": "Tower Diamond",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Tower Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR03",
+						"x": 272,
+						"y": 478
+					}
+				]
+			},
+			{
+			"name": "Cage Diamond",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Cage Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR12",
+						"x": 399,
+						"y": 210
+					}
+				]
+			},
+			{
+			"name": "Circle Block Diamond",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Circle Block Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR07",
+						"x": 865,
+						"y": 40
+					},
+					{
+						"map": "TBTR15",
+						"x": 255,
+						"y": 146
+					}
+				]
+			},
+			{
+			"name": "Keyzer",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR08",
+						"x": 268,
+						"y": 129
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Big Board",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "First Box",
+				"sections": [
+					{
+						"ref": "World/The Big Board/First Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR09",
+						"x": 376,
+						"y": 290
+					}
+				]
+			},
+			{
+				"name": "Fire Room Reward",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Hard Fire Room Box"
+					},
+					{
+						"ref": "World/The Big Board/Fire Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR01",
+						"x": 142,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Fire Room Box",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Normal Fire Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR01",
+						"x": 344,
+						"y": 369
+					}
+				]
+			},
+			{
+				"name": "Enemy Room Reward",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Hard Enemy Room Box"
+					},
+					{
+						"ref": "World/The Big Board/Enemy Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR02",
+						"x": 703,
+						"y": 354
+					}
+				]
+			},
+			{
+				"name": "Enemy Room Box",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Normal Enemy Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR02",
+						"x": 393,
+						"y": 354
+					}
+				]
+			},
+			{
+				"name": "Fat Room Reward",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Fat Room Box"
+					},
+					{
+						"ref": "World/The Big Board/Fat Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR03",
+						"x": 447,
+						"y": 321
+					}
+				]
+			},
+			{
+				"name": "Toy Car Box",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Toy Car Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR10",
+						"x": 408,
+						"y": 259
+					}
+				]
+			},
+			{
+				"name": "Flat Room Reward",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Flat Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR04",
+						"x": 711,
+						"y": 354
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/The Big Board/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR04",
+						"x": 711,
+						"y": 354,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "BBR05",
+						"x": 560,
+						"y": 241,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Full Health Item Box",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Full Health Item Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR01",
+						"x": 768,
+						"y": 369
+					},
+					{
+						"map": "BBR02",
+						"x": 161,
+						"y": 354
+					},
+					{
+						"map": "BBR11",
+						"x": 88,
+						"y": 196
+					}
+				]
+			},
+			{
+				"name": "Bouncy Room Reward",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Bouncy Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR05",
+						"x": 560,
+						"y": 241
+					}
+				]
+			},
+			{
+				"name": "Scienstein Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Scienstein Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR04",
+						"x": 176,
+						"y": 52
+					},
+					{
+						"map": "BBR12",
+						"x": 304,
+						"y": 114
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/The Big Board/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BBR08",
+						"x": 253,
+						"y": 241
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Doodle Woods",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Box Behind Wall",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Box Behind Wall"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR00",
+						"x": 344,
+						"y": 83
+					}
+				]
+			},
+			{
+				"name": "Grey Square Box",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Grey Square Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR01",
+						"x": 104,
+						"y": 255
+					},
+					{
+						"map": "DWR06",
+						"x": 104,
+						"y": 162
+					}
+				]
+			},
+			{
+				"name": "Orange Escape Box",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Orange Escape Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR04",
+						"x": 392,
+						"y": 610
+					}
+				]
+			},
+			{
+				"name": "Pink Circle Item",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Pink Circle Box"
+					},
+					{
+						"ref": "World/Doodle Woods/Pink Circle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR02",
+						"x": 1703,
+						"y": 414
+					},
+					{
+						"map": "DWR05",
+						"x": 29,
+						"y": 1024
+					},
+					{
+						"map": "DWR07",
+						"x": 112,
+						"y": 162
+					}
+				]
+			},
+			{
+				"name": "Purple Square Box",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Purple Square Box"
+					},
+					{
+						"ref": "World/Doodle Woods/Buried Door Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR02",
+						"x": 409,
+						"y": 385
+					},
+					{
+						"map": "DWR08",
+						"x": 104,
+						"y": 162
+					}
+				]
+			},
+			{
+				"name": "Blue Escape Box",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Blue Escape Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR05",
+						"x": 200,
+						"y": 514
+					}
+				]
+			},
+			{
+				"name": "Blue Circle Item",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Blue Circle Box"
+					},
+					{
+						"ref": "World/Doodle Woods/Blue Circle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR03",
+						"x": 1607,
+						"y": 110
+					},
+					{
+						"map": "DWR09",
+						"x": 112,
+						"y": 162
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR01",
+						"x": 104,
+						"y": 255,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "DWR06",
+						"x": 104,
+						"y": 162,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "DWR04",
+						"x": 392,
+						"y": 610,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Platform Staircase Diamond",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Platform Staircase Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR02",
+						"x": 1518,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "Hidden Platform Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Hidden Platform Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR03",
+						"x": 737,
+						"y": 101
+					},
+					{
+						"map": "DWR10",
+						"x": 1470,
+						"y": 81
+					}
+				]
+			},
+			{
+				"name": "Rolling Room Diamond",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Rolling Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR02",
+						"x": 1569,
+						"y": 438
+					},
+					{
+						"map": "DWR11",
+						"x": 559,
+						"y": 433
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Doodle Woods/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DWR03",
+						"x": 1500,
+						"y": 368,
+						"restrict_visibility_rules": [ "normal","hard" ]
+					},
+					{
+						"map": "DWR05",
+						"x": 315,
+						"y": 188,
+						"restrict_visibility_rules": [ "shard" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Domino Row",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Racing Box",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Racing Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR01",
+						"x": 936,
+						"y": 83
+					}
+				]
+			},
+			{
+				"name": "Rolling Box",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Rolling Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR03",
+						"x": 536,
+						"y": 146
+					}
+				]
+			},
+			{
+				"name": "Swimming Detour Box",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Swimming Detour Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR04",
+						"x": 376,
+						"y": 721
+					}
+				]
+			},
+			{
+				"name": "Swimming Room Escape Box",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Swimming Room Escape Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR04",
+						"x": 175,
+						"y": 256
+					}
+				]
+			},
+			{
+				"name": "Keyzer Room Box",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Keyzer Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR06",
+						"x": 264,
+						"y": 99
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Domino Row/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR07",
+						"x": 232,
+						"y": 132
+					}
+				]
+			},
+			{
+				"name": "Toy Car Tower Diamond",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Toy Car Tower Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR09",
+						"x": 238,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "Switch Ladder Diamond",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Switch Ladder Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR07",
+						"x": 400,
+						"y": 348
+					},
+					{
+						"map": "DRR11",
+						"x": 158,
+						"y": 49
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Domino Row/Keyzer"
+					},
+					{
+						"ref": "World/Domino Row/Keyzer Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "DRR00",
+						"x": 301,
+						"y": 160
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Aerodent",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Defeat Aerodent",
+				"sections": [
+					{
+						"ref": "World/Aerodent/Defeat Aerodent"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS3",
+						"x": 112,
+						"y": 32
+					}
+				]
+			},
+			{
+				"name": "0:15",
+				"sections": [
+					{
+						"ref": "World/Aerodent/0:15"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS3",
+						"x": 80,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "0:35",
+				"sections": [
+					{
+						"ref": "World/Aerodent/0:35"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS3",
+						"x": 112,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "0:55",
+				"sections": [
+					{
+						"ref": "World/Aerodent/0:55"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS3",
+						"x": 144,
+						"y": 98
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Crescent Moon Village",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Agile Bat Box",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Agile Bat Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR02",
+						"x": 72,
+						"y": 99
+					}
+				]
+			},
+			{
+				"name": "Agile Bat Hidden Item",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Agile Bat Hidden Box"
+					},
+					{
+						"ref": "World/Crescent Moon Village/Agile Bat Hidden Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR02",
+						"x": 90,
+						"y": 223
+					},
+					{
+						"map": "CMVR03",
+						"x": 382,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "Metal Platform Box",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Metal Platform Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR04",
+						"x": 744,
+						"y": 482
+					}
+				]
+			},
+			{
+				"name": "Metal Platform Rolling Box",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Metal Platform Rolling Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR04",
+						"x": 232,
+						"y": 451
+					}
+				]
+			},
+			{
+				"name": "Rolling Box",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Rolling Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR05",
+						"x": 744,
+						"y": 306
+					}
+				]
+			},
+			{
+				"name": "!-Switch Rolling Box",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/!-Switch Rolling Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR05",
+						"x": 723,
+						"y": 147
+					}
+				]
+			},
+			{
+				"name": "Sewer Box",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Sewer Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR08",
+						"x": 248,
+						"y": 114,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "CMVR08",
+						"x": 143,
+						"y": 97,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR04",
+						"x": 232,
+						"y": 451,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "CMVR04",
+						"x": 744,
+						"y": 482,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "First Village Diamond",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/First Village Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR01",
+						"x": 640,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Dropdown Diamond",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Dropdown Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR04",
+						"x": 1136,
+						"y": 130
+					}
+				]
+			},
+			{
+				"name": "Candle Dodging Diamond",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Candle Dodging Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR07",
+						"x": 79,
+						"y": 129
+					}
+				]
+			},
+			{
+				"name": "Glass Ball Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Glass Ball Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR04",
+						"x": 2176,
+						"y": 486
+					},
+					{
+						"map": "CMVR11",
+						"x": 207,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Sewer Items",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Sewer Box"
+					},
+					{
+						"ref": "World/Crescent Moon Village/Sewer Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR06",
+						"x": 1647,
+						"y": 185
+					}
+				]
+			},
+			{
+				"name": "Sewer Diamond",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Sewer Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR08",
+						"x": 143,
+						"y": 97
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Crescent Moon Village/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "CMVR07",
+						"x": 173,
+						"y": 80
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Arabian Night",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Onomi Box",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Onomi Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR03",
+						"x": 248,
+						"y": 467,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "ANR03",
+						"x": 271,
+						"y": 545,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Onomi Diamond",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Onomi Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR03",
+						"x": 271,
+						"y": 545
+					}
+				]
+			},
+			{
+				"name": "Flying Carpet Overhang Box",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Flying Carpet Overhang Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR04",
+						"x": 360,
+						"y": 402
+					}
+				]
+			},
+			{
+				"name": "Flying Carpet Dash Attack Room",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Flying Carpet Dash Attack Box"
+					},
+					{
+						"ref": "World/Arabian Night/Flying Carpet Dash Attack Diamond"
+					},
+					{
+						"ref": "World/Arabian Night/Scienstein Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR04",
+						"x": 288,
+						"y": 570
+					}
+				]
+			},
+			{
+				"name": "Flying Carpet Dash Attack Item",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Flying Carpet Dash Attack Box"
+					},
+					{
+						"ref": "World/Arabian Night/Flying Carpet Dash Attack Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR05",
+						"x": 95,
+						"y": 257
+					}
+				]
+			},
+			{
+				"name": "Zombie Plummet Box",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Zombie Plummet Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR07",
+						"x": 520,
+						"y": 465
+					}
+				]
+			},
+			{
+				"name": "Kool-Aid Item",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Kool-Aid Box"
+					},
+					{
+						"ref": "World/Arabian Night/Kool-Aid Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR02",
+						"x": 1304,
+						"y": 415
+					},
+					{
+						"map": "ANR07",
+						"x": 319,
+						"y": 689
+					}
+				]
+			},
+			{
+				"name": "Sewer Box",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Sewer Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR08",
+						"x": 88,
+						"y": 244,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "ANR08",
+						"x": 975,
+						"y": 322,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR09",
+						"x": 184,
+						"y": 195
+					}
+				]
+			},
+			{
+				"name": "City Ledge Diamond",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/City Ledge Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR02",
+						"x": 640,
+						"y": 114
+					}
+				]
+			},
+			{
+				"name": "Scienstein Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Scienstein Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR05",
+						"x": 337,
+						"y": 331
+					},
+					{
+						"map": "ANR11",
+						"x": 399,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "Sewer Air Pocket Diamond",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Sewer Air Pocket Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR08",
+						"x": 975,
+						"y": 322
+					}
+				]
+			},
+			{
+				"name": "Sewer Submerged Diamond",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Sewer Submerged Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR09",
+						"x": 431,
+						"y": 417
+					}
+				]
+			},
+			{
+				"name": "Left Sewer Ceiling Diamond",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Left Sewer Ceiling Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR09",
+						"x": 543,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Right Sewer Ceiling Diamond",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Right Sewer Ceiling Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR09",
+						"x": 671,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Arabian Night/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "ANR02",
+						"x": 1088,
+						"y": 448
+					},
+					{
+						"map": "ANR06",
+						"x": 300,
+						"y": 416
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Fiery Cavern",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Lava Dodging Box",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Lava Dodging Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR03",
+						"x": 808,
+						"y": 275
+					},
+					{
+						"map": "FCR04",
+						"x": 808,
+						"y": 275
+					}
+				]
+			},
+			{
+				"name": "Hidden Behind The Ice",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Ice Beyond Door Box"
+					},
+					{
+						"ref": "World/Fiery Cavern/Hidden Ice Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR05",
+						"x": 952,
+						"y": 339
+					},
+					{
+						"map": "FCR06",
+						"x": 952,
+						"y": 339
+					}
+				]
+			},
+			{
+				"name": "Long Lava Geyser Items",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Long Lava Geyser Box"
+					},
+					{
+						"ref": "World/Fiery Cavern/Long Lava Geyser Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR05",
+						"x": 32,
+						"y": 382
+					},
+					{
+						"map": "FCR06",
+						"x": 32,
+						"y": 382
+					}
+				]
+			},
+			{
+				"name": "Long Lava Geyser Box",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Long Lava Geyser Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR07",
+						"x": 552,
+						"y": 163,
+						"restrict_visibility_rules": [ "normal" ]
+					},
+					{
+						"map": "FCR07",
+						"x": 127,
+						"y": 129,
+						"restrict_visibility_rules": [ "hard","shard" ]
+					}
+				]
+			},
+			{
+				"name": "Long Lava Geyser Diamond",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Long Lava Geyser Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR07",
+						"x": 127,
+						"y": 129
+					}
+				]
+			},
+			{
+				"name": "Ice Detour",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Ice Detour Box"
+					},
+					{
+						"ref": "World/Fiery Cavern/Frozen Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR09",
+						"x": 152,
+						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Snowman Box",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Snowman Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR12",
+						"x": 632,
+						"y": 258
+					}
+				]
+			},
+			{
+				"name": "Frozen Diamond",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Frozen Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR12",
+						"x": 79,
+						"y": 209
+					}
+				]
+			},
+			{
+				"name": "Ice Detour Box",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Ice Detour Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR10",
+						"x": 280,
+						"y": 164
+					},
+					{
+						"map": "FCR11",
+						"x": 280,
+						"y": 164
+					}
+				]
+			},
+			{
+				"name": "CD Box",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR01",
+						"x": 104,
+						"y": 338
+					},
+					{
+						"map": "FCR02",
+						"x": 104,
+						"y": 338
+					}
+				]
+			},
+			{
+				"name": "Scienstein Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Scienstein Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR03",
+						"x": 576,
+						"y": 293
+					},
+					{
+						"map": "FCR04",
+						"x": 576,
+						"y": 293
+					},
+					{
+						"map": "FCR13",
+						"x": 143,
+						"y": 160
+					}
+				]
+			},
+			{
+				"name": "Spring Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Spring Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR01",
+						"x": 368,
+						"y": 662
+					},
+					{
+						"map": "FCR02",
+						"x": 368,
+						"y": 662
+					},
+					{
+						"map": "FCR14",
+						"x": 63,
+						"y": 337
+					}
+				]
+			},
+			{
+				"name": "Ice Jump Diamond",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Ice Jump Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR01",
+						"x": 254,
+						"y": 66
+					},
+					{
+						"map": "FCR02",
+						"x": 254,
+						"y": 66
+					}
+				]
+			},
+			{
+				"name": "Corner Diamond",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Corner Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR03",
+						"x": 223,
+						"y": 113
+					},
+					{
+						"map": "FCR04",
+						"x": 223,
+						"y": 113
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Fiery Cavern/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "FCR03",
+						"x": 1339,
+						"y": 128
+					},
+					{
+						"map": "FCR04",
+						"x": 1339,
+						"y": 128
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Hotel Horror",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+			"name": "1F Hallway Box",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/1F Hallway Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR00",
+						"x": 1464,
+						"y": 163
+					}
+				]
+			},
+			{
+			"name": "Room 102 Item",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Room 102 Box"
+					},
+					{
+						"ref": "World/Hotel Horror/Room 102 Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR00",
+						"x": 704,
+						"y": 156
+					},
+					{
+						"map": "HHR04",
+						"x": 335,
+						"y": 97
+					}
+				]
+			},
+			{
+			"name": "2F Hallway Box",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/2F Hallway Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR01",
+						"x": 568,
+						"y": 164
+					}
+				]
+			},
+			{
+			"name": "3F Hallway Box",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/3F Hallway Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR02",
+						"x": 440,
+						"y": 162
+					}
+				]
+			},
+			{
+			"name": "Room 303 Box",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Room 303 Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR02",
+						"x": 1008,
+						"y": 156
+					},
+					{
+						"map": "HHR07",
+						"x": 163,
+						"y": 339
+					},
+					{
+						"map": "HHR03",
+						"x": 992,
+						"y": 156
+					}
+				]
+			},
+			{
+			"name": "4F Hallway Box",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/4F Hallway Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR03",
+						"x": 440,
+						"y": 163
+					}
+				]
+			},
+			{
+			"name": "Room 402 Item",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Room 402 Box"
+					},
+					{
+						"ref": "World/Hotel Horror/Room 402 Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR08",
+						"x": 447,
+						"y": 81
+					}
+				]
+			},
+			{
+			"name": "Exterior Box",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Exterior Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR11",
+						"x": 207,
+						"y": 923
+					}
+				]
+			},
+			{
+			"name": "CD Box",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR05",
+						"x": 328,
+						"y": 451
+					}
+				]
+			},
+			{
+			"name": "Fire Escape Items (Normal/Hard)",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Keyzer"
+					},
+					{
+						"ref": "World/Hotel Horror/Exterior Box"
+					},
+					{
+						"ref": "World/Hotel Horror/Exterior Diamond"
+					},
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Fat Diamond"
+					},
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Spring Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR02",
+						"x": 24,
+						"y": 156,
+						"restrict_visibility_rules": [ "normal","hard" ]
+					}
+				]
+			},
+			{
+			"name": "Fire Escape Items (S-Hard)",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Exterior Box"
+					},
+					{
+						"ref": "World/Hotel Horror/Bonfire Block Diamond"
+					},
+					{
+						"ref": "World/Hotel Horror/Exterior Diamond"
+					},
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Fat Diamond"
+					},
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Spring Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR02",
+						"x": 24,
+						"y": 156,
+						"restrict_visibility_rules": [ "shard" ]
+					}
+				]
+			},
+			{
+			"name": "Bonfire Block Diamond",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Bonfire Block Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR03",
+						"x": 160,
+						"y": 156
+					},
+					{
+						"map": "HHR09",
+						"x": 60,
+						"y": 80
+					},
+					{
+						"map": "HHR11",
+						"x": 279,
+						"y": 142
+					}
+				]
+			},
+			{
+			"name": "Exterior Diamond",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Exterior Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR11",
+						"x": 143,
+						"y": 721
+					}
+				]
+			},
+			{
+			"name": "Puzzle Diamonds",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Fat Diamond"
+					},
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Spring Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR11",
+						"x": 208,
+						"y": 102
+					}
+				]
+			},
+			{
+			"name": "Transformation Puzzle Fat Diamond",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Fat Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR13",
+						"x": 286,
+						"y": 369
+					}
+				]
+			},
+			{
+			"name": "Transformation Puzzle Spring Diamond",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Transformation Puzzle Spring Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR13",
+						"x": 286,
+						"y": 65
+					}
+				]
+			},
+			{
+			"name": "Keyzer",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR03",
+						"x": 160,
+						"y": 156,
+						"restrict_visibility_rules": [ "normal","hard" ]
+					},
+					{
+						"map": "HHR09",
+						"x": 60,
+						"y": 80,
+						"restrict_visibility_rules": [ "normal","hard" ]
+					},
+					{
+						"map": "HHR11",
+						"x": 279,
+						"y": 142,
+						"restrict_visibility_rules": [ "normal","hard" ]
+					},
+					{
+						"map": "HHR05",
+						"x": 272,
+						"y": 390,
+						"restrict_visibility_rules": [ "shard" ]
+					}
+				]
+			},
+			{
+			"name": "Room 103 & 203 (Normal And Hard)",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/CD Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR00",
+						"x": 928,
+						"y": 156,
+						"restrict_visibility_rules": [ "normal","hard" ]
+					},
+					{
+						"map": "HHR01",
+						"x": 864,
+						"y": 164,
+						"restrict_visibility_rules": [ "normal","hard" ]
+					}
+				]
+			},
+			{
+			"name": "Room 103 & 203 (S-Hard)",
+			"sections": [
+					{
+						"ref": "World/Hotel Horror/CD Box"
+					},
+					{
+						"ref": "World/Hotel Horror/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HHR00",
+						"x": 928,
+						"y": 156,
+						"restrict_visibility_rules": [ "shard" ]
+					},
+					{
+						"map": "HHR01",
+						"x": 864,
+						"y": 164,
+						"restrict_visibility_rules": [ "shard" ]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Catbat",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Defeat Catbat",
+				"sections": [
+					{
+						"ref": "World/Catbat/Defeat Catbat"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS4",
+						"x": 113,
+						"y": 32
+					}
+				]
+			},
+			{
+				"name": "0:15",
+				"sections": [
+					{
+						"ref": "World/Catbat/0:15"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS4",
+						"x": 81,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "0:35",
+				"sections": [
+					{
+						"ref": "World/Catbat/0:35"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS4",
+						"x": 113,
+						"y": 98
+					}
+				]
+			},
+			{
+				"name": "0:55",
+				"sections": [
+					{
+						"ref": "World/Catbat/0:55"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS4",
+						"x": 145,
+						"y": 98
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Golden Passage",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Current Puzzle Box",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Current Puzzle Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR02",
+						"x": 1000,
+						"y": 194
+					}
+				]
+			},
+			{
+				"name": "River Box",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/River Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR01",
+						"x": 824,
+						"y": 130
+					}
+				]
+			},
+			{
+				"name": "Bat Room Box",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Bat Room Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR05",
+						"x": 1112,
+						"y": 114
+					}
+				]
+			},
+			{
+				"name": "Mad Scienstein Box",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Mad Scienstein Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR06",
+						"x": 632,
+						"y": 194
+					}
+				]
+			},
+			{
+				"name": "Long Hall Left Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Long Hall Left Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR00",
+						"x": 1359,
+						"y": 80
+					}
+				]
+			},
+			{
+				"name": "Long Hall Right Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Long Hall Right Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR00",
+						"x": 2015,
+						"y": 80
+					}
+				]
+			},
+			{
+				"name": "Current Puzzle Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Current Puzzle Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR02",
+						"x": 1055,
+						"y": 465
+					}
+				]
+			},
+			{
+				"name": "Spring Shaft Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Spring Shaft Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR03",
+						"x": 431,
+						"y": 65
+					}
+				]
+			},
+			{
+				"name": "Zombie Hall Left Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Zombie Hall Left Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR04",
+						"x": 383,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Zombie Hall Right Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Zombie Hall Right Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR04",
+						"x": 591,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Digging Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Digging Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR05",
+						"x": 255,
+						"y": 337
+					}
+				]
+			},
+			{
+				"name": "Slope Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Slope Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR05",
+						"x": 1215,
+						"y": 418
+					}
+				]
+			},
+			{
+				"name": "Scienstein Escape Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Scienstein Escape Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR06",
+						"x": 79,
+						"y": 369
+					}
+				]
+			},
+			{
+				"name": "Scienstein Roll Diamond",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Scienstein Roll Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR06",
+						"x": 1055,
+						"y": 225
+					}
+				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Golden Passage/Keyzer"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "GPR06",
+						"x": 1228,
+						"y": 208
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Golden Diva",
+		"chest_unopened_img": "images/chest.png",
+		"chest_opened_img": "images/chest_grey.png",
+		"children":[
+			{
+				"name": "Defeat Golden Diva",
+				"sections": [
+					{
+						"ref": "World/Golden Diva/Defeat Golden Diva"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "BOSS5",
+						"x": 112,
+						"y": 42
+					}
+				]
+			}
+		]
 	}
 ]

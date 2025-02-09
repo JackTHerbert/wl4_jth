@@ -2,6 +2,7 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/ap_slot.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/room_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -78,6 +79,14 @@ function onClear(slot_data)
         EVENT_ID = "wl4_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
+        updateMap(0xFFFFFF, true)
+        ROOM_ID = "wl4_room_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({ROOM_ID})
+        Archipelago:Get({ROOM_ID})
+        updateStatus("CLIENT_UNKNOWN", 0)
+        CLIENTSTATUS = "_read_client_status_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({CLIENTSTATUS})
+        Archipelago:Get({CLIENTSTATUS})
     end
     -- Thank you @alwaysintreble on the poptracker discord for help here
     if slot_data["required_jewels"] then
@@ -160,7 +169,11 @@ end
 function onNotify(k, v, old_value)
 	if v ~= old_value then
 		if k == EVENT_ID then
-		  updateEvents(v, false)
+		    updateEvents(v, false)
+        elseif k == ROOM_ID then
+            updateMap(v, false)
+        elseif k == CLIENTSTATUS then
+            updateStatus(_, v)
 		end
 	end
 end
@@ -168,6 +181,10 @@ end
 function onNotifyLaunch(k, v)
 	if k == EVENT_ID then
 		updateEvents(v, false)
+    elseif k == ROOM_ID then
+        updateMap(v, false)
+    elseif k == CLIENTSTATUS then
+        updateStatus(_, v)
 	end
 end
 
@@ -188,7 +205,25 @@ function updateEvents(value, reset)
         end
       end
     end
-  end
+end
+
+function updateStatus(_, v)
+    local status = v
+    if v == 30 then
+        Tracker:FindObjectForCode("eventdiva").Active = 1
+    end
+end
+
+function updateMap(v, reset)
+    if has("op_auto_tab_on") then
+        local tabs = ROOM_FLAG_MAPPING[v][0]
+        if tabs then
+            for _, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+            end
+        end
+    end
+end
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)

@@ -90,7 +90,8 @@
                 "item_size": "4,4",
                 "h_alignment": "center",
                 "rows": [
-                    ["op_openportal","op_advancedlogic","op_treasurehunt","op_doors"]
+                    ["op_openportal","op_advancedlogic","op_treasurehunt"],
+                    ["op_doors","op_diamond","op_auto_tab"]
                 ]
             }
         ]

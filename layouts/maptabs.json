@@ -1,0 +1,1856 @@
+{
+    "map_layout": {
+		"type": "tabbed",
+		"dock": "top",
+		"tabs": [
+			{
+				"title": "Overview",
+				"icon": "images/map.png",
+				"content": {
+					"type": "map",
+					"maps": ["map"]
+					}
+			},
+			{
+				"title": "Level Views",
+				"content": {
+					"type": "tabbed",
+					"dock": "top",
+					"tabs": [
+						{
+							"title": "Entry/Golden Passage",
+							"content": {
+								"type": "tabbed",
+								"dock": "top",
+								"tabs": [
+									{
+										"title": "Hall Of Heiroglyphs",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Pipe Entrances",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Pipe Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Shoulder Bash Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Dash Attack Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Hallway After Dash",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Grab and Throw Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 3",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jewel Box 4",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ground Pound Tutorial",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HOHR10"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+									},
+                                    {
+                                        "title": "Spoiled Rotten",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["BOSS0"]
+                                        }
+                                    },
+                                    {
+                                        "title": "Golden Passage",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Hallway",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground River",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Water Current Puzzle",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Spring Wario Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Danger Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Bat Box Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Puzzle Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["GPR06"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Golden Diva",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["BOSS5"]
+                                        }
+                                    }
+								]
+							}
+						},
+                        {
+                            "title": "Emerald Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Palm Tree Paradise",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 3",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ladder Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Big Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 4",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "The Lost Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PTPR01"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Wildflower Fields",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sky Above Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Bee Sting Escape Sky Puzzle",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Cave",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sunflower Stem Bottom",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sunflower Underground Roots",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Water Currents",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Inside Stem",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sunflower Top",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["WFR13"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Mystic Lake",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Lake Entrance",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Grab Box Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underwater Caverns 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underwater Caverns 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Spring Wario Cavern",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Bubbles and Bites",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Escape Path",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "CD Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MLR08"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Monsoon Jungle",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR15"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rope Swings 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Health Box",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Leaf Leap",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Drop",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR14"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "CD Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Escape Split Path",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rope Swings 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Above Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Escape",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Escape Puzzle Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Rolling Escape",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Rolling Escape Exit",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["MJR13"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Cractus",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["BOSS1"]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ruby Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Curious Factory",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Hallway",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Unflatten Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Initial Stampers",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Elevator Climb",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Conveyor Climb",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Elevator Drop",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Escape Path",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Escape",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CFR07"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Toxic Landfill",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ladders Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Above Ladders Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Toxic Waters",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Spring Wario Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Toxic Currents",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Garbage Blockade",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Transformation Puzzle Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "That One Extra Heart Room That Only Has A Single Heart",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Below Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TLR10"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "40 Below Fridge",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Conveyor Climb",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Intermission",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fridge Maze",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Looping Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Snow And Ice",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Drop",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Escape",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["40BFR06"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Pinball Zone",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Outside of Pinball Puzzles",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Dragon Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fruit Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jungle Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Snow Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room C",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Wind-up Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Space Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["PZR06"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Cuckoo Condor",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["BOSS2"]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Topaz Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Toy Block Tower",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Tower Entrance",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors Side Path",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Tower Interior",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR14"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Tower Basement",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Tower Top",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Behind The Tower",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fire Wario Puzzles",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR15"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Pipe Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Hidden Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Pipe Exit",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Left of Pipe Exit",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Escape",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "CD Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["TBTR13"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Big Board",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "First Dice",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Intermediate Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fire Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Enemy Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Toy Car Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fat Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Flat Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Spring Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["BBR08"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Doodle Woods",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Hoggus Introduction",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Grey Square Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Open Area 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Purple Square Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Open Area 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Blue Circle Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Orange Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Blue Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Pink Circle Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DWR07"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Domino Row",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Introduction Dominoes",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Race Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Spring Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rolling Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Jump",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Swimming Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Climbing Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Under Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["DRR06"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Aerodent",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["BOSS3"]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sapphire Passage",
+                            "content": {
+                                "type": "tabbed",
+                                "dock": "top",
+                                "tabs": [
+                                    {
+                                        "title": "Crescent Moon Village",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal Alleyway",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sewer Drop",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ladder Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 1",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Bat Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Hidden Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 2",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rolling Switch Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoors 3",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sewers",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["CMVR07"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Arabian Night",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Carpet Entrance",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Exit",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Outdoor Area",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Onomi Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Flying Carpet Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Flying Carpet Dash Attack Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Underground Entrance",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["ANR08"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Fiery Cavern",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "Portal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Cavern Entrance Hot",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "CD Box Room Hot",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR13"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Room Hot",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR14"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sloped Room Hot",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR05"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Lava Long Jump",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Frog Switch",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room Of Doors",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Ice Detour Room",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Sloped Room Cold",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Keyzer Room Cold",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "CD Box Room Cold",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Cavern Entrance Cold",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["FCR11"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Hotel Horror",
+                                        "content": {
+                                            "type": "tabbed",
+                                            "dock": "top",
+                                            "tabs": [
+                                                {
+                                                    "title": "First Floor",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR00"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 102",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR04"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rooms 104, 204, & 304",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR06"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Second Floor",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR01"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Third Floor",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR02"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rooms 303 & 403",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR07"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rooms 201, 202, 301, 302, & 402",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR08"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fourth Floor",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR03"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Fire Escape",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR11"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room A",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR12"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Puzzle Room B",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR13"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 401",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR09"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Room 404",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR10"]
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Rooms 103 & 203",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": ["HHR05"]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Catbat",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": ["BOSS4"]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+					]
+				}
+			}
+		]
+    }
+}

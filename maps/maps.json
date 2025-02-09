@@ -4,5 +4,1403 @@
 	  "location_size": 85,
 	  "location_border_thickness": 10,
 	  "img": "images/map.png"
+	},
+	{
+		"name": "HOHR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room00.png"
+	},
+	{
+		"name": "HOHR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room01.png"
+	},
+	{
+		"name": "HOHR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room02.png"
+	},
+	{
+		"name": "HOHR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room03.png"
+	},
+	{
+		"name": "HOHR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room04.png"
+	},
+	{
+		"name": "HOHR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room05.png"
+	},
+	{
+		"name": "HOHR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room06.png"
+	},
+	{
+		"name": "HOHR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room07.png"
+	},
+	{
+		"name": "HOHR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room08.png"
+	},
+	{
+		"name": "HOHR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room09.png"
+	},
+	{
+		"name": "HOHR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room10.png"
+	},
+	{
+		"name": "HOHR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room11.png"
+	},
+	{
+		"name": "HOHR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/0-0-hoh/room12.png"
+	},
+	{
+		"name": "PTPR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room00.png"
+	},
+	{
+		"name": "PTPR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room01.png"
+	},
+	{
+		"name": "PTPR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room02.png"
+	},
+	{
+		"name": "PTPR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room03.png"
+	},
+	{
+		"name": "PTPR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room04.png"
+	},
+	{
+		"name": "PTPR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room05.png"
+	},
+	{
+		"name": "PTPR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room06.png"
+	},
+	{
+		"name": "PTPR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room07.png"
+	},
+	{
+		"name": "PTPR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room08.png"
+	},
+	{
+		"name": "PTPR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room09.png"
+	},
+	{
+		"name": "PTPR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room10.png"
+	},
+	{
+		"name": "PTPR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-0-ptp/room11.png"
+	},
+	{
+		"name": "WFR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room00.png"
+	},
+	{
+		"name": "WFR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room01.png"
+	},
+	{
+		"name": "WFR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room02.png"
+	},
+	{
+		"name": "WFR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room03.png"
+	},
+	{
+		"name": "WFR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room04.png"
+	},
+	{
+		"name": "WFR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room05.png"
+	},
+	{
+		"name": "WFR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room06.png"
+	},
+	{
+		"name": "WFR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room07.png"
+	},
+	{
+		"name": "WFR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room08.png"
+	},
+	{
+		"name": "WFR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room09.png"
+	},
+	{
+		"name": "WFR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room10.png"
+	},
+	{
+		"name": "WFR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room11.png"
+	},
+	{
+		"name": "WFR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room12.png"
+	},
+	{
+		"name": "WFR13",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-1-wf/room13.png"
+	},
+	{
+		"name": "MLR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room00.png"
+	},
+	{
+		"name": "MLR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room01.png"
+	},
+	{
+		"name": "MLR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room02.png"
+	},
+	{
+		"name": "MLR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room03.png"
+	},
+	{
+		"name": "MLR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room04.png"
+	},
+	{
+		"name": "MLR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room05.png"
+	},
+	{
+		"name": "MLR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room06.png"
+	},
+	{
+		"name": "MLR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room07.png"
+	},
+	{
+		"name": "MLR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room08.png"
+	},
+	{
+		"name": "MLR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room09.png"
+	},
+	{
+		"name": "MLR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room10.png"
+	},
+	{
+		"name": "MLR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-2-ml/room11.png"
+	},
+	{
+		"name": "MJR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room00.png"
+	},
+	{
+		"name": "MJR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room01.png"
+	},
+	{
+		"name": "MJR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room02.png"
+	},
+	{
+		"name": "MJR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room03.png"
+	},
+	{
+		"name": "MJR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room04.png"
+	},
+	{
+		"name": "MJR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room05.png"
+	},
+	{
+		"name": "MJR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room06.png"
+	},
+	{
+		"name": "MJR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room07.png"
+	},
+	{
+		"name": "MJR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room08.png"
+	},
+	{
+		"name": "MJR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room09.png"
+	},
+	{
+		"name": "MJR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room10.png"
+	},
+	{
+		"name": "MJR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room11.png"
+	},
+	{
+		"name": "MJR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room12.png"
+	},
+	{
+		"name": "MJR13",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room13.png"
+	},
+	{
+		"name": "MJR14",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room14.png"
+	},
+	{
+		"name": "MJR15",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/1-3-mj/room15.png"
+	},
+	{
+		"name": "CFR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room00.png"
+	},
+	{
+		"name": "CFR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room01.png"
+	},
+	{
+		"name": "CFR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room02.png"
+	},
+	{
+		"name": "CFR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room03.png"
+	},
+	{
+		"name": "CFR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room04.png"
+	},
+	{
+		"name": "CFR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room05.png"
+	},
+	{
+		"name": "CFR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room06.png"
+	},
+	{
+		"name": "CFR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room07.png"
+	},
+	{
+		"name": "CFR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room08.png"
+	},
+	{
+		"name": "CFR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room09.png"
+	},
+	{
+		"name": "CFR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-0-cf/room10.png"
+	},
+	{
+		"name": "TLR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room00.png"
+	},
+	{
+		"name": "TLR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room01.png"
+	},
+	{
+		"name": "TLR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room02.png"
+	},
+	{
+		"name": "TLR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room03.png"
+	},
+	{
+		"name": "TLR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room04.png"
+	},
+	{
+		"name": "TLR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room05.png"
+	},
+	{
+		"name": "TLR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room06.png"
+	},
+	{
+		"name": "TLR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room07.png"
+	},
+	{
+		"name": "TLR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room08.png"
+	},
+	{
+		"name": "TLR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room09.png"
+	},
+	{
+		"name": "TLR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room10.png"
+	},
+	{
+		"name": "TLR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room11.png"
+	},
+	{
+		"name": "TLR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-1-tl/room12.png"
+	},
+	{
+		"name": "40BFR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room00.png"
+	},
+	{
+		"name": "40BFR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room01.png"
+	},
+	{
+		"name": "40BFR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room02.png"
+	},
+	{
+		"name": "40BFR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room03.png"
+	},
+	{
+		"name": "40BFR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room04.png"
+	},
+	{
+		"name": "40BFR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room05.png"
+	},
+	{
+		"name": "40BFR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room06.png"
+	},
+	{
+		"name": "40BFR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room07.png"
+	},
+	{
+		"name": "40BFR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room08.png"
+	},
+	{
+		"name": "40BFR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room09.png"
+	},
+	{
+		"name": "40BFR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-2-40bf/room10.png"
+	},
+	{
+		"name": "PZR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room00.png"
+	},
+	{
+		"name": "PZR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room01.png"
+	},
+	{
+		"name": "PZR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room02.png"
+	},
+	{
+		"name": "PZR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room03.png"
+	},
+	{
+		"name": "PZR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room04.png"
+	},
+	{
+		"name": "PZR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room05.png"
+	},
+	{
+		"name": "PZR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room06.png"
+	},
+	{
+		"name": "PZR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room07.png"
+	},
+	{
+		"name": "PZR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room08.png"
+	},
+	{
+		"name": "PZR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/2-3-pz/room09.png"
+	},
+	{
+		"name": "TBTR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room00.png"
+	},
+	{
+		"name": "TBTR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room01.png"
+	},
+	{
+		"name": "TBTR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room02.png"
+	},
+	{
+		"name": "TBTR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room03.png"
+	},
+	{
+		"name": "TBTR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room04.png"
+	},
+	{
+		"name": "TBTR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room05.png"
+	},
+	{
+		"name": "TBTR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room06.png"
+	},
+	{
+		"name": "TBTR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room07.png"
+	},
+	{
+		"name": "TBTR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room08.png"
+	},
+	{
+		"name": "TBTR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room09.png"
+	},
+	{
+		"name": "TBTR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room10.png"
+	},
+	{
+		"name": "TBTR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room11.png"
+	},
+	{
+		"name": "TBTR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room12.png"
+	},
+	{
+		"name": "TBTR13",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room13.png"
+	},
+	{
+		"name": "TBTR14",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room14.png"
+	},
+	{
+		"name": "TBTR15",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-0-tbt/room15.png"
+	},
+	{
+		"name": "BBR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room00.png"
+	},
+	{
+		"name": "BBR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room01.png"
+	},
+	{
+		"name": "BBR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room02.png"
+	},
+	{
+		"name": "BBR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room03.png"
+	},
+	{
+		"name": "BBR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room04.png"
+	},
+	{
+		"name": "BBR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room05.png"
+	},
+	{
+		"name": "BBR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room06.png"
+	},
+	{
+		"name": "BBR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room07.png"
+	},
+	{
+		"name": "BBR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room08.png"
+	},
+	{
+		"name": "BBR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room09.png"
+	},
+	{
+		"name": "BBR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room10.png"
+	},
+	{
+		"name": "BBR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room11.png"
+	},
+	{
+		"name": "BBR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-1-bb/room12.png"
+	},
+	{
+		"name": "DWR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room00.png"
+	},
+	{
+		"name": "DWR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room01.png"
+	},
+	{
+		"name": "DWR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room02.png"
+	},
+	{
+		"name": "DWR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room03.png"
+	},
+	{
+		"name": "DWR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room04.png"
+	},
+	{
+		"name": "DWR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room05.png"
+	},
+	{
+		"name": "DWR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room06.png"
+	},
+	{
+		"name": "DWR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room07.png"
+	},
+	{
+		"name": "DWR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room08.png"
+	},
+	{
+		"name": "DWR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room09.png"
+	},
+	{
+		"name": "DWR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room10.png"
+	},
+	{
+		"name": "DWR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-2-dw/room11.png"
+	},
+	{
+		"name": "DRR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room00.png"
+	},
+	{
+		"name": "DRR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room01.png"
+	},
+	{
+		"name": "DRR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room02.png"
+	},
+	{
+		"name": "DRR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room03.png"
+	},
+	{
+		"name": "DRR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room04.png"
+	},
+	{
+		"name": "DRR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room05.png"
+	},
+	{
+		"name": "DRR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room06.png"
+	},
+	{
+		"name": "DRR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room07.png"
+	},
+	{
+		"name": "DRR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room08.png"
+	},
+	{
+		"name": "DRR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room09.png"
+	},
+	{
+		"name": "DRR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room10.png"
+	},
+	{
+		"name": "DRR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/3-3-dr/room11.png"
+	},
+	{
+		"name": "CMVR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room00.png"
+	},
+	{
+		"name": "CMVR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room01.png"
+	},
+	{
+		"name": "CMVR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room02.png"
+	},
+	{
+		"name": "CMVR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room03.png"
+	},
+	{
+		"name": "CMVR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room04.png"
+	},
+	{
+		"name": "CMVR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room05.png"
+	},
+	{
+		"name": "CMVR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room06.png"
+	},
+	{
+		"name": "CMVR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room07.png"
+	},
+	{
+		"name": "CMVR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room08.png"
+	},
+	{
+		"name": "CMVR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room09.png"
+	},
+	{
+		"name": "CMVR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room10.png"
+	},
+	{
+		"name": "CMVR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room11.png"
+	},
+	{
+		"name": "CMVR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-0-cmv/room12.png"
+	},
+	{
+		"name": "ANR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room00.png"
+	},
+	{
+		"name": "ANR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room01.png"
+	},
+	{
+		"name": "ANR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room02.png"
+	},
+	{
+		"name": "ANR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room03.png"
+	},
+	{
+		"name": "ANR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room04.png"
+	},
+	{
+		"name": "ANR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room05.png"
+	},
+	{
+		"name": "ANR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room06.png"
+	},
+	{
+		"name": "ANR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room07.png"
+	},
+	{
+		"name": "ANR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room08.png"
+	},
+	{
+		"name": "ANR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room09.png"
+	},
+	{
+		"name": "ANR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room10.png"
+	},
+	{
+		"name": "ANR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-1-an/room11.png"
+	},
+	{
+		"name": "FCR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room00.png"
+	},
+	{
+		"name": "FCR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room01.png"
+	},
+	{
+		"name": "FCR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room02.png"
+	},
+	{
+		"name": "FCR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room03.png"
+	},
+	{
+		"name": "FCR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room04.png"
+	},
+	{
+		"name": "FCR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room05.png"
+	},
+	{
+		"name": "FCR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room06.png"
+	},
+	{
+		"name": "FCR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room07.png"
+	},
+	{
+		"name": "FCR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room08.png"
+	},
+	{
+		"name": "FCR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room09.png"
+	},
+	{
+		"name": "FCR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room10.png"
+	},
+	{
+		"name": "FCR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room11.png"
+	},
+	{
+		"name": "FCR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room12.png"
+	},
+	{
+		"name": "FCR13",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room13.png"
+	},
+	{
+		"name": "FCR14",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-2-fc/room14.png"
+	},
+	{
+		"name": "HHR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room00.png"
+	},
+	{
+		"name": "HHR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room01.png"
+	},
+	{
+		"name": "HHR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room02.png"
+	},
+	{
+		"name": "HHR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room03.png"
+	},
+	{
+		"name": "HHR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room04.png"
+	},
+	{
+		"name": "HHR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room05.png"
+	},
+	{
+		"name": "HHR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room06.png"
+	},
+	{
+		"name": "HHR07",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room07.png"
+	},
+	{
+		"name": "HHR08",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room08.png"
+	},
+	{
+		"name": "HHR09",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room09.png"
+	},
+	{
+		"name": "HHR10",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room10.png"
+	},
+	{
+		"name": "HHR11",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room11.png"
+	},
+	{
+		"name": "HHR12",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room12.png"
+	},
+	{
+		"name": "HHR13",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/4-3-hh/room13.png"
+	},
+	{
+		"name": "GPR00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/5-0-gp/room00.png"
+	},
+	{
+		"name": "GPR01",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/5-0-gp/room01.png"
+	},
+	{
+		"name": "GPR02",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/5-0-gp/room02.png"
+	},
+	{
+		"name": "GPR03",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/5-0-gp/room03.png"
+	},
+	{
+		"name": "GPR04",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/5-0-gp/room04.png"
+	},
+	{
+		"name": "GPR05",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/5-0-gp/room05.png"
+	},
+	{
+		"name": "GPR06",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/5-0-gp/room06.png"
+	},
+	{
+		"name": "BOSS0",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/spoiledroom.png"
+	},
+	{
+		"name": "BOSS00",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/spoiledroom1.png"
+	},
+	{
+		"name": "BOSS1",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/cractusroom.png"
+	},
+	{
+		"name": "BOSS2",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/cuckooroom.png"
+	},
+	{
+		"name": "BOSS3",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/aerodentroom.png"
+	},
+	{
+		"name": "BOSS4",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/catbatroom.png"
+	},
+	{
+		"name": "BOSS5",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/levelrooms/divaroom.png"
 	}
-  ]
+]
