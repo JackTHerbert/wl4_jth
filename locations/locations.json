@@ -781,7 +781,7 @@
 					{
 						"name": "Current Circle Diamond",
 						"access_rules": [ "swim" ],
-			    		"visibility_rules": [ "op_diamond_1" ],
+			    		"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -789,7 +789,7 @@
 					{
 						"name": "Transformation Puzzle Upper Diamond",
 						"access_rules": [ "heavygrab","enemyjump" ],
-			    		"visibility_rules": [ "op_diamond_1" ],
+			    		"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -1021,7 +1021,7 @@
 					},
 					{
 						"name": "Robot Room Diamond",
-						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,op_advancedlogic_1" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1030,7 +1030,7 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerpz",
-						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,op_advancedlogic_1" ],
 						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
@@ -1704,7 +1704,7 @@
 					{
 						"name": "Sewer Air Pocket Diamond",
 						"access_rules": [ "dashattack,swim,supergroundpound" ],
-						"visibility_rules": [ "op_diamond_1" ],
+						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -2495,9 +2495,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "PTPR11",
-						"x": 63,
-						"y": 210
+						"map": "PTPR10",
+						"x": 159,
+						"y": 195
 					},
 					{
 						"map": "PTPR07",
@@ -2515,9 +2515,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "PTPR10",
-						"x": 159,
-						"y": 195
+						"map": "PTPR11",
+						"x": 63,
+						"y": 210
 					},
 					{
 						"map": "PTPR05",
@@ -5301,9 +5301,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "DWR02",
-						"x": 1569,
-						"y": 438
+						"map": "DWR03",
+						"x": 737,
+						"y": 101
 					},
 					{
 						"map": "DWR10",
@@ -5321,9 +5321,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "DWR03",
-						"x": 737,
-						"y": 101
+						"map": "DWR02",
+						"x": 1569,
+						"y": 438
 					},
 					{
 						"map": "DWR11",
@@ -6250,10 +6250,10 @@
 				]
 			},
 			{
-				"name": "Ice Detour Box",
+				"name": "Snowman Box",
 				"sections": [
 					{
-						"ref": "World/Fiery Cavern/Ice Detour Box"
+						"ref": "World/Fiery Cavern/Snowman Box"
 					}
 				],
 				"map_locations": [
@@ -6280,10 +6280,10 @@
 				]
 			},
 			{
-				"name": "Snowman Box",
+				"name": "Ice Detour Box",
 				"sections": [
 					{
-						"ref": "World/Fiery Cavern/Snowman Box"
+						"ref": "World/Fiery Cavern/Ice Detour Box"
 					}
 				],
 				"map_locations": [
@@ -6328,14 +6328,14 @@
 				],
 				"map_locations": [
 					{
-						"map": "FCR01",
-						"x": 368,
-						"y": 662
+						"map": "FCR03",
+						"x": 576,
+						"y": 293
 					},
 					{
-						"map": "FCR02",
-						"x": 368,
-						"y": 662
+						"map": "FCR04",
+						"x": 576,
+						"y": 293
 					},
 					{
 						"map": "FCR13",
@@ -6353,14 +6353,14 @@
 				],
 				"map_locations": [
 					{
-						"map": "FCR03",
-						"x": 576,
-						"y": 293
+						"map": "FCR01",
+						"x": 368,
+						"y": 662
 					},
 					{
-						"map": "FCR04",
-						"x": 576,
-						"y": 293
+						"map": "FCR02",
+						"x": 368,
+						"y": 662
 					},
 					{
 						"map": "FCR14",
