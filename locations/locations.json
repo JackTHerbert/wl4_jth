@@ -2051,7 +2051,7 @@
 					},
 					{
 						"name": "Slope Diamond",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2059,7 +2059,7 @@
 					},
 					{
 						"name": "Scienstein Escape Diamond",
-						"access_rules": [ "dashattack" ],
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -6232,10 +6232,10 @@
 				]
 			},
 			{
-				"name": "Ice Detour",
+				"name": "Snowman Room",
 				"sections": [
 					{
-						"ref": "World/Fiery Cavern/Ice Detour Box"
+						"ref": "World/Fiery Cavern/Snowman Box"
 					},
 					{
 						"ref": "World/Fiery Cavern/Frozen Diamond"

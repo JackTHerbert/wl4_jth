@@ -210,7 +210,7 @@ ROOM_FLAG_MAPPING = {
     [0x040209] = {[0] = {"Level Views", "Sapphire Passage", "Fiery Cavern", "Room Of Doors"}},
     [0x04020A] = {[0] = {"Level Views", "Sapphire Passage", "Fiery Cavern", "Cavern Entrance Hot"}},
     [0x04020B] = {[0] = {"Level Views", "Sapphire Passage", "Fiery Cavern", "Cavern Entrance Cold"}},
-    [0x04020C] = {[0] = {"Level Views", "Sapphire Passage", "Fiery Cavern", "Ice Detour Room"}},
+    [0x04020C] = {[0] = {"Level Views", "Sapphire Passage", "Fiery Cavern", "Snowman Room"}},
     [0x04020D] = {[0] = {"Level Views", "Sapphire Passage", "Fiery Cavern", "Puzzle Room A"}},
     [0x04020E] = {[0] = {"Level Views", "Sapphire Passage", "Fiery Cavern", "Puzzle Room B"}},
     [0x040300] = {[0] = {"Level Views", "Sapphire Passage", "Hotel Horror", "First Floor"}},
