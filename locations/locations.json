@@ -910,7 +910,7 @@
 					},
 					{
 						"name": "Crystal Lobbing Diamond",
-						"access_rules": [ "supergroundpound,grab" ],
+						"access_rules": [ "supergroundpound,grab","op_advancedlogic_1,enemyjump,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1992,7 +1992,7 @@
 					},
 					{
 						"name": "Mad Scienstein Box",
-						"access_rules": [ "swim,groundpound" ],
+						"access_rules": [ "swim,groundpound","op_advancedlogic_1,swim" ],
 						"item_count": 1
 					},
 					{
@@ -2067,7 +2067,7 @@
 					},
 					{
 						"name": "Scienstein Roll Diamond",
-						"access_rules": [ "swim,groundpound,grab" ],
+						"access_rules": [ "swim,groundpound,grab","op_advancedlogic_1,swim,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2076,7 +2076,7 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzergp",
-						"access_rules": [ "swim,groundpound,grab" ],
+						"access_rules": [ "swim,groundpound,grab","op_advancedlogic_1,swim,grab" ],
 						"visibility_rules": [ "op_doors_1","op_doors_2" ]
 					}
 				],
