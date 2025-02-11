@@ -149,7 +149,7 @@
 					{
 						"name": "Switch Staircase Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"access_rules": [ "grab","op_advancedlogic_1,enemyjump" ],
+						"access_rules": [ "grab","op_advancedlogic_1,stompjump" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -236,7 +236,7 @@
 					},
 					{
 						"name": "Scienstein Stomp Diamond",
-						"access_rules": [ "supergroundpound,grab,enemyjump" ],
+						"access_rules": [ "supergroundpound,grab,stompjump" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -722,7 +722,7 @@
 					{
 						"name": "Transformation Puzzle Box",
 						"visibility_rules": [ "hard","shard" ],
-						"access_rules": [ "heavygrab","enemyjump" ],
+						"access_rules": [ "heavygrab","stompjump" ],
 						"item_count": 1
 					},
 					{
@@ -788,7 +788,7 @@
 					},
 					{
 						"name": "Transformation Puzzle Upper Diamond",
-						"access_rules": [ "heavygrab","enemyjump" ],
+						"access_rules": [ "heavygrab","stompjump" ],
 			    		"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -910,7 +910,7 @@
 					},
 					{
 						"name": "Crystal Lobbing Diamond",
-						"access_rules": [ "supergroundpound,grab","op_advancedlogic_1,enemyjump,supergroundpound" ],
+						"access_rules": [ "supergroundpound,grab","op_advancedlogic_1,stompjump,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1142,6 +1142,14 @@
 						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
+						"name": "Digging Room Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
 						"name": "Escape Ledge Diamond",
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
@@ -1150,8 +1158,16 @@
 					},
 					{
 						"name": "Cage Diamond",
-						"access_rules": [ "enemyjump" ],
+						"access_rules": [ "stompjump" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
+						"item_count": 1,
+						"chest_unopened_img": "images/diamond.png",
+						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Dash Puzzle Diamond",
+						"access_rules": [ "dashattack" ],
+						"visibility_rules": [ "op_diamond_1,shard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -1160,14 +1176,6 @@
 						"name": "Circle Block Diamond",
 						"access_rules": [ "supergroundpound,dashattack" ],
 						"visibility_rules": [ "op_diamond_1" ],
-						"item_count": 1,
-						"chest_unopened_img": "images/diamond.png",
-						"chest_opened_img": "images/diamond_grey.png"
-					},
-					{
-						"name": "Dash Diamond",
-						"access_rules": [ "dashattack" ],
-						"visibility_rules": [ "op_diamond_1,shard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -1237,7 +1245,7 @@
 					},
 					{
 						"name": "Full Health Item Box",
-						"access_rules": [ "grab,enemyjump" ],
+						"access_rules": [ "grab,stompjump" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
@@ -1335,7 +1343,7 @@
 					},
 					{
 						"name": "Blue Circle Box",
-						"access_rules": [ "enemyjump" ],
+						"access_rules": [ "stompjump" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -1367,7 +1375,7 @@
 					},
 					{
 						"name": "Pink Circle Diamond",
-						"access_rules": [ "enemyjump" ],
+						"access_rules": [ "stompjump" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1432,7 +1440,7 @@
 					},
 					{
 						"name": "Toy Car Tower Diamond",
-						"access_rules": [ "grab,enemyjump,op_advancedlogic_1","grab,enemyjump,groundpound" ],
+						"access_rules": [ "grab,stompjump,op_advancedlogic_1","grab,stompjump,groundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1789,7 +1797,7 @@
 					},
 					{
 						"name": "Ice Jump Diamond",
-						"access_rules": [ "dashattack,groundpound,headsmash,enemyjump" ],
+						"access_rules": [ "dashattack,groundpound,headsmash,stompjump" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1941,7 +1949,7 @@
 			},
 	    	{
 				"name": "Catbat",
-				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,enemyjump,groundpound,$keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1,$keyzerhh" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,stompjump,groundpound,$keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1,$keyzerhh" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
@@ -4789,7 +4797,7 @@
 						"ref": "World/Toy Block Tower/Full Health Item Box"
 					},
 					{
-						"ref": "World/Toy Block Tower/Dash Diamond"
+						"ref": "World/Toy Block Tower/Dash Puzzle Diamond"
 					}
 				],
 				"map_locations": [
@@ -4817,6 +4825,21 @@
 						"map": "TBTR03",
 						"x": 272,
 						"y": 478
+					}
+				]
+			},
+			{
+			"name": "Digging Room Diamond",
+			"sections": [
+					{
+						"ref": "World/Toy Block Tower/Digging Room Diamond"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "TBTR06",
+						"x": 80,
+						"y": 352
 					}
 				]
 			},

@@ -38,8 +38,8 @@ function dashattack()
   return has("dashattack")
 end
 
-function enemyjump()
-  return has("enemyjump")
+function stompjump()
+  return has("stompjump")
 end
 
 function spoiledne()

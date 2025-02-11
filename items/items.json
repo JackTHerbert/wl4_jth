@@ -18,10 +18,10 @@
 		"codes": "dashattack"
 	},
 	{
-		"name": "Enemy Jump",
+		"name": "Stomp Jump",
 		"type": "toggle",
 		"img": "images/enemyjump1.png",
-		"codes": "enemyjump"
+		"codes": "stompjump"
 	},
 	{
 		"name": "Progressive Ground Pound",
