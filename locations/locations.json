@@ -909,7 +909,7 @@
 						"chest_opened_img": "images/diamond_grey.png"
 					},
 					{
-						"name": "Crystal Lobbing Diamond",
+						"name": "Glass Ball Puzzle Diamond",
 						"access_rules": [ "supergroundpound,grab","op_advancedlogic_1,stompjump,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
@@ -4166,10 +4166,10 @@
 				]
 			},
 			{
-				"name": "Looping Room Diamond",
+				"name": "Glass Ball Puzzle Diamond",
 				"sections": [
 					{
-						"ref": "World/40 Below Fridge/Looping Room Diamond"
+						"ref": "World/40 Below Fridge/Glass Ball Puzzle Diamond"
 					}
 				],
 				"map_locations": [

@@ -130,7 +130,7 @@ LOCATION_MAPPING = {
 	[0xEC0E2F] = {"@World/40 Below Fridge/Snowman Puzzle Bottom Diamond"},
 	[0xEC0EF0] = {"@World/40 Below Fridge/Snowman Puzzle Diamond Under Door"},
 	[0xEC0EF1] = {"@World/40 Below Fridge/Snowman Puzzle Right Diamond"},
-	[0xEC0EF2] = {"@World/40 Below Fridge/Crystal Lobbing Diamond"},
+	[0xEC0EF2] = {"@World/40 Below Fridge/Glass Ball Puzzle Diamond"},
 	[0xEC0EF3] = {"@World/40 Below Fridge/Yeti Puzzle Diamond"},
 
 	[0xEC0F61] = {"@World/Pinball Zone/Rolling Room Box"},
