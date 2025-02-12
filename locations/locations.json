@@ -766,6 +766,7 @@
 					{
 						"name": "Transformation Puzzle Lower Diamond",
 			    		"visibility_rules": [ "op_diamond_1" ],
+						"access_rules": [ "heavygrab,swim" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -1375,7 +1376,7 @@
 					},
 					{
 						"name": "Pink Circle Diamond",
-						"access_rules": [ "stompjump" ],
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1383,7 +1384,7 @@
 					},
 					{
 						"name": "Blue Circle Diamond",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "stompjump" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
