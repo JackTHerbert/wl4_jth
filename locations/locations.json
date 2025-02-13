@@ -1792,6 +1792,7 @@
 					{
 						"name": "Spring Puzzle Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
+						"access_rules": [ "groundpound" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
