@@ -261,7 +261,7 @@
 					{
 						"name": "Escape Detour Corner Diamond",
 						"access_rules": [ "swim,supergroundpound" ],
-						"visibility_rules": [ "op_diamond_1,normal" ],
+						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -1022,7 +1022,7 @@
 					},
 					{
 						"name": "Robot Room Diamond",
-						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound,headsmash,dashattack","groundpound,heavygrab,headsmash,dashattack,op_advancedlogic_1" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
