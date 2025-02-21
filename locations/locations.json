@@ -1441,7 +1441,7 @@
 					},
 					{
 						"name": "Toy Car Tower Diamond",
-						"access_rules": [ "grab,stompjump,op_advancedlogic_1","grab,stompjump,groundpound" ],
+						"access_rules": [ "swim,grab,stompjump,op_advancedlogic_1","swim,grab,stompjump,groundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
