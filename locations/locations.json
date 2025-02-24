@@ -4148,10 +4148,10 @@
 				]
 			},
 			{
-				"name": "Crystal Lobbing Diamond",
+				"name": "Glass Ball Puzzle Diamond",
 				"sections": [
 					{
-						"ref": "World/40 Below Fridge/Crystal Lobbing Diamond"
+						"ref": "World/40 Below Fridge/Glass Ball Puzzle Diamond"
 					}
 				],
 				"map_locations": [
@@ -4168,10 +4168,10 @@
 				]
 			},
 			{
-				"name": "Glass Ball Puzzle Diamond",
+				"name": "Looping Room Diamond",
 				"sections": [
 					{
-						"ref": "World/40 Below Fridge/Glass Ball Puzzle Diamond"
+						"ref": "World/40 Below Fridge/Looping Room Diamond"
 					}
 				],
 				"map_locations": [
