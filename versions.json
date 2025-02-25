@@ -1,6 +1,18 @@
 {
     "versions": [
         {
+            "package_version": "0.8 AP",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.8.zip",
+            "sha256": "ca62f7e0c93b70eedd1673f7c18f973350b1fc276ad8d08e83bc8506a9185111",
+            "changelog": [
+                "Diamond Shuffle And Room Tracking Update",
+                "Added Diamond Shuffle option, added diamond locations.",
+                "Added WL4 rooms, and locations to each. Your Poptracker should toggle pages automatically based on which room you are in. Toggle 'Auto-Tab' to disable this functionality.",
+                "Minor and major fixes to tracking and related. Some items and locations renamed.",
+                "Fixed Keyzer doors option not affecting poptracker logic when not connected to an AP session."
+            ]
+        },
+        {
             "package_version": "0.7 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.7.zip",
             "sha256": "543fc28d6bf52d37bc9341765b2ff4a48b32ccbb2021eff4d9123030c6c28d82",
