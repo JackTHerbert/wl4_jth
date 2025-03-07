@@ -1159,7 +1159,6 @@
 					},
 					{
 						"name": "Cage Diamond",
-						"access_rules": [ "stompjump" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
