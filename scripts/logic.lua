@@ -356,3 +356,11 @@ function keyzergp()
     end
   end
 end
+function advancedlogic()
+  if has("op_advancedlogic_1") then
+    return AccessibilityLevel.Normal
+  else
+    return AccessibilityLevel.SequenceBreak
+  end
+  return AccessibilityLevel.None
+end

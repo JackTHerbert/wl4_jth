@@ -149,7 +149,7 @@
 					{
 						"name": "Switch Staircase Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"access_rules": [ "grab","op_advancedlogic_1,stompjump" ],
+						"access_rules": [ "grab","^$advancedlogic,stompjump" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -766,7 +766,7 @@
 					{
 						"name": "Transformation Puzzle Lower Diamond",
 			    		"visibility_rules": [ "op_diamond_1" ],
-						"access_rules": [ "heavygrab,swim","op_advancedlogic_1,swim" ],
+						"access_rules": [ "heavygrab,swim","^$advancedlogic,swim" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -911,7 +911,7 @@
 					},
 					{
 						"name": "Glass Ball Puzzle Diamond",
-						"access_rules": [ "supergroundpound,grab","op_advancedlogic_1,stompjump,supergroundpound" ],
+						"access_rules": [ "supergroundpound,grab","^$advancedlogic,stompjump,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -951,7 +951,7 @@
 					},
 					{
 						"name": "Switch Room Box",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -965,12 +965,12 @@
 					},
 					{
 						"name": "Snow Room Box",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
 						"item_count": 1
 					},
 					{
@@ -1006,7 +1006,7 @@
 					},
 					{
 						"name": "Switch Room Diamond",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
 						"visibility_rules": [ "op_diamond_1,hard","op_diamond_1,shard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1014,7 +1014,7 @@
 					},
 					{
 						"name": "Snow Room Diamond",
-						"access_rules": [ "groundpound","heavygrab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1022,7 +1022,7 @@
 					},
 					{
 						"name": "Robot Room Diamond",
-						"access_rules": [ "groundpound,headsmash,dashattack","groundpound,heavygrab,headsmash,dashattack,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound,headsmash,dashattack","groundpound,heavygrab,headsmash,dashattack,^$advancedlogic" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1031,7 +1031,7 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerpz",
-						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,^$advancedlogic" ],
 						"visibility_rules": [ "op_doors_2" ]
 					}
 				],
@@ -1311,7 +1311,7 @@
 					},
 					{
 						"name": "Grey Square Box",
-						"access_rules": [ "groundpound","grab,op_advancedlogic_1" ],
+						"access_rules": [ "groundpound","grab,^$advancedlogic" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -1349,7 +1349,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "normal,grab,op_advancedlogic_1","normal,groundpound","hard","shard" ],
+						"access_rules": [ "normal,grab,^$advancedlogic","normal,groundpound","hard","shard" ],
 						"item_count": 1
 					},
 					{
@@ -1413,7 +1413,7 @@
 					},
 					{
 						"name": "Rolling Box",
-						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,^$advancedlogic","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
@@ -1424,7 +1424,7 @@
 					},
 					{
 						"name": "Swimming Room Escape Box",
-						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,^$advancedlogic","swim,groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -1435,12 +1435,12 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "swim,headsmash,op_advancedlogic_1","swim,groundpound" ],
+						"access_rules": [ "swim,headsmash,^$advancedlogic","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "Toy Car Tower Diamond",
-						"access_rules": [ "swim,grab,stompjump,op_advancedlogic_1","swim,grab,stompjump,groundpound" ],
+						"access_rules": [ "swim,grab,stompjump,^$advancedlogic","swim,grab,stompjump,groundpound" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1950,7 +1950,7 @@
 			},
 	    	{
 				"name": "Catbat",
-				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,stompjump,groundpound,$keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,op_advancedlogic_1,$keyzerhh" ],
+				"access_rules": [ "$catbatne,$catbatse,$catbatsw,$catbatnw,stompjump,groundpound,$keyzerhh","$catbatne,$catbatse,$catbatsw,$catbatnw,groundpound,^$advancedlogic,$keyzerhh" ],
 				"sections": [
 					{
 						"name": "Defeat Catbat",
@@ -2001,7 +2001,7 @@
 					},
 					{
 						"name": "Mad Scienstein Box",
-						"access_rules": [ "swim,groundpound","op_advancedlogic_1,swim" ],
+						"access_rules": [ "swim,groundpound","^$advancedlogic,swim" ],
 						"item_count": 1
 					},
 					{
@@ -2076,7 +2076,7 @@
 					},
 					{
 						"name": "Scienstein Roll Diamond",
-						"access_rules": [ "swim,groundpound,grab","op_advancedlogic_1,swim,grab" ],
+						"access_rules": [ "swim,groundpound,grab","^$advancedlogic,swim,grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2085,7 +2085,7 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzergp",
-						"access_rules": [ "swim,groundpound,grab","op_advancedlogic_1,swim,grab" ],
+						"access_rules": [ "swim,groundpound,grab","^$advancedlogic,swim,grab" ],
 						"visibility_rules": [ "op_doors_1","op_doors_2" ]
 					}
 				],
