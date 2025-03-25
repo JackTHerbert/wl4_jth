@@ -835,7 +835,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "headsmash,supergroundpound" ],
+						"access_rules": [ "^$belowfridgecd,supergroundpound" ],
 						"item_count": 1
 					},
 					{

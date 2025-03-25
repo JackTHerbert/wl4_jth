@@ -364,3 +364,11 @@ function advancedlogic()
   end
   return AccessibilityLevel.None
 end
+function belowfridgecd()
+  if has("headsmash") then
+    return AccessibilityLevel.Normal
+  elseif has("heavygrab") then
+    return AccessibilityLevel.SequenceBreak
+  end
+  return AccessibilityLevel.None
+end
