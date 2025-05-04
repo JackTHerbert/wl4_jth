@@ -469,7 +469,7 @@
 					},
 					{
 						"name": "Fat Plummet Box",
-						"access_rules": [ "normal","hard,groundpound","shard,groundpound" ],
+						"access_rules": [ "normal","hard,^$oolgroundpound","shard,^$oolgroundpound" ],
 						"item_count": 1
 					},
 					{
@@ -516,7 +516,7 @@
 					},
 					{
 						"name": "Fat Plummet Diamond",
-						"access_rules": [ "groundpound" ], 
+						"access_rules": [ "^$oolgroundpound" ], 
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1889,7 +1889,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "shard","heavygrab,normal","heavygrab,hard" ],
+						"access_rules": [ "shard","heavygrab,normal","^$hotelhardescape,hard" ],
 						"item_count": 1
 					},
 					{

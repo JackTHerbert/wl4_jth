@@ -372,3 +372,19 @@ function belowfridgecd()
   end
   return AccessibilityLevel.None
 end
+function oolgroundpound()
+  if has("groundpound") then
+    return AccessibilityLevel.Normal
+  else
+    return AccessibilityLevel.SequenceBreak
+  end
+  return AccessibilityLevel.None
+end
+function hotelhardescape()
+  if has("heavygrab") then
+    return AccessibilityLevel.Normal
+  elseif (has("grab") and has("supergroundpound") and has("stompjump")) then
+    return AccessibilityLevel.SequenceBreak
+  end
+  return AccessibilityLevel.None
+end
