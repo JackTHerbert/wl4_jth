@@ -66,9 +66,9 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
     MISSING_LOCATIONS = Archipelago.MissingLocations or -1
-    for i = 0, 3 do
-        print(MISSING_LOCATIONS[i])
-	end
+--    for i = 0, 3 do
+--        print(MISSING_LOCATIONS[i])
+--	  end
 
 
 	--print(dump_table(slot_data))
