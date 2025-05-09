@@ -65,7 +65,12 @@ function onClear(slot_data)
     end
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
-	
+    MISSING_LOCATIONS = Archipelago.MissingLocations or -1
+    for i = 0, 3 do
+        print(MISSING_LOCATIONS[i])
+	end
+
+
 	--print(dump_table(slot_data))
 
 	for k,v in pairs(slot_data) do
@@ -211,6 +216,29 @@ function updateStatus(_, v)
     local status = v
     if v == 30 then
         Tracker:FindObjectForCode("eventdiva").Active = 1
+    end
+    if (v == 30 and MISSING_LOCATIONS[1] == nil) then
+        Tracker:FindObjectForCode("keyzerptp").Active = 1
+        Tracker:FindObjectForCode("keyzerwf").Active = 1
+        Tracker:FindObjectForCode("keyzerml").Active = 1
+        Tracker:FindObjectForCode("keyzermj").Active = 1
+        Tracker:FindObjectForCode("keyzercf").Active = 1
+        Tracker:FindObjectForCode("keyzertl").Active = 1
+        Tracker:FindObjectForCode("keyzerbf").Active = 1
+        Tracker:FindObjectForCode("keyzerpz").Active = 1
+        Tracker:FindObjectForCode("keyzertbt").Active = 1
+        Tracker:FindObjectForCode("keyzerbb").Active = 1
+        Tracker:FindObjectForCode("keyzerdw").Active = 1
+        Tracker:FindObjectForCode("keyzerdr").Active = 1
+        Tracker:FindObjectForCode("keyzercmv").Active = 1
+        Tracker:FindObjectForCode("keyzeran").Active = 1
+        Tracker:FindObjectForCode("keyzerfc").Active = 1
+        Tracker:FindObjectForCode("keyzerhh").Active = 1
+        Tracker:FindObjectForCode("keyzergp").Active = 1
+        Tracker:FindObjectForCode("eventcractus").Active = 1
+        Tracker:FindObjectForCode("eventcondor").Active = 1
+        Tracker:FindObjectForCode("eventaerodent").Active = 1
+        Tracker:FindObjectForCode("eventcatbat").Active = 1
     end
 end
 

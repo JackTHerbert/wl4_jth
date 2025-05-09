@@ -1349,7 +1349,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "normal,grab,^$advancedlogic","normal,groundpound","hard","shard" ],
+						"access_rules": [ "normal,groundpound","hard","shard" ],
 						"item_count": 1
 					},
 					{
