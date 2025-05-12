@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.8-1 AP",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.8-1.zip",
+            "sha256": "902a50fe5fdf887240096025647c0c8bb1300d0f3f11e7b6868faba4a36aec73",
+            "changelog": [
+                "Added 'out of logic' logic (Yellow boxes in poptracker). These indicate items that you can grab, but that the APWorld does not expect you to grab.",
+                "Keyzer and bosses check off after release, namely for treasure hunt."
+            ]
+        },
+        {
             "package_version": "0.8 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.8.zip",
             "sha256": "ca62f7e0c93b70eedd1673f7c18f973350b1fc276ad8d08e83bc8506a9185111",
