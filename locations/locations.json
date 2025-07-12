@@ -1413,7 +1413,7 @@
 					},
 					{
 						"name": "Rolling Box",
-						"access_rules": [ "swim,headsmash,^$advancedlogic","swim,groundpound" ],
+						"access_rules": [ "swim,^$advancedlogic","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
@@ -1424,7 +1424,7 @@
 					},
 					{
 						"name": "Swimming Room Escape Box",
-						"access_rules": [ "swim,headsmash,^$advancedlogic","swim,groundpound" ],
+						"access_rules": [ "swim,groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -1435,7 +1435,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "swim,headsmash,^$advancedlogic","swim,groundpound" ],
+						"access_rules": [ "swim,^$advancedlogic","swim,groundpound" ],
 						"item_count": 1
 					},
 					{
@@ -1845,7 +1845,7 @@
 			},
 			{
 				"name": "Hotel Horror",
-				"access_rules": [ "normal,heavygrab,$keyzerfc","hard,heavygrab,$keyzerfc","shard,$keyzerfc","op_openportal_1,$keyzerfc" ],
+				"access_rules": [ "normal,heavygrab,$keyzerfc","hard,heavygrab,$keyzerfc","shard,$keyzerfc","op_openportal_1,$keyzerfc","hard,^$hotelhardescape,$keyzerfc" ],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
