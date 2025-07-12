@@ -365,7 +365,7 @@ function advancedlogic()
   return AccessibilityLevel.None
 end
 function belowfridgecd()
-  if has("headsmash") then
+  if (has("headsmash") or (has("heavygrab") and has("op_advancedlogic_1")))then
     return AccessibilityLevel.Normal
   elseif has("heavygrab") then
     return AccessibilityLevel.SequenceBreak
@@ -381,7 +381,7 @@ function oolgroundpound()
   return AccessibilityLevel.None
 end
 function hotelhardescape()
-  if has("heavygrab") then
+  if (has("heavygrab") or (has("grab") and has("supergroundpound") and has("stompjump") and has("op_advancedlogic_1"))) then
     return AccessibilityLevel.Normal
   elseif (has("grab") and has("supergroundpound") and has("stompjump")) then
     return AccessibilityLevel.SequenceBreak
