@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.9 AP",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.9/wl4_jth.zip",
+            "sha256": "e4ec19a59e9d2604dd3a0359cd54ce10ff845db5e8053adf8c0b22dff7c798de",
+            "changelog": [
+                "Tweaks to logic were added. Not much else."
+            ]
+        },
+        {
             "package_version": "0.8-1 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/archive/refs/tags/v0.8-1.zip",
             "sha256": "902a50fe5fdf887240096025647c0c8bb1300d0f3f11e7b6868faba4a36aec73",
