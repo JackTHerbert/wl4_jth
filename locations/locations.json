@@ -1679,7 +1679,7 @@
 					},
 					{
 						"name": "Scienstein Puzzle Diamond",
-						"access_rules": [ "dashattack,grab" ],
+						"access_rules": [ "grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
