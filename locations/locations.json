@@ -824,12 +824,12 @@
 						"item_count": 1
 					},
 					{
-						"name": "Snowman Puzzle Upper Box",
+						"name": "Snowman Puzzle Left Box",
 						"access_rules": [ "supergroundpound" ],
 						"item_count": 1
 					},
 					{
-						"name": "Snowman Puzzle Lower Box",
+						"name": "Snowman Puzzle Right Box",
 						"access_rules": [ "supergroundpound" ],
 						"item_count": 1
 					},
@@ -4043,46 +4043,62 @@
 				]
 			},
 			{
-				"name": "Snowman Puzzle Upper Box",
+				"name": "Snowman Puzzle Upper Right Box",
 				"sections": [
 					{
-						"ref": "World/40 Below Fridge/Snowman Puzzle Upper Box"
+						"ref": "World/40 Below Fridge/Snowman Puzzle Right Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "40BFR07",
 						"x": 744,
-						"y": 115,
-						"restrict_visibility_rules": [ "normal" ]
-					},
-					{
-						"map": "40BFR07",
-						"x": 142,
-						"y": 144,
-						"restrict_visibility_rules": [ "hard","shard" ]
+						"y": 115
 					}
 				]
 			},
 			{
-				"name": "Snowman Puzzle Lower Box",
+				"name": "Snowman Puzzle Lower Left Box",
 				"sections": [
 					{
-						"ref": "World/40 Below Fridge/Snowman Puzzle Lower Box"
+						"ref": "World/40 Below Fridge/Snowman Puzzle Left Box"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "40BFR07",
 						"x": 232,
-						"y": 434,
-						"restrict_visibility_rules": [ "normal" ]
-					},
+						"y": 434
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Upper Left Box",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Left Box"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "40BFR07",
+						"x": 142,
+						"y": 144
+					}
+				]
+			},
+			{
+				"name": "Snowman Puzzle Lower Right Box",
+				"sections": [
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Right Box"
+					}
+				],
+				"map_locations": [
 					{
 						"map": "40BFR07",
 						"x": 671,
-						"y": 433,
-						"restrict_visibility_rules": [ "hard","shard" ]
+						"y": 433
 					}
 				]
 			},

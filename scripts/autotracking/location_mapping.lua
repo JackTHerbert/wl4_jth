@@ -118,8 +118,8 @@ LOCATION_MAPPING = {
 
 	[0xEC0EE1] = {"@World/40 Below Fridge/Looping Room Box"},
 	[0xEC0EE2] = {"@World/40 Below Fridge/Maze Room Box"},
-	[0xEC0EE3] = {"@World/40 Below Fridge/Snowman Puzzle Lower Box"},
-	[0xEC0EE4] = {"@World/40 Below Fridge/Snowman Puzzle Upper Box"},
+	[0xEC0EE3] = {"@World/40 Below Fridge/Snowman Puzzle Left Box"},
+	[0xEC0EE4] = {"@World/40 Below Fridge/Snowman Puzzle Right Box"},
 	[0xEC0EE5] = {"@World/40 Below Fridge/CD Box"},
 	[0xEC0EE9] = {"@World/40 Below Fridge/Conveyor Room Diamond"},
 	[0xEC0E2A] = {"@World/40 Below Fridge/Maze Cage Diamond"},
