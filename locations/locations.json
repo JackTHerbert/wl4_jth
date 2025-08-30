@@ -824,13 +824,27 @@
 						"item_count": 1
 					},
 					{
-						"name": "Snowman Puzzle Left Box",
+						"name": "Snowman Puzzle Lower Left Box",
 						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
-						"name": "Snowman Puzzle Right Box",
+						"name": "Snowman Puzzle Upper Left Box",
 						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "hard","shard" ],
+						"item_count": 1
+					},
+					{
+						"name": "Snowman Puzzle Upper Right Box",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "normal" ],
+						"item_count": 1
+					},
+					{
+						"name": "Snowman Puzzle Lower Right Box",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
@@ -4046,7 +4060,7 @@
 				"name": "Snowman Puzzle Upper Right Box",
 				"sections": [
 					{
-						"ref": "World/40 Below Fridge/Snowman Puzzle Right Box"
+						"ref": "World/40 Below Fridge/Snowman Puzzle Upper Right Box"
 					}
 				],
 				"map_locations": [
@@ -4061,7 +4075,7 @@
 				"name": "Snowman Puzzle Lower Left Box",
 				"sections": [
 					{
-						"ref": "World/40 Below Fridge/Snowman Puzzle Left Box"
+						"ref": "World/40 Below Fridge/Snowman Puzzle Lower Left Box"
 					}
 				],
 				"map_locations": [
@@ -4069,36 +4083,6 @@
 						"map": "40BFR07",
 						"x": 232,
 						"y": 434
-					}
-				]
-			},
-			{
-				"name": "Snowman Puzzle Upper Left Box",
-				"sections": [
-					{
-						"ref": "World/40 Below Fridge/Snowman Puzzle Left Box"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "40BFR07",
-						"x": 142,
-						"y": 144
-					}
-				]
-			},
-			{
-				"name": "Snowman Puzzle Lower Right Box",
-				"sections": [
-					{
-						"ref": "World/40 Below Fridge/Snowman Puzzle Right Box"
-					}
-				],
-				"map_locations": [
-					{
-						"map": "40BFR07",
-						"x": 671,
-						"y": 433
 					}
 				]
 			},
@@ -4213,10 +4197,13 @@
 				]
 			},
 			{
-				"name": "Snowman Puzzle Left Diamond",
+				"name": "Snowman Puzzle Upper Left Item",
 				"sections": [
 					{
 						"ref": "World/40 Below Fridge/Snowman Puzzle Left Diamond"
+					},
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Upper Left Box"
 					}
 				],
 				"map_locations": [
@@ -4228,10 +4215,13 @@
 				]
 			},
 			{
-				"name": "Snowman Puzzle Bottom Diamond",
+				"name": "Snowman Puzzle Bottom Right Item",
 				"sections": [
 					{
 						"ref": "World/40 Below Fridge/Snowman Puzzle Bottom Diamond"
+					},
+					{
+						"ref": "World/40 Below Fridge/Snowman Puzzle Lower Right Box"
 					}
 				],
 				"map_locations": [
