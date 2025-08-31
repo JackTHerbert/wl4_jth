@@ -373,7 +373,7 @@ function belowfridgecd()
   return AccessibilityLevel.None
 end
 function oolgroundpound()
-  if has("groundpound") then
+  if has("supergroundpound") then
     return AccessibilityLevel.Normal
   else
     return AccessibilityLevel.SequenceBreak

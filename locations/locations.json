@@ -469,7 +469,6 @@
 					},
 					{
 						"name": "Fat Plummet Box",
-						"access_rules": [ "normal","hard,^$oolgroundpound","shard,^$oolgroundpound" ],
 						"item_count": 1
 					},
 					{
@@ -516,7 +515,6 @@
 					},
 					{
 						"name": "Fat Plummet Diamond",
-						"access_rules": [ "^$oolgroundpound" ], 
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -687,7 +685,7 @@
 			},
 			{
 				"name": "The Toxic Landfill",
-				"access_rules": [ "dashattack,supergroundpound,headsmash,$keyzercf" ],
+				"access_rules": [ "dashattack,groundpound,$oolgroundpound,headsmash,$keyzercf" ],
 				"sections": [
 					{
 						"name": "Portal Room Box",
