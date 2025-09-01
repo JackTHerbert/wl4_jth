@@ -708,7 +708,7 @@
 					},
 					{
 						"name": "Current Circle Box",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -779,7 +779,7 @@
 					},
 					{
 						"name": "Current Circle Diamond",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim,supergroundpound" ],
 			    		"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
