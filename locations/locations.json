@@ -685,7 +685,7 @@
 			},
 			{
 				"name": "The Toxic Landfill",
-				"access_rules": [ "dashattack,groundpound,$oolgroundpound,headsmash,$keyzercf" ],
+				"access_rules": [ "dashattack,groundpound,^$oolgroundpound,headsmash,$keyzercf" ],
 				"sections": [
 					{
 						"name": "Portal Room Box",
