@@ -376,7 +376,7 @@
 					},
 					{
 						"name": "Air Pocket Diamond",
-						"access_rules": [ "swim,headsmash" ],
+						"access_rules": [ "swim" ],
 						"visibility_rules": [ "op_diamond_1,hard","op_diamond_1,shard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
