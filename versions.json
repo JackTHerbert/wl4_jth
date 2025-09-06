@@ -1,14 +1,6 @@
 {
     "versions": [
         {
-            "package_version": "0.9-1 AP",
-            "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.9-1/wl4_jth.zip",
-            "sha256": "224323d93695be07dfcb07e23cfa8a112bf5099ea7f831f61695181c6adeed85",
-            "changelog": [
-                "Small release for logic tweaks and 40 Below Fridge boxes"
-            ]
-        },
-        {
             "package_version": "0.9 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.9/wl4_jth.zip",
             "sha256": "e4ec19a59e9d2604dd3a0359cd54ce10ff845db5e8053adf8c0b22dff7c798de",
