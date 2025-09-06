@@ -375,7 +375,7 @@ end
 function oolgroundpound()
   if has("supergroundpound") then
     return AccessibilityLevel.Normal
-  else if has("heavygrab") then
+  elseif has("heavygrab") then
     return AccessibilityLevel.SequenceBreak
   end
   return AccessibilityLevel.None
