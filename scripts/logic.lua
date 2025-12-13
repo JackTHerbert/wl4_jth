@@ -388,3 +388,11 @@ function hotelhardescape()
   end
   return AccessibilityLevel.None
 end
+function toycartower()
+  if (has("grab") and has("groundpound")) then
+    return AccessibilityLevel.Normal
+  elseif has("supergroundpound") then
+    return AccessibilityLevel.SequenceBreak
+  end
+  return AccessibilityLevel.None
+end
