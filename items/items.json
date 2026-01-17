@@ -526,6 +526,28 @@
 		]
 	},
 	{
+		"name": "Keyzer Shuffle",
+		"type": "progressive",
+		"codes": "op_keyzershuffle",
+		"allow_disabled": false,
+		"loop":true,
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"name": "Keyzer Shuffle Off",
+				"img": "images/keyzer_grey.png",
+				"codes": "op_keyzershuffle_off",
+				"inheret_codes": false
+			},
+			{
+				"name": "Keyzer Shuffle On",
+				"img": "images/keyzer.png",
+				"codes": "op_keyzershuffle_on",
+				"inheret_codes": false
+			}
+		]
+	},
+	{
 		"name": "Keyzer Hall Of Hieroglyphs",
 		"type": "toggle",
 		"img": "images/keyzer.png",

@@ -63,6 +63,16 @@
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
+					},
+					{
+						"name": "Keyzer",
+						"hosted_item": "keyzerhoh",
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -165,7 +175,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerptp",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 
 				],
@@ -293,8 +308,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerwf",
-						"access_rules": [ "swim,supergroundpound" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 
 				],
@@ -433,8 +452,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerml",
-						"access_rules": [ "swim,headsmash" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -539,8 +562,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzermj",
-						"access_rules": [ "groundpound" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -672,7 +699,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzercf",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -796,7 +828,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzertl",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -941,7 +978,13 @@
 						"name": "Keyzer",
 						"hosted_item": "keyzerbf",
 						"access_rules": [ "supergroundpound" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"access_rules": [ "supergroundpound" ],
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1042,9 +1085,15 @@
 					},
 					{
 						"name": "Keyzer",
-						"hosted_item": "keyzerpz",
 						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,^$advancedlogic" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"hosted_item": "keyzerpz",
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,^$advancedlogic" ],
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1195,7 +1244,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzertbt",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1301,7 +1355,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerbb",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1404,7 +1463,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerdw",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1468,9 +1532,15 @@
 					},
 					{
 						"name": "Keyzer",
-						"hosted_item": "keyzerdr",
 						"access_rules": [ "swim,groundpound" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"hosted_item": "keyzerdr",
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"access_rules": [ "swim,groundpound" ],
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1612,9 +1682,15 @@
 					},
 					{
 						"name": "Keyzer",
-						"hosted_item": "keyzercmv",
 						"access_rules": [ "dashattack,headsmash" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"hosted_item": "keyzercmv",
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"access_rules": [ "dashattack,headsmash" ],
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1740,7 +1816,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzeran",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1842,9 +1923,15 @@
 					},
 					{
 						"name": "Keyzer",
-						"hosted_item": "keyzerfc",
 						"access_rules": [ "dashattack,groundpound,headsmash" ],
-						"visibility_rules": [ "op_doors_2" ]
+						"hosted_item": "keyzerfc",
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"access_rules": [ "dashattack,groundpound,headsmash" ],
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -1949,7 +2036,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerhh",
-						"visibility_rules": [ "op_doors_2" ]
+						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -2096,9 +2188,15 @@
 					},
 					{
 						"name": "Keyzer",
-						"hosted_item": "keyzergp",
 						"access_rules": [ "swim,groundpound,grab","^$advancedlogic,swim,grab" ],
-						"visibility_rules": [ "op_doors_1","op_doors_2" ]
+						"hosted_item": "keyzergp",
+						"visibility_rules": [ "op_doors_1,$keyzeroff","op_doors_2,$keyzeroff" ]
+					},
+					{
+						"name": "Keyzer ",
+						"access_rules": [ "swim,groundpound,grab","^$advancedlogic,swim,grab" ],
+						"visibility_rules": [ "op_keyzershuffle_on" ],
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -2552,6 +2650,9 @@
 				"sections": [
 					{
 						"ref": "World/Palm Tree Paradise/Keyzer"
+					},
+					{
+						"ref": "World/Palm Tree Paradise/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -2829,6 +2930,9 @@
 				"sections": [
 					{
 						"ref": "World/Wildflower Fields/Keyzer"
+					},
+					{
+						"ref": "World/Wildflower Fields/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -3106,6 +3210,9 @@
 				"sections":[
 					{
 						"ref": "World/Mystic Lake/Keyzer"
+					},
+					{
+						"ref": "World/Mystic Lake/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -3406,6 +3513,9 @@
 				"sections":[
 					{
 						"ref": "World/Monsoon Jungle/Keyzer"
+					},
+					{
+						"ref": "World/Monsoon Jungle/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -3684,6 +3794,9 @@
 				"sections": [
 					{
 						"ref": "World/The Curious Factory/Keyzer"
+					},
+					{
+						"ref": "World/The Curious Factory/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -3993,6 +4106,9 @@
 				"sections": [
 					{
 						"ref": "World/The Toxic Landfill/Keyzer"
+					},
+					{
+						"ref": "World/The Toxic Landfill/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -4285,6 +4401,9 @@
 				"sections": [
 					{
 						"ref": "World/40 Below Fridge/Keyzer"
+					},
+					{
+						"ref": "World/40 Below Fridge/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -4524,6 +4643,9 @@
 				"sections": [
 					{
 						"ref": "World/Pinball Zone/Keyzer"
+					},
+					{
+						"ref": "World/Pinball Zone/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -4888,6 +5010,9 @@
 			"sections": [
 					{
 						"ref": "World/Toy Block Tower/Keyzer"
+					},
+					{
+						"ref": "World/Toy Block Tower/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -5121,6 +5246,9 @@
 				"sections": [
 					{
 						"ref": "World/The Big Board/Keyzer"
+					},
+					{
+						"ref": "World/The Big Board/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -5365,6 +5493,9 @@
 				"sections": [
 					{
 						"ref": "World/Doodle Woods/Keyzer"
+					},
+					{
+						"ref": "World/Doodle Woods/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -5519,6 +5650,9 @@
 				"sections": [
 					{
 						"ref": "World/Domino Row/Keyzer"
+					},
+					{
+						"ref": "World/Doodle Woods/Keyzer "
 					},
 					{
 						"ref": "World/Domino Row/Keyzer Room Box"
@@ -5851,6 +5985,9 @@
 				"sections": [
 					{
 						"ref": "World/Crescent Moon Village/Keyzer"
+					},
+					{
+						"ref": "World/Crescent Moon Village/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -6134,6 +6271,9 @@
 				"sections": [
 					{
 						"ref": "World/Arabian Night/Keyzer"
+					},
+					{
+						"ref": "World/Arabian Night/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -6442,6 +6582,9 @@
 				"sections": [
 					{
 						"ref": "World/Fiery Cavern/Keyzer"
+					},
+					{
+						"ref": "World/Fiery Cavern/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -6769,6 +6912,9 @@
 			"sections": [
 					{
 						"ref": "World/Hotel Horror/Keyzer"
+					},
+					{
+						"ref": "World/Hotel Horror/Keyzer "
 					}
 				],
 				"map_locations": [
@@ -7134,6 +7280,9 @@
 				"sections": [
 					{
 						"ref": "World/Golden Passage/Keyzer"
+					},
+					{
+						"ref": "World/Golden Passage/Keyzer "
 					}
 				],
 				"map_locations": [

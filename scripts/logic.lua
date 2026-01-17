@@ -396,3 +396,7 @@ function toycartower()
   end
   return AccessibilityLevel.None
 end
+
+function keyzeroff()
+  return not has("op_keyzershuffle_on")
+end
