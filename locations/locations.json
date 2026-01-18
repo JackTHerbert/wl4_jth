@@ -1524,7 +1524,7 @@
 					},
 					{
 						"name": "Switch Ladder Diamond",
-						"access_rules": [ "swim,supergroundpound" ],
+						"access_rules": [ "swim,supergroundpound,dashattack","swim,supergroundpound,^$advancedlogic" ],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
