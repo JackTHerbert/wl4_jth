@@ -308,10 +308,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerwf",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
+						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}
@@ -452,10 +454,12 @@
 					{
 						"name": "Keyzer",
 						"hosted_item": "keyzerml",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
+						"access_rules": [ "swim,headsmash" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}
@@ -561,11 +565,13 @@
 					},
 					{
 						"name": "Keyzer",
+						"access_rules": [ "groundpound" ],
 						"hosted_item": "keyzermj",
 						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}

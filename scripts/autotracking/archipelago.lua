@@ -71,7 +71,7 @@ function onClear(slot_data)
 --	  end
 
 
-	--print(dump_table(slot_data))
+--	print(dump_table(slot_data))
 
 	for k,v in pairs(slot_data) do
 		if SLOT_CODES[k] then

@@ -531,7 +531,7 @@
 		"codes": "op_keyzershuffle",
 		"allow_disabled": false,
 		"loop":true,
-		"initial_stage_idx": 1,
+		"initial_stage_idx": 0,
 		"stages": [
 			{
 				"name": "Keyzer Shuffle Off",

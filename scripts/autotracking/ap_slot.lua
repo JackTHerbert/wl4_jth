@@ -50,5 +50,9 @@ SLOT_CODES = {
 	diamond_shuffle={
 		code="op_diamond",
 		mapping=normalmap
+	},
+	keyzer_shuffle={
+		code="op_keyzershuffle",
+		mapping=normalmap
 	}
 }
