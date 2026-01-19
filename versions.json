@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.10.0 AP",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.10.0/wl4_jth.zip",
+            "sha256": "89ff9741882ad650fb9235871f293d9f9d05ac0d12aaf90c6edf218407053229",
+            "changelog": [
+                "New option added of Keyzer shuffle. Locations and ids added, automatic option toggle.",
+                "Minor logic tweaks too.",
+                "Changing version numbering for future sake (vX.X.X rather than just vX.X)"
+            ]
+        },
+        {
             "package_version": "0.9-1HF AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.9-1HF/wl4_jth.zip",
             "sha256": "a3082e88b9f64082f2529ed0db76b07ec67f8dd0cbf0d1ab31cad37ec86a67ea",
