@@ -2395,6 +2395,24 @@
 						"y": 113
 					}
 				]
+			},
+			{
+				"name": "Keyzer",
+				"sections": [
+					{
+						"ref": "World/Hall of Hieroglyphs/Keyzer"
+					},
+					{
+						"ref": "World/Hall of Hieroglyphs/Keyzer "
+					}
+				],
+				"map_locations": [
+					{
+						"map": "HOHR08",
+						"x": 220,
+						"y": 175
+					}
+				]
 			}
 		]
 	},
