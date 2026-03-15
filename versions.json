@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.10.2 AP",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.10.2/wl4_jth.zip",
+            "sha256": "d5f70ffb222a9524d8f6824e454f3ad3213257b36906a5d3204fe62b4bd6aa16",
+            "changelog": [
+                "Pack tweak 0.10.2",
+                "Fixed Domino Row Keyzer in-level being wrongly linked to doodle woods keyzer"
+            ]
+        },
+        {
             "package_version": "0.10.1 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.10.1/wl4_jth.zip",
             "sha256": "eaf6372db729c673c42c842ce6088eb4a4ed521ef04224027c7b696087a5d87c",
