@@ -2516,7 +2516,8 @@
 					{
 						"map": "PTPR03",
 						"x": 938,
-						"y": 190
+						"y": 190,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -2625,7 +2626,8 @@
 					{
 						"map": "PTPR05",
 						"x": 255,
-						"y": 255
+						"y": 255,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -2645,7 +2647,8 @@
 					{
 						"map": "PTPR07",
 						"x": 160,
-						"y": 55
+						"y": 55,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -2665,7 +2668,8 @@
 					{
 						"map": "PTPR05",
 						"x": 145,
-						"y": 115
+						"y": 115,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -2778,7 +2782,8 @@
 					{
 						"map": "WFR02",
 						"x": 576,
-						"y": 416
+						"y": 416,
+                        "shape": "diamond"
 					},
 					{
 						"map": "WFR04",
@@ -2820,7 +2825,8 @@
 					{
 						"map": "WFR00",
 						"x": 365,
-						"y": 36
+						"y": 36,
+                        "shape": "diamond"
 					},
 					{
 						"map": "WFR01",
@@ -2855,7 +2861,8 @@
 					{
 						"map": "WFR06",
 						"x": 416,
-						"y": 560
+						"y": 560,
+                        "shape": "diamond"
 					},
 					{
 						"map": "WFR12",
@@ -2905,7 +2912,8 @@
 					{
 						"map": "WFR02",
 						"x": 335,
-						"y": 37
+						"y": 37,
+                        "shape": "diamond"
 					},
 					{
 						"map": "WFR03",
@@ -2940,7 +2948,8 @@
 					{
 						"map": "WFR10",
 						"x": 64,
-						"y": 442
+						"y": 442,
+                        "shape": "diamond"
 					},
 					{
 						"map": "WFR13",
@@ -3046,7 +3055,8 @@
 						"map": "MLR01",
 						"x": 550,
 						"y": 293,
-						"restrict_visibility_rules": ["normal","hard"]
+						"restrict_visibility_rules": ["normal","hard"],
+                        "shape": "diamond"
 					},
 					{
 						"map": "MLR03",
@@ -3082,7 +3092,8 @@
 					{
 						"map": "MLR01",
 						"x": 550,
-						"y": 293
+						"y": 293,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MLR09",
@@ -3165,7 +3176,8 @@
 					{
 						"map": "MLR01",
 						"x": 48,
-						"y": 191
+						"y": 191,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MLR08",
@@ -3185,7 +3197,8 @@
 					{
 						"map": "MLR02",
 						"x": 369,
-						"y": 469
+						"y": 469,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MLR10",
@@ -3205,7 +3218,8 @@
 					{
 						"map": "MLR06",
 						"x": 352,
-						"y": 75
+						"y": 75,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MLR11",
@@ -3295,7 +3309,8 @@
 					{
 						"map": "MJR06",
 						"x": 590,
-						"y": 700
+						"y": 700,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MJR13",
@@ -3318,7 +3333,8 @@
 					{
 						"map": "MJR02",
 						"x": 496,
-						"y": 542
+						"y": 542,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -3388,7 +3404,8 @@
 					{
 						"map": "MJR08",
 						"x": 240,
-						"y": 36
+						"y": 36,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MJR09",
@@ -3411,7 +3428,8 @@
 					{
 						"map": "MJR10",
 						"x": 560,
-						"y": 190
+						"y": 190,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -3463,7 +3481,8 @@
 					{
 						"map": "MJR02",
 						"x": 272,
-						"y": 32
+						"y": 32,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MJR05",
@@ -3483,7 +3502,8 @@
 					{
 						"map": "MJR01",
 						"x": 154,
-						"y": 330
+						"y": 330,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MJR03",
@@ -3503,7 +3523,8 @@
 					{
 						"map": "MJR02",
 						"x": 497,
-						"y": 117
+						"y": 117,
+                        "shape": "diamond"
 					},
 					{ 
 						"map": "MJR14",
@@ -3523,7 +3544,8 @@
 					{
 						"map": "MJR00",
 						"x": 512,
-						"y": 120
+						"y": 120,
+                        "shape": "diamond"
 					},
 					{
 						"map": "MJR15",
@@ -3749,7 +3771,8 @@
 					{
 						"map": "CFR05",
 						"x": 720,
-						"y": 446
+						"y": 446,
+                        "shape": "diamond"
 					},
 					{
 						"map": "CFR08",
@@ -3784,7 +3807,8 @@
 					{
 						"map": "CFR02",
 						"x": 288,
-						"y": 315
+						"y": 315,
+                        "shape": "diamond"
 					},
 					{
 						"map": "CFR09",
@@ -3804,7 +3828,8 @@
 					{
 						"map": "CFR04",
 						"x": 193,
-						"y": 395
+						"y": 395,
+                        "shape": "diamond"
 					},
 					{
 						"map": "CFR10",
@@ -3934,7 +3959,8 @@
 					{
 						"map": "TLR04",
 						"x": 255,
-						"y": 128
+						"y": 128,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TLR05",
@@ -3975,7 +4001,8 @@
 					{
 						"map": "TLR06",
 						"x": 1071,
-						"y": 190
+						"y": 190,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -4086,7 +4113,8 @@
 					{
 						"map": "TLR02",
 						"x": 191,
-						"y": 40
+						"y": 40,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TLR11",
@@ -4295,7 +4323,8 @@
 					{
 						"map": "40BFR04",
 						"x": 112,
-						"y": 574
+						"y": 574,
+                        "shape": "diamond"
 					},
 					{
 						"map": "40BFR09",
@@ -4411,7 +4440,8 @@
 					{
 						"map": "40BFR07",
 						"x": 768,
-						"y": 328
+						"y": 328,
+                        "shape": "diamond"
 					},
 					{
 						"map": "40BFR10",
@@ -4573,7 +4603,8 @@
 					{
 						"map": "PZR04",
 						"x": 688,
-						"y": 369
+						"y": 369,
+                        "shape": "diamond"
 					},
 					{
 						"map": "PZR08",
@@ -4608,7 +4639,8 @@
 					{
 						"map": "PZR02",
 						"x": 801,
-						"y": 346
+						"y": 346,
+                        "shape": "diamond"
 					},
 					{
 						"map": "PZR07",
@@ -4765,7 +4797,8 @@
 					{
 						"map": "TBTR01",
 						"x": 239,
-						"y": 194
+						"y": 194,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TBTR02",
@@ -4805,7 +4838,8 @@
 					{
 						"map": "TBTR03",
 						"x": 425,
-						"y": 639
+						"y": 639,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -4850,7 +4884,8 @@
 					{
 						"map": "TBTR07",
 						"x": 208,
-						"y": 207
+						"y": 207,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TBTR09",
@@ -4906,7 +4941,8 @@
 					{
 						"map": "TBTR10",
 						"x": 31,
-						"y": 239
+						"y": 239,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TBTR11",
@@ -4917,7 +4953,8 @@
 						"map": "TBTR12",
 						"x": 511,
 						"y": 32,
-						"restrict_visibility_rules": [ "shard" ]
+						"restrict_visibility_rules": [ "shard" ],
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -4932,7 +4969,8 @@
 					{
 						"map": "TBTR12",
 						"x": 639,
-						"y": 272
+						"y": 272,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TBTR13",
@@ -4955,7 +4993,8 @@
 					{
 						"map": "TBTR03",
 						"x": 96,
-						"y": 676
+						"y": 676,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TBTR14",
@@ -5020,7 +5059,8 @@
 					{
 						"map": "TBTR07",
 						"x": 865,
-						"y": 40
+						"y": 40,
+                        "shape": "diamond"
 					},
 					{
 						"map": "TBTR15",
@@ -5216,12 +5256,14 @@
 					{
 						"map": "BBR01",
 						"x": 768,
-						"y": 369
+						"y": 369,
+                        "shape": "diamond"
 					},
 					{
 						"map": "BBR02",
 						"x": 161,
-						"y": 354
+						"y": 354,
+                        "shape": "diamond"
 					},
 					{
 						"map": "BBR11",
@@ -5256,7 +5298,8 @@
 					{
 						"map": "BBR04",
 						"x": 176,
-						"y": 52
+						"y": 52,
+                        "shape": "diamond"
 					},
 					{
 						"map": "BBR12",
@@ -5316,7 +5359,8 @@
 					{
 						"map": "DWR01",
 						"x": 104,
-						"y": 255
+						"y": 255,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR06",
@@ -5354,12 +5398,14 @@
 					{
 						"map": "DWR02",
 						"x": 1703,
-						"y": 414
+						"y": 414,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR05",
 						"x": 29,
-						"y": 1024
+						"y": 1024,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR07",
@@ -5382,7 +5428,8 @@
 					{
 						"map": "DWR02",
 						"x": 409,
-						"y": 385
+						"y": 385,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR08",
@@ -5420,7 +5467,8 @@
 					{
 						"map": "DWR03",
 						"x": 1607,
-						"y": 110
+						"y": 110,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR09",
@@ -5441,7 +5489,8 @@
 						"map": "DWR01",
 						"x": 104,
 						"y": 255,
-						"restrict_visibility_rules": [ "normal" ]
+						"restrict_visibility_rules": [ "normal" ],
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR06",
@@ -5483,7 +5532,8 @@
 					{
 						"map": "DWR03",
 						"x": 737,
-						"y": 101
+						"y": 101,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR10",
@@ -5503,7 +5553,8 @@
 					{
 						"map": "DWR02",
 						"x": 1569,
-						"y": 438
+						"y": 438,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DWR11",
@@ -5660,7 +5711,8 @@
 					{
 						"map": "DRR07",
 						"x": 400,
-						"y": 348
+						"y": 348,
+                        "shape": "diamond"
 					},
 					{
 						"map": "DRR11",
@@ -5686,7 +5738,8 @@
 					{
 						"map": "DRR00",
 						"x": 301,
-						"y": 160
+						"y": 160,
+                        "shape": "diamond"
 					}
 				]
 			}
@@ -5793,7 +5846,8 @@
 					{
 						"map": "CMVR02",
 						"x": 90,
-						"y": 223
+						"y": 223,
+                        "shape": "diamond"
 					},
 					{
 						"map": "CMVR03",
@@ -5962,7 +6016,8 @@
 					{
 						"map": "CMVR04",
 						"x": 2176,
-						"y": 486
+						"y": 486,
+                        "shape": "diamond"
 					},
 					{
 						"map": "CMVR11",
@@ -5985,7 +6040,8 @@
 					{
 						"map": "CMVR06",
 						"x": 1647,
-						"y": 185
+						"y": 185,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6098,7 +6154,8 @@
 					{
 						"map": "ANR04",
 						"x": 288,
-						"y": 570
+						"y": 570,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6149,7 +6206,8 @@
 					{
 						"map": "ANR02",
 						"x": 1304,
-						"y": 415
+						"y": 415,
+                        "shape": "diamond"
 					},
 					{
 						"map": "ANR07",
@@ -6221,7 +6279,8 @@
 					{
 						"map": "ANR05",
 						"x": 337,
-						"y": 331
+						"y": 331,
+                        "shape": "diamond"
 					},
 					{
 						"map": "ANR11",
@@ -6304,7 +6363,8 @@
 					{
 						"map": "ANR02",
 						"x": 1088,
-						"y": 448
+						"y": 448,
+                        "shape": "diamond"
 					},
 					{
 						"map": "ANR06",
@@ -6437,7 +6497,8 @@
 					{
 						"map": "FCR09",
 						"x": 152,
-						"y": 112
+						"y": 112,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6522,12 +6583,14 @@
 					{
 						"map": "FCR03",
 						"x": 576,
-						"y": 293
+						"y": 293,
+                        "shape": "diamond"
 					},
 					{
 						"map": "FCR04",
 						"x": 576,
-						"y": 293
+						"y": 293,
+                        "shape": "diamond"
 					},
 					{
 						"map": "FCR13",
@@ -6547,12 +6610,14 @@
 					{
 						"map": "FCR01",
 						"x": 368,
-						"y": 662
+						"y": 662,
+                        "shape": "diamond"
 					},
 					{
 						"map": "FCR02",
 						"x": 368,
-						"y": 662
+						"y": 662,
+                        "shape": "diamond"
 					},
 					{
 						"map": "FCR14",
@@ -6660,7 +6725,8 @@
 					{
 						"map": "HHR00",
 						"x": 704,
-						"y": 156
+						"y": 156,
+                        "shape": "diamond"
 					},
 					{
 						"map": "HHR04",
@@ -6710,7 +6776,8 @@
 					{
 						"map": "HHR02",
 						"x": 1008,
-						"y": 156
+						"y": 156,
+                        "shape": "diamond"
 					},
 					{
 						"map": "HHR07",
@@ -6720,7 +6787,8 @@
 					{
 						"map": "HHR03",
 						"x": 992,
-						"y": 156
+						"y": 156,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6811,7 +6879,8 @@
 						"map": "HHR02",
 						"x": 24,
 						"y": 156,
-						"restrict_visibility_rules": [ "normal","hard" ]
+						"restrict_visibility_rules": [ "normal","hard" ],
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6839,7 +6908,8 @@
 						"map": "HHR02",
 						"x": 24,
 						"y": 156,
-						"restrict_visibility_rules": [ "shard" ]
+						"restrict_visibility_rules": [ "shard" ],
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6854,7 +6924,8 @@
 					{
 						"map": "HHR03",
 						"x": 160,
-						"y": 156
+						"y": 156,
+                        "shape": "diamond"
 					},
 					{
 						"map": "HHR09",
@@ -6864,7 +6935,8 @@
 					{
 						"map": "HHR11",
 						"x": 279,
-						"y": 142
+						"y": 142,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6897,7 +6969,8 @@
 					{
 						"map": "HHR11",
 						"x": 208,
-						"y": 102
+						"y": 102,
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -6946,7 +7019,8 @@
 						"map": "HHR03",
 						"x": 160,
 						"y": 156,
-						"restrict_visibility_rules": [ "normal","hard" ]
+						"restrict_visibility_rules": [ "normal","hard" ],
+                        "shape": "diamond"
 					},
 					{
 						"map": "HHR09",
@@ -6958,7 +7032,8 @@
 						"map": "HHR11",
 						"x": 279,
 						"y": 142,
-						"restrict_visibility_rules": [ "normal","hard" ]
+						"restrict_visibility_rules": [ "normal","hard" ],
+                        "shape": "diamond"
 					},
 					{
 						"map": "HHR05",
@@ -6980,13 +7055,15 @@
 						"map": "HHR00",
 						"x": 928,
 						"y": 156,
-						"restrict_visibility_rules": [ "normal","hard" ]
+						"restrict_visibility_rules": [ "normal","hard" ],
+                        "shape": "diamond"
 					},
 					{
 						"map": "HHR01",
 						"x": 864,
 						"y": 164,
-						"restrict_visibility_rules": [ "normal","hard" ]
+						"restrict_visibility_rules": [ "normal","hard" ],
+                        "shape": "diamond"
 					}
 				]
 			},
@@ -7005,13 +7082,15 @@
 						"map": "HHR00",
 						"x": 928,
 						"y": 156,
-						"restrict_visibility_rules": [ "shard" ]
+						"restrict_visibility_rules": [ "shard" ],
+                        "shape": "diamond"
 					},
 					{
 						"map": "HHR01",
 						"x": 864,
 						"y": 164,
-						"restrict_visibility_rules": [ "shard" ]
+						"restrict_visibility_rules": [ "shard" ],
+                        "shape": "diamond"
 					}
 				]
 			}
