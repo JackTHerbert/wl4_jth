@@ -474,23 +474,23 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "groundpound,$keyzerml","op_openportal_1,$keyzerml" ],
+				"access_rules": [ "^$monsoonjungle,$keyzerml","op_openportal_1,$keyzerml" ],
 				"sections": [
 					{
 						"name": "Spiky Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "^$monsoonjungle" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Escape Climb Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "^$monsoonjungle" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Brown Pipe Cave Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "^$monsoonjungle" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -500,19 +500,19 @@
 					},
 					{
 						"name": "Descent Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "^$monsoonjungle" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Puffy Hallway Box",
-						"access_rules": [ "dashattack,groundpound" ],
+						"access_rules": [ "dashattack,^$monsoonjungle" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Buried Cave Box",
-						"access_rules": [ "normal,groundpound","grab,groundpound,hard","groundpound,grab,shard" ],
+						"access_rules": [ "normal,^$monsoonjungle","grab,^$monsoonjungle,hard","^$monsoonjungle,grab,shard" ],
 						"item_count": 1
 					},
 					{
@@ -549,7 +549,7 @@
 					},
 					{
 						"name": "Puffy Hallway Diamond",
-						"access_rules": [ "groundpound,dashattack" ], 
+						"access_rules": [ "^$monsoonjungle,dashattack" ], 
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -557,7 +557,7 @@
 					},
 					{
 						"name": "Buried Cave Diamond",
-						"access_rules": [ "groundpound,grab" ], 
+						"access_rules": [ "^$monsoonjungle,grab" ], 
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -565,13 +565,13 @@
 					},
 					{
 						"name": "Keyzer",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "^$monsoonjungle" ],
 						"hosted_item": "keyzermj",
 						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "^$monsoonjungle" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}

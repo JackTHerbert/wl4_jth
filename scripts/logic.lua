@@ -416,6 +416,14 @@ function toycartower()
   end
   return AccessibilityLevel.None
 end
+function monsoonjungle()
+  if (has("groundpound") or (has("grab") and has("op_advancedlogic_1")))then
+    return AccessibilityLevel.Normal
+  elseif has("grab") then
+    return AccessibilityLevel.SequenceBreak
+  end
+  return AccessibilityLevel.None
+end
 
 function keyzeroff()
   return not has("op_keyzershuffle_on")
