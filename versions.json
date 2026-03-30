@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.10.3 AP",
+            "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.10.3/wl4_jth.zip",
+            "sha256": "",
+            "changelog": [
+                "Monsoon Jongle Logic",
+                "Altered some logic for Monsoon Jungle that APWorld has changed.",
+                "In-level view entrances are now diamonds, to make a distinction between items and doorways to items."
+            ]
+        },
+        {
             "package_version": "0.10.2 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.10.2/wl4_jth.zip",
             "sha256": "d5f70ffb222a9524d8f6824e454f3ad3213257b36906a5d3204fe62b4bd6aa16",
