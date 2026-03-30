@@ -517,7 +517,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "groundpound" ],
+						"access_rules": [ "^$monsoonjungle" ],
 						"item_count": 1
 					},
 					{
