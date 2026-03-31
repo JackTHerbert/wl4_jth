@@ -3,7 +3,7 @@
         {
             "package_version": "0.10.3 AP",
             "download_url": "https://github.com/JackTHerbert/wl4_jth/releases/download/v0.10.3/wl4_jth.zip",
-            "sha256": "",
+            "sha256": "7a292dff8f72bf181b4976339c982a113871258ea724b1e91f3e79e7e34e345b",
             "changelog": [
                 "Monsoon Jongle Logic",
                 "Altered some logic for Monsoon Jungle that APWorld has changed.",
