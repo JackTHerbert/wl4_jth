@@ -41,7 +41,7 @@
 				"inherit_codes": true
 			}
 		]
-	},	
+	},
 	{
 		"name": "Progressive Grab",
 		"type": "progressive",
@@ -60,7 +60,7 @@
 				"inherit_codes": true
 			}
 		]
-	},	
+	},
 	{
 		"name": "Top Right Entry Jewel Piece",
 		"type": "consumable",
@@ -340,7 +340,7 @@
 		"type": "toggle",
 		"img": "images/treasure12.png",
 		"codes": "treasure12"
-	},	
+	},
 	{
 		"name": "Difficulty",
 		"type": "progressive",
@@ -388,7 +388,7 @@
 		"type": "progressive",
 		"codes": "op_openportal",
 		"allow_disabled": false,
-		"loop":true,
+		"loop": true,
 		"stages": [
 			{
 				"name": "Open Portals Off",
@@ -409,7 +409,7 @@
 		"type": "progressive",
 		"codes": "op_treasurehunt",
 		"allow_disabled": false,
-		"loop":true,
+		"loop": true,
 		"stages": [
 			{
 				"name": "Treasure Hunt Off",
@@ -424,25 +424,33 @@
 				"inheret_codes": false
 			}
 		]
-	},	
+	},
 	{
 		"name": "Advanced Logic",
 		"type": "progressive",
-		"codes": "op_advancedlogic",
+		"codes": "op_logic",
 		"allow_disabled": false,
-		"loop":true,
+		"loop": true,
 		"stages": [
 			{
-				"name": "Advanced Logic Off",
-				"img": "images/wario_splat_grey.png",
-				"codes": "op_advancedlogic_0",
-				"inheret_codes": false
+				"name": "Basic Logic",
+				"img": "images/logicbasic.png",
+				"codes": "op_logic_basic"
 			},
 			{
-				"name": "Advanced Logic On",
-				"img": "images/wario_splat.png",
-				"codes": "op_advancedlogic_1",
-				"inheret_codes": false
+				"name": "Intermediate Logic",
+				"img": "images/logicintermediate.png",
+				"codes": "op_logic_int"
+			},
+			{
+				"name": "Advanced Logic",
+				"img": "images/logicadvanced.png",
+				"codes": "op_logic_adv"
+			},
+			{
+				"name": "Anything Goes Logic",
+				"img": "images/logicanything.png",
+				"codes": "op_logic_anything"
 			}
 		]
 	},
@@ -451,7 +459,7 @@
 		"type": "progressive",
 		"codes": "op_diamond",
 		"allow_disabled": false,
-		"loop":true,
+		"loop": true,
 		"stages": [
 			{
 				"name": "Diamond Shuffle Off",
@@ -502,7 +510,7 @@
 		"type": "progressive",
 		"codes": "op_doors",
 		"allow_disabled": false,
-		"loop":true,
+		"loop": true,
 		"initial_stage_idx": 1,
 		"stages": [
 			{
@@ -530,7 +538,7 @@
 		"type": "progressive",
 		"codes": "op_keyzershuffle",
 		"allow_disabled": false,
-		"loop":true,
+		"loop": true,
 		"initial_stage_idx": 0,
 		"stages": [
 			{
@@ -654,13 +662,13 @@
 		"type": "toggle",
 		"img": "images/keyzer.png",
 		"codes": "keyzergp"
-	},	
+	},
 	{
 		"name": "Automatic Tab Toggle",
 		"type": "progressive",
 		"codes": "op_auto_tab",
 		"allow_disabled": false,
-		"loop":true,
+		"loop": true,
 		"initial_stage_idx": 1,
 		"stages": [
 			{

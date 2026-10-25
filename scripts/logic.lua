@@ -376,54 +376,6 @@ function keyzergp()
     end
   end
 end
-function advancedlogic()
-  if has("op_advancedlogic_1") then
-    return AccessibilityLevel.Normal
-  else
-    return AccessibilityLevel.SequenceBreak
-  end
-  return AccessibilityLevel.None
-end
-function belowfridgecd()
-  if (has("headsmash") or (has("heavygrab") and has("op_advancedlogic_1")))then
-    return AccessibilityLevel.Normal
-  elseif has("heavygrab") then
-    return AccessibilityLevel.SequenceBreak
-  end
-  return AccessibilityLevel.None
-end
-function oolgroundpound()
-  if has("supergroundpound") then
-    return AccessibilityLevel.Normal
-  elseif has("heavygrab") then
-    return AccessibilityLevel.SequenceBreak
-  end
-  return AccessibilityLevel.None
-end
-function hotelhardescape()
-  if (has("heavygrab") or (has("grab") and has("supergroundpound") and has("stompjump") and has("op_advancedlogic_1"))) then
-    return AccessibilityLevel.Normal
-  elseif (has("grab") and has("supergroundpound") and has("stompjump")) then
-    return AccessibilityLevel.SequenceBreak
-  end
-  return AccessibilityLevel.None
-end
-function toycartower()
-  if (has("grab") and has("groundpound")) then
-    return AccessibilityLevel.Normal
-  elseif has("supergroundpound") then
-    return AccessibilityLevel.SequenceBreak
-  end
-  return AccessibilityLevel.None
-end
-function monsoonjungle()
-  if (has("groundpound") or (has("grab") and has("op_advancedlogic_1")))then
-    return AccessibilityLevel.Normal
-  elseif has("grab") then
-    return AccessibilityLevel.SequenceBreak
-  end
-  return AccessibilityLevel.None
-end
 
 function keyzeroff()
   return not has("op_keyzershuffle_on")

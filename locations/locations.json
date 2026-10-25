@@ -100,7 +100,7 @@
 						"name": "Dead End Box",
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
-					},										
+					},
 					{
 						"name": "Box Before Cave",
 						"visibility_rules": [ "normal" ],
@@ -159,7 +159,7 @@
 					{
 						"name": "Switch Staircase Diamond",
 						"visibility_rules": [ "op_diamond_1" ],
-						"access_rules": [ "grab","^$advancedlogic,stompjump" ],
+						"access_rules": [ "grab","[op_logic_int],stompjump" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -191,11 +191,14 @@
 						"y": 754
 					}
 				]
-				
+
 			},
 			{
 				"name": "Wildflower Fields",
-				"access_rules": [ "swim,supergroundpound,$keyzerptp","op_openportal_1,$keyzerptp" ],
+				"access_rules": [
+					"swim,supergroundpound,$keyzerptp",
+					"op_openportal_1,$keyzerptp"
+				],
 				"sections": [
 					{
 						"name": "Current Cave Box",
@@ -209,7 +212,7 @@
 						"item_count": 1
 					},
 					{
-						"name": "Sunflower Box",	
+						"name": "Sunflower Box",
 						"access_rules": [ "swim,supergroundpound" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
@@ -329,7 +332,10 @@
 			},
 			{
 				"name": "Mystic Lake",
-				"access_rules": [ "swim,headsmash,$keyzerwf","op_openportal_1,$keyzerwf" ],
+				"access_rules": [
+					"swim,headsmash,$keyzerwf",
+					"op_openportal_1,$keyzerwf"
+				],
 				"sections": [
 					{
 						"name": "Air Pocket Box",
@@ -474,23 +480,26 @@
 			},
 			{
 				"name": "Monsoon Jungle",
-				"access_rules": [ "^$monsoonjungle,$keyzerml","op_openportal_1,$keyzerml" ],
+				"access_rules": [
+					"@monsoonjungle,$keyzerml",
+					"op_openportal_1,$keyzerml"
+				],
 				"sections": [
 					{
 						"name": "Spiky Box",
-						"access_rules": [ "^$monsoonjungle" ],
+						"access_rules": [ "@monsoonjungle" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Escape Climb Box",
-						"access_rules": [ "^$monsoonjungle" ],
+						"access_rules": [ "@monsoonjungle" ],
 						"visibility_rules": [ "hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Brown Pipe Cave Box",
-						"access_rules": [ "^$monsoonjungle" ],
+						"access_rules": [ "@monsoonjungle" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -500,29 +509,29 @@
 					},
 					{
 						"name": "Descent Box",
-						"access_rules": [ "^$monsoonjungle" ],
+						"access_rules": [ "@monsoonjungle" ],
 						"visibility_rules": [ "normal" ],
 						"item_count": 1
 					},
 					{
 						"name": "Puffy Hallway Box",
-						"access_rules": [ "dashattack,^$monsoonjungle" ],
+						"access_rules": [ "dashattack,@monsoonjungle" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Buried Cave Box",
-						"access_rules": [ "normal,^$monsoonjungle","grab,^$monsoonjungle,hard","^$monsoonjungle,grab,shard" ],
+						"access_rules": [ "normal,@monsoonjungle","grab,@monsoonjungle" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "^$monsoonjungle" ],
+						"access_rules": [ "@monsoonjungle" ],
 						"item_count": 1
 					},
 					{
 						"name": "Full Health Item Box",
-						"access_rules": [ "swim" ], 
+						"access_rules": [ "swim" ],
 						"item_count": 1
 					},
 					{
@@ -534,7 +543,7 @@
 					},
 					{
 						"name": "Rock Catching Diamond",
-						"access_rules": [ "grab" ], 
+						"access_rules": [ "grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -549,7 +558,7 @@
 					},
 					{
 						"name": "Puffy Hallway Diamond",
-						"access_rules": [ "^$monsoonjungle,dashattack" ], 
+						"access_rules": [ "@monsoonjungle,dashattack" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -557,7 +566,7 @@
 					},
 					{
 						"name": "Buried Cave Diamond",
-						"access_rules": [ "^$monsoonjungle,grab" ], 
+						"access_rules": [ "@monsoonjungle,grab" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -565,13 +574,13 @@
 					},
 					{
 						"name": "Keyzer",
-						"access_rules": [ "^$monsoonjungle" ],
+						"access_rules": [ "@monsoonjungle" ],
 						"hosted_item": "keyzermj",
 						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
-						"access_rules": [ "^$monsoonjungle" ],
+						"access_rules": [ "@monsoonjungle" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}
@@ -595,18 +604,18 @@
 					{
 						"name": "0:15",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]					
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:35",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:55",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
-					}					
+						"visibility_rules": [ "op_treasurehunt_1" ]
+					}
 				],
 				"map_locations": [
 					{
@@ -723,7 +732,10 @@
 			},
 			{
 				"name": "The Toxic Landfill",
-				"access_rules": [ "dashattack,groundpound,^$oolgroundpound,headsmash,$keyzercf" ],
+				"access_rules": [
+					"dashattack,headsmash,supergroundpound,$keyzercf",
+					"dashattack,headsmash,groundpound,heavygrab,[op_logic_anything],$keyzercf"
+				],
 				"sections": [
 					{
 						"name": "Portal Room Box",
@@ -802,7 +814,7 @@
 					{
 						"name": "Transformation Puzzle Lower Diamond",
 			    		"visibility_rules": [ "op_diamond_1" ],
-						"access_rules": [ "heavygrab,swim","^$advancedlogic,swim" ],
+						"access_rules": [ "heavygrab,swim","[op_logic_adv],swim" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
 						"chest_opened_img": "images/diamond_grey.png"
@@ -890,7 +902,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "^$belowfridgecd,supergroundpound" ],
+						"access_rules": [ "supergroundpound,headsmash", "supergroundpound,[op_logic_adv],heavygrab" ],
 						"item_count": 1
 					},
 					{
@@ -966,7 +978,7 @@
 					},
 					{
 						"name": "Glass Ball Puzzle Diamond",
-						"access_rules": [ "supergroundpound,grab","^$advancedlogic,stompjump,supergroundpound" ],
+						"access_rules": [ "supergroundpound,grab","[op_logic_int],stompjump,supergroundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1003,7 +1015,7 @@
 			},
 			{
 				"name": "Pinball Zone",
-				"access_rules": [ "grab,groundpound,headsmash,$keyzerbf","grab,op_openportal_1,$keyzerbf" ],
+				"access_rules": [ "grab,@pinballzone/escape,$keyzerbf","grab,op_openportal_1,$keyzerbf" ],
 				"sections": [
 					{
 						"name": "Rolling Room Box",
@@ -1012,7 +1024,7 @@
 					},
 					{
 						"name": "Switch Room Box",
-						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/late" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -1022,27 +1034,28 @@
 					},
 					{
 						"name": "Jungle Room Box",
+						"access_rules": [ "@pinballzone/jungle" ],
 						"item_count": 1
 					},
 					{
 						"name": "Snow Room Box",
-						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/late" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/late" ],
 						"item_count": 1
 					},
 					{
 						"name": "Full Health Item Box",
-						"access_rules": [ "supergroundpound" ],
+						"access_rules": [ "@pinballzone/late,supergroundpound" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Pink Room Full Health Item Box",
-						"access_rules": [ "supergroundpound" ],
+						"access_rules": [ "@pinballzone/late,supergroundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
@@ -1067,7 +1080,7 @@
 					},
 					{
 						"name": "Switch Room Diamond",
-						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/late" ],
 						"visibility_rules": [ "op_diamond_1,hard","op_diamond_1,shard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1075,7 +1088,7 @@
 					},
 					{
 						"name": "Snow Room Diamond",
-						"access_rules": [ "groundpound","heavygrab,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/late" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1083,7 +1096,7 @@
 					},
 					{
 						"name": "Robot Room Diamond",
-						"access_rules": [ "groundpound,headsmash,dashattack","groundpound,heavygrab,headsmash,dashattack,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/escape" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1091,13 +1104,13 @@
 					},
 					{
 						"name": "Keyzer",
-						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/escape" ],
 						"hosted_item": "keyzerpz",
 						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
-						"access_rules": [ "groundpound,headsmash","groundpound,heavygrab,headsmash,^$advancedlogic" ],
+						"access_rules": [ "@pinballzone/escape" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}
@@ -1121,17 +1134,17 @@
 					{
 						"name": "0:15",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]					
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:35",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:55",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					}
 				],
 				"map_locations": [
@@ -1268,7 +1281,10 @@
 			},
 			{
 				"name": "The Big Board",
-				"access_rules": [ "groundpound,$keyzertbt" ],
+				"access_rules": [
+					"groundpound,$keyzertbt",
+					"op_openportal_1,$keyzerbt,grab,[op_logic_int]"
+				],
 				"sections": [
 					{
 						"name": "First Box",
@@ -1313,6 +1329,7 @@
 					},
 					{
 						"name": "CD Box",
+						"access_rules": ["normal", "groundpound", "[op_logic_adv],grab,stompjump"],
 						"item_count": 1
 					},
 					{
@@ -1345,6 +1362,7 @@
 					},
 					{
 						"name": "Bouncy Room Diamond",
+						"access_rules": ["groundpound", "[op_logic_adv],grab,stompjump"],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1352,7 +1370,7 @@
 					},
 					{
 						"name": "Scienstein Puzzle Diamond",
-						"access_rules": [ "grab" ],
+						"access_rules": [ "grab,groundpound" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1360,11 +1378,13 @@
 					},
 					{
 						"name": "Keyzer",
+						"access_rules": [ "groundpound" ],
 						"hosted_item": "keyzerbb",
 						"visibility_rules": [ "op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
+						"access_rules": [ "groundpound" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}
@@ -1388,7 +1408,7 @@
 					},
 					{
 						"name": "Grey Square Box",
-						"access_rules": [ "groundpound","grab,^$advancedlogic" ],
+						"access_rules": [ "groundpound", "grab,[op_logic_int]" ],
 						"visibility_rules": [ "hard","shard" ],
 						"item_count": 1
 					},
@@ -1426,7 +1446,7 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "normal,groundpound","hard","shard" ],
+						"access_rules": [ "normal,groundpound", "normal,grab,[op_logic_int]", "hard", "shard" ],
 						"item_count": 1
 					},
 					{
@@ -1487,7 +1507,10 @@
 			},
 			{
 				"name": "Domino Row",
-				"access_rules": [ "swim,groundpound,$keyzerdw","op_openportal_1,$keyzerdw" ],
+				"access_rules": [
+					"@dominorow,$keyzerdw",
+					"op_openportal_1,$keyzerdw"
+				],
 				"sections": [
 					{
 						"name": "Racing Box",
@@ -1495,34 +1518,38 @@
 					},
 					{
 						"name": "Rolling Box",
-						"access_rules": [ "swim,^$advancedlogic","swim,groundpound" ],
+						"access_rules": [ "@dominorow" ],
 						"item_count": 1
 					},
 					{
 						"name": "Swimming Detour Box",
-						"access_rules": [ "swim,headsmash" ],
+						"access_rules": [ "@dominorow,headsmash" ],
 						"visibility_rules": [ "normal","hard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Swimming Room Escape Box",
-						"access_rules": [ "swim,groundpound" ],
+						"access_rules": [ "@dominorow,groundpound" ],
 						"visibility_rules": [ "shard" ],
 						"item_count": 1
 					},
 					{
 						"name": "Keyzer Room Box",
-						"access_rules": [ "swim,groundpound" ],
+						"access_rules": [ "@dominorow,groundpound" ],
 						"item_count": 1
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "swim,^$advancedlogic","swim,groundpound" ],
+						"access_rules": [ "@dominorow" ],
 						"item_count": 1
 					},
 					{
 						"name": "Toy Car Tower Diamond",
-						"access_rules": [ "swim,grab,stompjump,^$advancedlogic","swim,stompjump,^$toycartower" ],
+						"access_rules": [
+							"@dominorow,grab,stompjump",
+							"@dominorow,[op_logic_int],supergroundpound,headsmash",
+							"@dominorow,[op_logic_adv]"
+						],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1530,7 +1557,10 @@
 					},
 					{
 						"name": "Switch Ladder Diamond",
-						"access_rules": [ "swim,supergroundpound,dashattack","swim,supergroundpound,^$advancedlogic" ],
+						"access_rules": [
+							"@dominorow,supergroundpound,dashattack",
+							"@dominorow,supergroundpound,[op_logic_adv]"
+						],
 						"visibility_rules": [ "op_diamond_1,normal","op_diamond_1,hard" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1568,17 +1598,17 @@
 					{
 						"name": "0:15",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]					
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:35",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:55",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					}
 				],
 				"map_locations": [
@@ -1591,7 +1621,10 @@
 			},
 			{
 				"name": "Crescent Moon Village",
-				"access_rules": [ "headsmash,dashattack","op_openportal_1" ],
+				"access_rules": [
+					"headsmash,dashattack",
+					"op_openportal_1"
+				],
 				"sections": [
 					{
 						"name": "Agile Bat Box",
@@ -1713,7 +1746,11 @@
 				"sections": [
 					{
 						"name": "Onomi Box",
-						"access_rules": [ "normal","headsmash,hard","groundpound,hard","headsmash,shard","groundpound,shard" ],
+						"access_rules": [
+							"normal",
+							"hard,headsmash", "hard,groundpound", "hard,[op_logic_int],grab",
+							"shard,headsmash", "shard,groundpound", "shard,[op_logic_int],grab"
+						],
 						"item_count": 1
 					},
 					{
@@ -1757,7 +1794,7 @@
 					},
 					{
 						"name": "Onomi Diamond",
-						"access_rules": [ "groundpound","headsmash" ],
+						"access_rules": [ "groundpound", "headsmash", "[op_logic_int],grab" ],
 						"visibility_rules": [ "op_diamond_1,normal" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -1840,7 +1877,10 @@
 			},
 			{
 				"name": "Fiery Cavern",
-				"access_rules": [ "groundpound,dashattack,headsmash,$keyzeran","op_openportal_1,$keyzeran" ],
+				"access_rules": [
+					"groundpound,dashattack,headsmash,$keyzeran",
+					"op_openportal_1,$keyzeran"
+				],
 				"sections": [
 					{
 						"name": "Lava Dodging Box",
@@ -1950,7 +1990,12 @@
 			},
 			{
 				"name": "Hotel Horror",
-				"access_rules": [ "normal,heavygrab,$keyzerfc","hard,heavygrab,$keyzerfc","shard,$keyzerfc","op_openportal_1,$keyzerfc","hard,^$hotelhardescape,$keyzerfc" ],
+				"access_rules": [
+					"heavygrab,$keyzerfc",
+					"[op_logic_adv],hard,grab,stompjump,supergroundpound,$keyzerfc",
+					"shard,$keyzerfc",
+					"op_openportal_1,$keyzerfc"
+				],
 				"sections": [
 					{
 						"name": "1F Hallway Box",
@@ -1994,7 +2039,11 @@
 					},
 					{
 						"name": "CD Box",
-						"access_rules": [ "shard","heavygrab,normal","^$hotelhardescape,hard" ],
+						"access_rules": [
+							"heavygrab",
+							"[op_logic_adv],hard,grab,stompjump,supergroundpound",
+							"shard"
+					    ],
 						"item_count": 1
 					},
 					{
@@ -2069,17 +2118,17 @@
 					{
 						"name": "0:15",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]					
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:35",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					},
 					{
 						"name": "0:55",
 						"item_count": 1,
-						"visibility_rules": [ "op_treasurehunt_1" ]						
+						"visibility_rules": [ "op_treasurehunt_1" ]
 					}
 				],
 				"map_locations": [
@@ -2101,17 +2150,17 @@
 					},
 					{
 						"name": "River Box",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"item_count": 1
 					},
 					{
 						"name": "Bat Room Box",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"item_count": 1
 					},
 					{
 						"name": "Mad Scienstein Box",
-						"access_rules": [ "swim,groundpound","^$advancedlogic,swim" ],
+						"access_rules": [ "swim,groundpound","[op_logic_adv]" ],
 						"item_count": 1
 					},
 					{
@@ -2138,7 +2187,7 @@
 					},
 					{
 						"name": "Spring Shaft Diamond",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2146,7 +2195,7 @@
 					},
 					{
 						"name": "Zombie Hall Left Diamond",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2154,7 +2203,7 @@
 					},
 					{
 						"name": "Zombie Hall Right Diamond",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2162,7 +2211,7 @@
 					},
 					{
 						"name": "Digging Diamond",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2170,7 +2219,7 @@
 					},
 					{
 						"name": "Slope Diamond",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2178,7 +2227,7 @@
 					},
 					{
 						"name": "Scienstein Escape Diamond",
-						"access_rules": [ "swim" ],
+						"access_rules": [ "swim","[op_logic_adv]" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2186,7 +2235,7 @@
 					},
 					{
 						"name": "Scienstein Roll Diamond",
-						"access_rules": [ "swim,groundpound,grab","^$advancedlogic,swim,grab" ],
+						"access_rules": [ "swim,groundpound,grab","[op_logic_adv],grab" ],
 						"visibility_rules": [ "op_diamond_1" ],
 						"item_count": 1,
 						"chest_unopened_img": "images/diamond.png",
@@ -2194,13 +2243,13 @@
 					},
 					{
 						"name": "Keyzer",
-						"access_rules": [ "swim,groundpound,grab","^$advancedlogic,swim,grab" ],
+						"access_rules": [ "swim,groundpound,grab","[op_logic_adv],grab" ],
 						"hosted_item": "keyzergp",
 						"visibility_rules": [ "op_doors_1,$keyzeroff","op_doors_2,$keyzeroff" ]
 					},
 					{
 						"name": "Keyzer ",
-						"access_rules": [ "swim,groundpound,grab","^$advancedlogic,swim,grab" ],
+						"access_rules": [ "swim,groundpound,grab","[op_logic_adv],grab" ],
 						"visibility_rules": [ "op_keyzershuffle_on" ],
 						"item_count": 1
 					}
@@ -2230,8 +2279,8 @@
 					}
 				]
 			}
-			
-		]	
+
+		]
 	},
 	{
 		"name": "HOH",
@@ -3488,7 +3537,7 @@
 						"map": "MJR05",
 						"x": 1032,
 						"y": 161
-					} 
+					}
 				]
 			},
 			{
@@ -3526,7 +3575,7 @@
 						"y": 117,
                         "shape": "diamond"
 					},
-					{ 
+					{
 						"map": "MJR14",
 						"x": 590,
 						"y": 65

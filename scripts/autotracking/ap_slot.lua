@@ -1,5 +1,5 @@
 -- Borrowed from Pokemon Emerald AP Poptracker
-function resetItems() 
+function resetItems()
 	for _, v in pairs(ITEM_MAPPING) do
 		if v[1] then
 			local obj = Tracker:FindObjectForCode(v[1])
@@ -10,7 +10,7 @@ function resetItems()
 	end
 end
 
-function resetLocations() 
+function resetLocations()
 	for _, v in pairs(LOCATION_MAPPING) do
 		if v[1] then
 			local obj = Tracker:FindObjectForCode(v[1])
@@ -22,6 +22,7 @@ function resetLocations()
 end
 
 diffmap={[0]=0,[1]=1,[2]=2}
+logicmap={[0]=0,[1]=1,[2]=2,[3]=3}
 normalmap={[0]=0,[1]=1}
 treasuremap={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
 doormap={[0]=2,[1]=1,[2]=0}
@@ -36,12 +37,12 @@ SLOT_CODES = {
         mapping=normalmap
     },
     logic={
-        code="op_advancedlogic",
-        mapping=normalmap
-	},	
+        code="op_logic",
+        mapping=logicmap
+	},
 	goal={
 		code="op_treasurehunt",
-		mapping=treasuremap	
+		mapping=treasuremap
     },
 	open_doors={
 		code="op_doors",

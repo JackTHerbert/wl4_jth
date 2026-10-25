@@ -1,0 +1,47 @@
+[
+    {
+        "name": "monsoonjungle",
+        "access_rules": [
+            "groundpound",
+            "grab,[op_logic_int]"
+        ]
+    },
+    {
+        "name": "pinballzone",
+        "children": [
+            {
+                "name": "jungle",
+                "access_rules": [
+                    "groundpound",
+                    "[op_logic_int]"
+                ]
+            },
+            {
+                "name": "late",
+                "access_rules": [
+                    "@pinballzone/jungle,hard",
+                    "@pinballzone/jungle,shard",
+                    "@pinballzone/jungle,groundpound",
+                    "@pinballzone/jungle,[op_logic_int],heavygrab",
+                    "@pinballzone/jungle,[op_logic_adv],stompjump"
+                ]
+            },
+            {
+                "name": "escape",
+                "access_rules": [
+                    "@pinballzone/late,headsmash,groundpound",
+                    "@pinballzone/late,headsmash,[op_logic_adv]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "dominorow",
+        "access_rules": [
+            "swim,groundpound",
+            "swim,[op_logic_int],grab",
+            "swim,[op_logic_int],headsmash",
+            "swim,[op_logic_adv]"
+        ]
+    }
+]

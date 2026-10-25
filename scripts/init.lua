@@ -7,6 +7,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 
 if has_map then
   Tracker:AddMaps("maps/maps.json")
+  Tracker:AddLocations("locations/helpers.json")
   Tracker:AddLocations("locations/locations.json")
 end
 
